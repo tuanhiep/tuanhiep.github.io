@@ -14,9 +14,9 @@ frontmatter:
     - :git   # fallback → dùng ngày commit đầu tiên
   lastmod:
     - lastmod
-    - :git        # <- ưu tiên ngày commit
     - date
     - publishDate
+    - :git        # <- ưu tiên ngày commit
 
 params:
   defaultTheme: auto
