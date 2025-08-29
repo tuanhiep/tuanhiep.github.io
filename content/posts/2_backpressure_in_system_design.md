@@ -1,6 +1,5 @@
 ---
 title: "Backpressure, Retries & Idempotency in Kafka Pipelines"
-date: 2025-09-05
 tags: ["system-design","kafka","reliability","backpressure","idempotency"]
 summary: "Thiết kế pipeline Kafka chịu tải cao mà không nghẽn: chiến lược backpressure, retry, DLQ và idempotency thực chiến."
 series: ["Realtime Matching Orchestrator"]
