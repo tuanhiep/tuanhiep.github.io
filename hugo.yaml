@@ -5,6 +5,14 @@ theme: "PaperMod"
 pagination:
   pagerSize: 10
 enableRobotsTXT: true
+enableGitInfo: true
+
+frontmatter:
+  lastmod:
+    - lastmod
+    - :git        # <- ưu tiên ngày commit
+    - date
+    - publishDate
 
 params:
   defaultTheme: auto
@@ -16,6 +24,8 @@ params:
     Title: "System Design & AI Infra"
     Content: >
       Notes from real-world distributed systems and AI infrastructure.
+  showLastMod: true              # <- bật hiển thị ngày update
+  # lastModFormat: "Jan 2, 2006" # (tuỳ chọn format ngày)
 
 menu:
   main:
@@ -30,4 +40,4 @@ markup:
   highlight:
     noClasses: false
 
-enableGitInfo: true
+
