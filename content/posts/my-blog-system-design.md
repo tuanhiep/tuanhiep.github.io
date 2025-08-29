@@ -3,7 +3,7 @@ title: "Designing a Product-Matching Orchestrator at Scale"
 date: 2025-08-29
 tags: ["system-design", "distributed-systems", "kafka", "orchestration"]
 summary: "Retries, idempotency, backpressure, and lessons from real-time matching."
-draft: true
+draft: false
 ---
 
 ## Problem
