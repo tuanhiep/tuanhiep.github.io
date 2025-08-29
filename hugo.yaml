@@ -29,3 +29,5 @@ menu:
 markup:
   highlight:
     noClasses: false
+
+enableGitInfo: true
