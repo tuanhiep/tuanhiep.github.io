@@ -1,0 +1,31 @@
+baseURL: "https://tuanhiep.github.io/"
+title: "Tuan Hiep TRAN — System Design & AI Infra"
+languageCode: "en-us"
+theme: "PaperMod"
+pagination:
+  pagerSize: 10
+enableRobotsTXT: true
+
+params:
+  defaultTheme: auto
+  showReadingTime: true
+  showToc: true
+  tocOpen: true
+  author: "Hiep"
+  homeInfoParams:
+    Title: "System Design & AI Infra"
+    Content: >
+      Notes from real-world distributed systems and AI infrastructure.
+
+menu:
+  main:
+    - name: Posts
+      url: /posts/
+      weight: 1
+    - name: Tags
+      url: /tags/
+      weight: 2
+
+markup:
+  highlight:
+    noClasses: false
