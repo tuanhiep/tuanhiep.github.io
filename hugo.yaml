@@ -8,6 +8,10 @@ enableRobotsTXT: true
 enableGitInfo: true
 
 frontmatter:
+  date:
+    - date
+    - publishDate
+    - :git   # fallback → dùng ngày commit đầu tiên
   lastmod:
     - lastmod
     - :git        # <- ưu tiên ngày commit
