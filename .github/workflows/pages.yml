@@ -2,7 +2,7 @@ name: Deploy Hugo site to Pages
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -23,13 +23,16 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
+
       - name: Setup Hugo
         uses: actions/setup-hugo@v3
         with:
-          hugo-version: '0.127.0'
+          hugo-version: '0.128.0'
           extended: true
+
       - name: Build
         run: hugo --minify
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
