@@ -30,6 +30,9 @@ params:
       Notes from real-world distributed systems and AI infrastructure.
   showLastMod: true              # <- bật hiển thị ngày update
   # lastModFormat: "Jan 2, 2006" # (tuỳ chọn format ngày)
+  mermaid:
+    enable: true
+    theme: "default" # Các lựa chọn: default, dark, neutral, forest
 
 menu:
   main:
