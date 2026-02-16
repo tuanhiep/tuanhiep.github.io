@@ -46,8 +46,8 @@ menu:
 markup:
   highlight:
     noClasses: false
-    goldmark:
-        renderer:
-          unsafe: true
+  goldmark:
+    renderer:
+      unsafe: true
 
 
