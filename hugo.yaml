@@ -27,7 +27,7 @@ params:
   homeInfoParams:
     Title: "System Design & AI Infra"
     Content: >
-      Notes from real-world distributed systems and AI infrastructure.
+      Notes from real-world Distributed Systems and AI Infrastructure.
   showLastMod: true              # <- bật hiển thị ngày update
   # lastModFormat: "Jan 2, 2006" # (tuỳ chọn format ngày)
   mermaid:
