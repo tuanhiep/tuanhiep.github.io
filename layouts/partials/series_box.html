@@ -1,0 +1,19 @@
+{{ if .Params.series }}
+{{ $seriesName := index .Params.series 0 }}
+{{ $seriesPages := where site.RegularPages ".Params.series" "intersect" .Params.series }}
+
+<div style="background: var(--entry); padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid var(--primary);">
+    <h4 style="margin-top: 0; margin-bottom: 1rem;">📚 Series: <a href="{{ "/series/" | relURL }}{{ $seriesName | urlize }}">{{ $seriesName }}</a></h4>
+    <ol style="margin-bottom: 0; padding-left: 1.5rem;">
+        {{ range $seriesPages.ByWeight }}
+        <li style="margin-bottom: 0.5rem;">
+            {{ if eq .Permalink $.Page.Permalink }}
+            <strong>{{ .Title }} <em>(You are here)</em></strong>
+            {{ else }}
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ end }}
+        </li>
+        {{ end }}
+    </ol>
+</div>
+{{ end }}
