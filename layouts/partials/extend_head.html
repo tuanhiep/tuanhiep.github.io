@@ -19,28 +19,3 @@
     mermaid.initialize({ startOnLoad: true });
 </script>
 {{ end }}
-
-<style>
-    .post-content h1,
-    .post-content h2,
-    .post-content h3,
-    .post-content h4 {
-        margin-top: 2em !important;
-        margin-bottom: 1em !important;
-    }
-
-    /* 🛡️ Trấn áp lỗi tràn viền: Giữ thanh cuộn ngang */
-    .highlight pre {
-        overflow-x: auto !important;
-        padding: 1.2em !important;
-        margin-top: 1em !important;
-        margin-bottom: 1em !important;
-    }
-
-    /* 🔧 Khôi phục Không gian (Hòa Khí): Cho phép thẻ code tự do giãn nở */
-    .highlight code {
-        display: block !important;
-        width: max-content !important;
-        min-width: 100% !important;
-    }
-</style>

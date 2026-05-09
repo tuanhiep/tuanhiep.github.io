@@ -59,8 +59,7 @@ menu:
 
 markup:
   highlight:
-    noClasses: true
-    guessSyntax: true    # 👈 (Tuỳ chọn) Hugo tự đoán ngôn ngữ nếu anh quên gõ tên ngôn ngữ
+    codeFences: false
   goldmark:
     renderer:
       unsafe: true
