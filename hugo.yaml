@@ -59,7 +59,7 @@ menu:
 
 markup:
   highlight:
-    codeFences: false
+    noClasses: false
   goldmark:
     renderer:
       unsafe: true
