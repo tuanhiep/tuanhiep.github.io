@@ -21,7 +21,6 @@
 {{ end }}
 
 <style>
-    /* ... (Giữ nguyên phần margin cho h1, h2, h3 cũ của anh) ... */
     .post-content h1,
     .post-content h2,
     .post-content h3,
@@ -30,17 +29,18 @@
         margin-bottom: 1em !important;
     }
 
-    /* 🛡️ Trấn áp lỗi tràn viền và dư khoảng trắng của Hugo Chroma */
+    /* 🛡️ Trấn áp lỗi tràn viền: Giữ thanh cuộn ngang */
     .highlight pre {
-        overflow-x: auto !important; /* Ép hiện thanh cuộn ngang */
-        padding: 1.2em !important;   /* Chuẩn hóa lại lề trên/dưới cho vừa vặn */
+        overflow-x: auto !important;
+        padding: 1.2em !important;
         margin-top: 1em !important;
         margin-bottom: 1em !important;
     }
 
-    /* 🧨 Tiêu diệt thẻ flex ngầm của Hugo gây lỗi tràn chữ */
-    .highlight span[style*="display:flex"],
-    .highlight span[style*="display: flex"] {
+    /* 🔧 Khôi phục Không gian (Hòa Khí): Cho phép thẻ code tự do giãn nở */
+    .highlight code {
         display: block !important;
+        width: max-content !important;
+        min-width: 100% !important;
     }
 </style>
