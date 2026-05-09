@@ -60,7 +60,6 @@ menu:
 markup:
   highlight:
     noClasses: true
-    style: atom-one-dark    # 👈 ĐIỂM XOAY KHÍ: Cấp bảng màu (Có thể đổi sang 'atom-one-dark' hoặc 'monokai')
     guessSyntax: true    # 👈 (Tuỳ chọn) Hugo tự đoán ngôn ngữ nếu anh quên gõ tên ngôn ngữ
   goldmark:
     renderer:
