@@ -1,3 +1,11 @@
+/*
+ * FIX for PaperMod theme v0.x styling missing
+ * When PaperMod maintainer adds md-content.css officially,
+ * this file can be removed or merged.
+ *
+ * Upstream issue: https://github.com/adityatelange/hugo-PaperMod/issues/...
+ * Created: 2026-05-09
+ */
 .post-content .highlight:not(table) {
     margin: 10px auto;
     background: var(--code-block-bg) !important;
