@@ -8,8 +8,7 @@ showToc: false
 ---
 
 <section class="about-hero">
-  <div class="about-mark" aria-hidden="true">🪷</div>
-  <p class="about-kicker">System Design & AI Infra</p>
+  <p class="about-kicker"><span aria-hidden="true">🪷</span> System Design & AI Infra</p>
   <h1>Tuan Hiep TRAN</h1>
   <p class="about-lede">
     I write about the engineering judgment behind high-load, correctness-critical systems:
@@ -24,18 +23,15 @@ showToc: false
 
 <section class="about-grid" aria-label="Focus areas">
   <article>
-    <span aria-hidden="true">🏛️</span>
-    <h2>Architecture Judgment</h2>
+    <h2><span aria-hidden="true">🏛️</span> Architecture Judgment</h2>
     <p>Design notes for systems where correctness, latency, scale, and cost collide.</p>
   </article>
   <article>
-    <span aria-hidden="true">🧩</span>
-    <h2>System Design Bricks</h2>
+    <h2><span aria-hidden="true">🧩</span> System Design Bricks</h2>
     <p>Reusable mental models for order books, payment flows, ledgers, and traffic control.</p>
   </article>
   <article>
-    <span aria-hidden="true">🪞</span>
-    <h2>Failure-Aware Thinking</h2>
+    <h2><span aria-hidden="true">🪞</span> Failure-Aware Thinking</h2>
     <p>Design reviews that ask what breaks, where pressure accumulates, and what must remain invariant.</p>
   </article>
 </section>
