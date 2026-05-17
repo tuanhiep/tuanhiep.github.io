@@ -21,7 +21,7 @@ I write these notes to sharpen architectural thinking and to make complex engine
 
 Connect:
 
-- [LinkedIn](https://www.linkedin.com/in/tuan-hiep-tran-07396749/)
+- [LinkedIn](https://www.linkedin.com/in/tuan-hiep-tran/)
 - [GitHub](https://github.com/tuanhiep)
 - [RSS](/index.xml)
 

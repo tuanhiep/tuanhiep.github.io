@@ -34,7 +34,7 @@ params:
   socialIcons:
     - name: linkedin
       title: LinkedIn
-      url: "https://www.linkedin.com/in/tuan-hiep-tran-07396749/"
+      url: "https://www.linkedin.com/in/tuan-hiep-tran/"
     - name: github
       title: GitHub
       url: "https://github.com/tuanhiep"
@@ -47,7 +47,7 @@ params:
       Notes from real-world Distributed Systems and AI Infrastructure.
   showLastMod: true              # <- bật hiển thị ngày update
   footer:
-    text: 'Connect: [LinkedIn](https://www.linkedin.com/in/tuan-hiep-tran-07396749/) / [GitHub](https://github.com/tuanhiep) / [RSS](/index.xml)'
+    text: 'Connect: [LinkedIn](https://www.linkedin.com/in/tuan-hiep-tran/) / [GitHub](https://github.com/tuanhiep) / [RSS](/index.xml)'
   # lastModFormat: "Jan 2, 2006" # (tuỳ chọn format ngày)
   mermaid:
     enable: true
@@ -74,7 +74,7 @@ menu:
       weight: 4
     - identifier: linkedin
       name: LinkedIn
-      url: "https://www.linkedin.com/in/tuan-hiep-tran-07396749/"
+      url: "https://www.linkedin.com/in/tuan-hiep-tran/"
       weight: 5
     - identifier: github
       name: GitHub
