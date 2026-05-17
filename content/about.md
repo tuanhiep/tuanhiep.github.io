@@ -21,14 +21,6 @@ showToc: false
   </div>
 </section>
 
-<section class="about-crosslink" aria-label="Reading map">
-  <p>
-    <strong>Reading map:</strong>
-    for deeper production failure analysis and engineering judgment, continue with
-    <a href="https://tuanhiep.github.io/principal/" rel="noopener noreferrer">The Principal Craft</a>.
-  </p>
-</section>
-
 <section class="about-grid" aria-label="Focus areas">
   <article>
     <h2><span aria-hidden="true">🏛️</span> Architecture Judgment</h2>
@@ -61,4 +53,12 @@ showToc: false
   <span>🌐 Interfaces matter</span>
   <span>💠 Trade-offs over slogans</span>
   <span>🌀 Feedback closes the design</span>
+</section>
+
+<section class="about-crosslink" aria-label="Reading map">
+  <p>
+    <strong>Reading map:</strong>
+    for deeper production failure analysis and engineering judgment, continue with
+    <a href="https://tuanhiep.github.io/principal/" rel="noopener noreferrer">The Principal Craft</a>.
+  </p>
 </section>
