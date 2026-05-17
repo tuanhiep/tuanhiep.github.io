@@ -31,11 +31,23 @@ params:
   showToc: true
   tocOpen: true
   author: "Hiep"
+  socialIcons:
+    - name: linkedin
+      title: LinkedIn
+      url: "https://www.linkedin.com/in/tuan-hiep-tran-07396749/"
+    - name: github
+      title: GitHub
+      url: "https://github.com/tuanhiep"
+    - name: rss
+      title: RSS
+      url: "/index.xml"
   homeInfoParams:
     Title: "System Design & AI Infra"
     Content: >
       Notes from real-world Distributed Systems and AI Infrastructure.
   showLastMod: true              # <- bật hiển thị ngày update
+  footer:
+    text: 'Connect: [LinkedIn](https://www.linkedin.com/in/tuan-hiep-tran-07396749/) / [GitHub](https://github.com/tuanhiep) / [RSS](/index.xml)'
   # lastModFormat: "Jan 2, 2006" # (tuỳ chọn format ngày)
   mermaid:
     enable: true
@@ -43,19 +55,35 @@ params:
 
 menu:
   main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
     - identifier: posts
       name: Posts
       url: /posts/
-      weight: 1
+      weight: 2
     # 2. THÊM MENU NÀY VÀO TRANG CHỦ
     - identifier: series
       name: Series
       url: /series/
-      weight: 2
+      weight: 3
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 3
+      weight: 4
+    - identifier: linkedin
+      name: LinkedIn
+      url: "https://www.linkedin.com/in/tuan-hiep-tran-07396749/"
+      weight: 5
+    - identifier: github
+      name: GitHub
+      url: "https://github.com/tuanhiep"
+      weight: 6
+    - identifier: rss
+      name: RSS
+      url: /index.xml
+      weight: 7
 
 markup:
   highlight:

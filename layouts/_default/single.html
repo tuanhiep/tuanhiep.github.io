@@ -41,6 +41,9 @@
         {{- else }}{{ .Content }}{{ end }}
         {{/* TỰ ĐỘNG CHÈN HỘP SERIES Ở ĐÂY */}}
         {{- partial "series_box.html" . -}}
+        {{- if eq .Section "posts" }}
+        {{- partial "post_cta.html" . -}}
+        {{- end }}
     </div>
     {{- end }}
 
