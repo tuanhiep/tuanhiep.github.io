@@ -2,6 +2,7 @@ baseURL: "https://tuanhiep.github.io/"
 title: "Tuan Hiep TRAN — System Design & AI Infra"
 languageCode: "en-us"
 theme: "PaperMod"
+googleAnalytics: "G-P0Y0LZDWZS"
 
 # 1. THÊM ĐOẠN NÀY ĐỂ KÍCH HOẠT SERIES
 taxonomies:
@@ -26,6 +27,7 @@ frontmatter:
     - :git        # <- ưu tiên ngày commit
 
 params:
+  env: production
   defaultTheme: auto
   showReadingTime: true
   showToc: true
@@ -48,6 +50,9 @@ params:
   showLastMod: true              # <- bật hiển thị ngày update
   footer:
     text: 'Connect: [LinkedIn](https://www.linkedin.com/in/tuan-hiep-tran/) / [GitHub](https://github.com/tuanhiep) / [RSS](/posts/index.xml)'
+  analytics:
+    google:
+      SiteVerificationTag: "p0E9Md4M8vdZsufpDXcbZrV0pgtWlIEvy9vy0XYvl0w"
   # lastModFormat: "Jan 2, 2006" # (tuỳ chọn format ngày)
   mermaid:
     enable: true
