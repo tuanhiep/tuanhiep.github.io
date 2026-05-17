@@ -40,14 +40,14 @@ params:
       url: "https://github.com/tuanhiep"
     - name: rss
       title: RSS
-      url: "/index.xml"
+      url: "/posts/index.xml"
   homeInfoParams:
     Title: "System Design & AI Infra"
     Content: >
       Notes from real-world Distributed Systems and AI Infrastructure.
   showLastMod: true              # <- bật hiển thị ngày update
   footer:
-    text: 'Connect: [LinkedIn](https://www.linkedin.com/in/tuan-hiep-tran/) / [GitHub](https://github.com/tuanhiep) / [RSS](/index.xml)'
+    text: 'Connect: [LinkedIn](https://www.linkedin.com/in/tuan-hiep-tran/) / [GitHub](https://github.com/tuanhiep) / [RSS](/posts/index.xml)'
   # lastModFormat: "Jan 2, 2006" # (tuỳ chọn format ngày)
   mermaid:
     enable: true
@@ -82,7 +82,7 @@ menu:
       weight: 6
     - identifier: rss
       name: RSS
-      url: /index.xml
+      url: /posts/index.xml
       weight: 7
 
 markup:

@@ -23,5 +23,4 @@ Connect:
 
 - [LinkedIn](https://www.linkedin.com/in/tuan-hiep-tran/)
 - [GitHub](https://github.com/tuanhiep)
-- [RSS](/index.xml)
-
+- [RSS](/posts/index.xml)
