@@ -9,9 +9,9 @@ description: "Independent practitioner and scholar monographs on technology gove
 
 <div class="sov-bilingual-intro">
 <p>
-<span data-i18n-en="Where Enterprise Architecture meets Institutional Strategy and doctoral-grade scholarship (GEM DBA frameworks). Rather than treating governance as passive compliance checklists, this bilingual track publishes independent practitioner analyses of how financial institutions and enterprises build durable technological autonomy and computable sovereignty (EN / VI):"
+<span data-i18n-en="Where Enterprise Architecture meets Institutional Strategy and doctoral research frameworks (GEM DBA). Rather than treating governance as passive compliance checklists, this bilingual track publishes independent practitioner analyses of how financial institutions and enterprises build durable technological autonomy and computable sovereignty (EN / VI):"
 data-i18n-vi="Nơi Kiến trúc Hệ thống Doanh nghiệp hội tụ cùng Chiến lược Thể chế và chuẩn mực nghiên cứu Tiến sĩ (khung lý thuyết GEM DBA). Thay vì xem quản trị chỉ là danh mục kiểm tra tuân thủ thụ động, chuyên mục song ngữ Anh – Việt này công bố các chuyên khảo thực hành độc lập về cách định chế tài chính và doanh nghiệp kiến tạo năng lực tự chủ công nghệ bền vững:">
-Where <strong>Enterprise Architecture</strong> meets <strong>Institutional Strategy</strong> and doctoral-grade scholarship (<strong>GEM DBA</strong> frameworks). Rather than treating governance as passive compliance checklists, this bilingual track publishes independent practitioner analyses of how financial institutions and enterprises build durable technological autonomy and computable sovereignty (<strong>EN / VI</strong>):
+Where <strong>Enterprise Architecture</strong> meets <strong>Institutional Strategy</strong> and doctoral research frameworks (<strong>GEM DBA</strong>). Rather than treating governance as passive compliance checklists, this bilingual track publishes independent practitioner analyses of how financial institutions and enterprises build durable technological autonomy and computable sovereignty (<strong>EN / VI</strong>):
 </span>
 </p>
 <ul>
