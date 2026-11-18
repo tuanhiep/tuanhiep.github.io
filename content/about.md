@@ -89,7 +89,7 @@ Over the past decade across France and the United States — at <strong>Walmart 
 </article>
 <article class="atlas-sov" style="border-top-width: 3px;">
 <h3><span aria-hidden="true">⛩️</span> <a href="/posts/sovereignty-gov/">Sovereign Governance</a></h3>
-<p>GEM DBA doctoral research bridging technology governance, institutional strategy, digital sovereignty (EU DORA Art. 28 &amp; VN PDPL 91 / Decree 356), and BIAN banking architecture (EN / VI).</p>
+<p>Independent practitioner monographs applying doctoral research frameworks (Technology Governance, TCE, Institutional Theory) to digital sovereignty (EU DORA Art. 28 &amp; VN PDPL 91 / Decree 356) and BIAN banking architecture (EN / VI).</p>
 </article>
 </div>
 </section>
@@ -97,7 +97,7 @@ Over the past decade across France and the United States — at <strong>Walmart 
 <section class="about-body">
 <h2>Beyond Systems</h2>
 <p>
-Alongside publishing here, I lead the design and engineering of <a href="/sovera/"><strong>SOVERA</strong></a> — an independent, air-gapped Architecture &amp; Digital Sovereignty Decision Engine — and curate <strong>Vietnamese Waves™</strong>, an illustrated bilingual English–Vietnamese collection of Vietnamese folk tales and legends shared on the <a href="/books/"><strong>Books</strong></a> page.
+Alongside publishing here, I am the creator and lead architect of <a href="/sovera/"><strong>SOVERA</strong></a> — an independent, offline-ready Architecture, Digital Sovereignty &amp; Corporate Risk MRI Decision Engine that separates deterministic verification from bounded AI synthesis — and curate <strong>Vietnamese Waves™</strong>, an illustrated bilingual English–Vietnamese collection of Vietnamese folk tales and legends shared on the <a href="/books/"><strong>Books</strong></a> page.
 </p>
 <p>
 I write here to test my own thinking and share practical engineering trade-offs rather than slogans. If an article sparks a question, a counter-example, or a better design, I am always glad to connect on <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">LinkedIn</a> or <a href="https://github.com/tuanhiep" rel="noopener noreferrer" target="_blank">GitHub</a>.

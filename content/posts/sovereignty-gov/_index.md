@@ -4,14 +4,14 @@ aliases:
   - "/sovereign-governance/"
   - "/governance/"
   - "/sovereignty-gov/"
-description: "GEM DBA doctoral research and enterprise architecture on technology governance, institutional strategy, digital sovereignty (Vietnam PDPL 91 / Decree 356 & EU DORA Art. 28), BIAN Core Banking, and Sovereign AI (EN / VI)."
+description: "Independent practitioner and scholar monographs on technology governance, institutional strategy, digital sovereignty (Vietnam PDPL 91 / Decree 356 & EU DORA Art. 28), BIAN Core Banking, and Sovereign AI (EN / VI)."
 ---
 
 <div class="sov-bilingual-intro">
 <p>
-<span data-i18n-en="Where Enterprise Architecture meets Institutional Strategy and Doctoral Research (GEM DBA). Rather than treating governance as passive compliance checklists, this bilingual track explores how financial institutions and enterprises build durable technological autonomy and computable sovereignty (EN / VI):"
-data-i18n-vi="Nơi Kiến trúc Hệ thống Doanh nghiệp hội tụ cùng Chiến lược Thể chế và Nghiên cứu Tiến sĩ Quản trị Kinh doanh (GEM DBA). Thay vì xem quản trị chỉ là danh mục kiểm tra tuân thủ thụ động, chuyên mục song ngữ Anh – Việt này khám phá cách các định chế tài chính và doanh nghiệp kiến tạo năng lực tự chủ công nghệ bền vững:">
-Where <strong>Enterprise Architecture</strong> meets <strong>Institutional Strategy</strong> and <strong>Doctoral Research (GEM DBA)</strong>. Rather than treating governance as passive compliance checklists, this bilingual track explores how financial institutions and enterprises build durable technological autonomy and computable sovereignty (<strong>EN / VI</strong>):
+<span data-i18n-en="Where Enterprise Architecture meets Institutional Strategy and doctoral-grade scholarship (GEM DBA frameworks). Rather than treating governance as passive compliance checklists, this bilingual track publishes independent practitioner analyses of how financial institutions and enterprises build durable technological autonomy and computable sovereignty (EN / VI):"
+data-i18n-vi="Nơi Kiến trúc Hệ thống Doanh nghiệp hội tụ cùng Chiến lược Thể chế và chuẩn mực nghiên cứu Tiến sĩ (khung lý thuyết GEM DBA). Thay vì xem quản trị chỉ là danh mục kiểm tra tuân thủ thụ động, chuyên mục song ngữ Anh – Việt này công bố các chuyên khảo thực hành độc lập về cách định chế tài chính và doanh nghiệp kiến tạo năng lực tự chủ công nghệ bền vững:">
+Where <strong>Enterprise Architecture</strong> meets <strong>Institutional Strategy</strong> and doctoral-grade scholarship (<strong>GEM DBA</strong> frameworks). Rather than treating governance as passive compliance checklists, this bilingual track publishes independent practitioner analyses of how financial institutions and enterprises build durable technological autonomy and computable sovereignty (<strong>EN / VI</strong>):
 </span>
 </p>
 <ul>
@@ -37,8 +37,8 @@ Integrating <strong>BIAN Core Banking</strong> domain boundaries with determinis
 </span>
 </li>
 </ul>
-<blockquote data-i18n-en="First flagship bilingual monographs (EN / VI) rolling out from December 2026 — toggle EN / VI in the top header bar."
-data-i18n-vi="Loạt chuyên khảo song ngữ đầu tiên (Anh – Việt) sẽ chính thức ra mắt từ tháng 12/2026 — bạn có thể chuyển đổi EN / VI trực tiếp trên thanh tiêu đề phía trên.">
-First flagship bilingual monographs (EN / VI) rolling out from December 2026 — toggle <strong>EN / VI</strong> in the top header bar.
+<blockquote data-i18n-en="First flagship bilingual monographs (EN / VI) rolling out from December 2026 — toggle EN / VI in the top header bar. Academic & IP Boundary: Articles published here are independent practitioner syntheses grounded in public statutes and open standards, strictly separate from institutional GEM DBA coursework, confidential interviews, or unpublished dissertation datasets."
+data-i18n-vi="Loạt chuyên khảo song ngữ đầu tiên (Anh – Việt) sẽ chính thức ra mắt từ tháng 12/2026 — bạn có thể chuyển đổi EN / VI trực tiếp trên thanh tiêu đề phía trên. Ranh giới Học thuật & IP: Mọi bài viết là tổng luận thực hành độc lập dựa trên văn bản luật và chuẩn mở công khai, tách biệt hoàn toàn với tài liệu lớp học, dữ liệu phỏng vấn bảo mật hay kết quả luận án chưa công bố tại GEM DBA.">
+First flagship bilingual monographs (EN / VI) rolling out from December 2026 — toggle <strong>EN / VI</strong> in the top header bar. <em>Academic &amp; IP Boundary: Independent practitioner syntheses on public statutes and open standards, strictly separate from confidential GEM DBA coursework, interviews, or unpublished dissertation datasets.</em>
 </blockquote>
 </div>
