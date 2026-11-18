@@ -1,0 +1,7 @@
+{{- $slug := "sd" -}}
+{{- if or (in .Params.categories "Sovereign Governance") (in .Params.categories "Governance") (in .Params.categories "Sovereignty & Governance") (strings.Contains .File.Dir "sovereignty-gov") -}}
+  {{- $slug = "sov" -}}
+{{- else if or (in .Params.categories "Production Engineering") (in .Params.categories "Architecture & Autopsies") (in .Params.categories "Principal Craft") (strings.Contains .File.Dir "principal-craft") -}}
+  {{- $slug = "arch" -}}
+{{- end -}}
+{{- $slug -}}

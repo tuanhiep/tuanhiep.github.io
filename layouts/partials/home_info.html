@@ -1,0 +1,131 @@
+{{- $livePosts := where site.RegularPages "Type" "in" site.Params.mainSections -}}
+{{- $livePosts = where $livePosts "Params.hiddenInHomeList" "!=" true -}}
+{{- $sdCount := len (where $livePosts "Params.categories" "intersect" (slice "System Design")) -}}
+{{- $archCount := len (where $livePosts "Params.categories" "intersect" (slice "Production Engineering")) -}}
+{{- $sovCount := len (where $livePosts "Params.categories" "intersect" (slice "Sovereign Governance" "Governance" "Sovereignty & Governance")) -}}
+{{- $nervousCount := len (where $livePosts "Params.series" "intersect" (slice "The Global Nervous System")) -}}
+{{- $totalCount := len $livePosts -}}
+
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info home-atlas-wrapper">
+    <header class="entry-header home-hero-head">
+        <p class="home-eyebrow">🪷 TECHNOCRAT PRESS · SYSTEMS ARCHITECTURE &amp; GEM DBA RESEARCH</p>
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+
+    <div class="entry-content md-content home-hero-lede">
+        Engineering blueprints, runtime failure autopsies, and <strong>GEM DBA doctoral research</strong> on <strong>technology governance</strong> and <strong>digital sovereignty</strong>.
+    </div>
+
+    <div class="home-connect-bar" aria-label="Connect and Books">
+        <a class="connect-pill connect-pill-primary" href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">
+            <span aria-hidden="true">🌐</span><span>LinkedIn</span>
+        </a>
+        <a class="connect-pill" href="https://github.com/tuanhiep" rel="noopener noreferrer" target="_blank">
+            <span aria-hidden="true">🛠️</span><span>GitHub</span>
+        </a>
+        <a class="connect-pill" href="/sovera/">
+            <span aria-hidden="true">🛠️</span><span>Sovera</span>
+        </a>
+        <a class="connect-pill" href="/books/">
+            <span aria-hidden="true">📚</span><span>Books</span>
+        </a>
+        <a class="connect-pill" href="/posts/index.xml">
+            <span aria-hidden="true">🌀</span><span>RSS</span>
+        </a>
+    </div>
+
+    <section class="home-atlas-grid" aria-label="Article Tracks">
+        <div class="atlas-card atlas-sd">
+            <div class="atlas-card-head">
+                <h2 class="atlas-title-wrap">
+                    {{ partial "track_icon.html" "sd" }}
+                    <a href="/posts/system-design/">System Design</a>
+                </h2>
+                <a class="atlas-count" href="/posts/system-design/">{{ $sdCount }} articles →</a>
+            </div>
+            <p class="atlas-desc">Macro distributed blueprints: matching engines, payment ledgers, load shedding &amp; AI infra.</p>
+            <ul class="atlas-series-list">
+                <li><a href="/series/stock-exchange-core/">1. Stock Exchange Core</a><span>4 parts</span></li>
+                <li><a href="/series/global-payment-gateway/">2. Global Payment Gateway</a><span>4 parts</span></li>
+                <li><a href="/series/global-flash-sale-engine/">3. Global Flash Sale Engine</a><span>4 parts</span></li>
+                {{- if gt $nervousCount 0 }}
+                <li><a href="/series/the-global-nervous-system/">4. The Global Nervous System</a><span>{{ $nervousCount }} {{ cond (eq $nervousCount 1) "part" "parts" }}</span></li>
+                {{- else }}
+                <li class="atlas-upcoming"><span>4. The Global Nervous System</span><em>Upcoming</em></li>
+                {{- end }}
+            </ul>
+        </div>
+
+        <div class="atlas-card atlas-arch">
+            <div class="atlas-card-head">
+                <h2 class="atlas-title-wrap">
+                    {{ partial "track_icon.html" "arch" }}
+                    <a href="/posts/principal-craft/">Production Engineering</a>
+                </h2>
+                <a class="atlas-count" href="/posts/principal-craft/">{{ $archCount }} articles →</a>
+            </div>
+            <p class="atlas-desc">Runtime internals, PostgreSQL lock-free concurrency, failure autopsies &amp; safe hybrid boundaries.</p>
+            <ul class="atlas-series-list">
+                <li><a href="/series/mastering-enterprise-complexity/">1. Mastering Enterprise Complexity</a><span>5 parts</span></li>
+                <li><a href="/series/from-contention-to-throughput/">2. Contention to Throughput</a><span>5 parts</span></li>
+                <li><a href="/series/autopsy-of-distributed-systems/">3. Autopsy of Distributed Systems</a><span>4 parts</span></li>
+                <li><a href="/series/autopsy-of-a-hybrid-architecture/">4. Autopsy of a Hybrid Architecture</a><span>4 parts</span></li>
+            </ul>
+        </div>
+
+        <div class="atlas-card atlas-sov">
+            <div class="atlas-card-head">
+                <h2 class="atlas-title-wrap">
+                    {{ partial "track_icon.html" "sov" }}
+                    <a href="/posts/sovereignty-gov/">Sovereign Governance</a>
+                </h2>
+                <a class="atlas-count" href="/posts/sovereignty-gov/">{{ if gt $sovCount 0 }}{{ $sovCount }} articles →{{ else }}GEM DBA Track →{{ end }}</a>
+            </div>
+            <p class="atlas-desc">GEM DBA research on technology governance, institutional strategy, EU DORA, VN PDPL 91 &amp; BIAN architecture (EN / VI).</p>
+            <ul class="atlas-series-list">
+                <li class="atlas-upcoming"><span>1. Tech Governance &amp; Strategy</span><em>GEM DBA</em></li>
+                <li class="atlas-upcoming"><span>2. Digital Sovereignty &amp; Cloud Exit</span><em>Dec 2026</em></li>
+                <li class="atlas-upcoming"><span>3. BIAN Banking &amp; Sovereign AI</span><em>Jan 2027</em></li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="home-showcase-grid" aria-label="Sovera Engine and Books">
+        <div class="home-books-strip home-strip-sovera">
+            <div class="books-strip-copy">
+                <span class="books-strip-tag"><span aria-hidden="true">🛠️</span> Sovera Engine</span>
+                <p><strong>Deterministic Architecture &amp; Sovereignty Compiler</strong> — Air-gapped Cloud Exit, EU DORA &amp; VN PDPL 91 verification.</p>
+            </div>
+            <a class="books-strip-cta" href="/sovera/">Sovera →</a>
+        </div>
+        <div class="home-books-strip home-strip-books">
+            <div class="books-strip-copy">
+                <span class="books-strip-tag"><span aria-hidden="true">📚</span> Books Shelf</span>
+                <p><strong>Technocrat Press &amp; Vietnamese Waves™</strong> — Forthcoming systems handbooks &amp; Amazon #1 Best-Selling bilingual editions.</p>
+            </div>
+            <a class="books-strip-cta" href="/books/">All Books →</a>
+        </div>
+    </div>
+</article>
+
+<div class="home-stream-header" aria-label="Filter articles by track">
+    <div class="home-stream-title">
+        <h2>Latest Articles</h2>
+        <span>Color-coded by pillar and indexed by series</span>
+    </div>
+    <div class="home-filter-bar" role="group" aria-label="Track Filter">
+        <button type="button" class="filter-btn active" data-filter="all">All ({{ $totalCount }})</button>
+        <button type="button" class="filter-btn filter-btn-sd" data-filter="sd">{{ partial "track_icon.html" "sd" }} <span>System Design ({{ $sdCount }})</span></button>
+        <button type="button" class="filter-btn filter-btn-arch" data-filter="arch">{{ partial "track_icon.html" "arch" }} <span>Production Engineering ({{ $archCount }})</span></button>
+        <button type="button" class="filter-btn filter-btn-sov" data-filter="sov">{{ partial "track_icon.html" "sov" }} <span>Sovereign Governance ({{ $sovCount }})</span></button>
+    </div>
+</div>
+<div id="filter-empty-state" class="filter-empty-state" hidden>
+    <p>
+        <strong>⛩️ Sovereign Governance (GEM DBA Track):</strong>
+        Bilingual field monographs (EN / VI) on technology governance, digital sovereignty (EU DORA Art. 28 &amp; VN PDPL 91 / Decree 356), and BIAN banking roll out from December 2026.
+        <a href="/posts/sovereignty-gov/">Explore the Sovereign Governance track →</a>
+    </p>
+</div>
+{{- end -}}

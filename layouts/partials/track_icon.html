@@ -1,0 +1,9 @@
+{{- if eq . "sd" -}}
+<span class="track-icon track-icon-sd" aria-hidden="true">🏛️</span>
+{{- else if eq . "arch" -}}
+<span class="track-icon track-icon-arch" aria-hidden="true">🪞</span>
+{{- else if eq . "sov" -}}
+<span class="track-icon track-icon-sov" aria-hidden="true">⛩️</span>
+{{- else if eq . "series" -}}
+<span class="track-icon track-icon-series" aria-hidden="true">🧩</span>
+{{- end -}}

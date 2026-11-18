@@ -1,17 +1,16 @@
 baseURL: "https://tuanhiep.github.io/"
-title: "Tuan Hiep TRAN — System Design & AI Infra"
+title: "Tuan Hiep TRAN — Technocrat Press"
 languageCode: "en-us"
 theme: "PaperMod"
 googleAnalytics: "G-P0Y0LZDWZS"
 
-# 1. THÊM ĐOẠN NÀY ĐỂ KÍCH HOẠT SERIES
 taxonomies:
   category: categories
   tag: tags
   series: series
 
 pagination:
-  pagerSize: 10
+  pagerSize: 40
 enableRobotsTXT: true
 enableGitInfo: true
 
@@ -19,20 +18,22 @@ frontmatter:
   date:
     - date
     - publishDate
-    - :git   # fallback → dùng ngày commit đầu tiên
+    - :git
   lastmod:
     - lastmod
     - date
     - publishDate
-    - :git        # <- ưu tiên ngày commit
+    - :git
 
 params:
   env: production
   defaultTheme: auto
+  mainSections:
+    - posts
   showReadingTime: true
   showToc: true
   tocOpen: true
-  author: "Hiep"
+  author: "Tuan Hiep TRAN"
   socialIcons:
     - name: linkedin
       title: LinkedIn
@@ -44,50 +45,48 @@ params:
       title: RSS
       url: "/posts/index.xml"
   homeInfoParams:
-    Title: "System Design & AI Infra"
+    Title: "Tuan Hiep TRAN — System Design, Production Engineering & Sovereign Governance"
     Content: >
-      Notes from real-world Distributed Systems and AI Infrastructure.
-  showLastMod: true              # <- bật hiển thị ngày update
+      Engineering blueprints, runtime failure autopsies, and GEM DBA doctoral research on technology governance and digital sovereignty.
+  showLastMod: true
   footer:
-    text: 'Connect: [LinkedIn](https://www.linkedin.com/in/tuan-hiep-tran/) / [GitHub](https://github.com/tuanhiep) / [RSS](/posts/index.xml)'
+    text: 'Technocrat Press · [About](/about/) / [Sovera](/sovera/) / [Books](/books/) / [Tags](/tags/) / [LinkedIn](https://www.linkedin.com/in/tuan-hiep-tran/) / [GitHub](https://github.com/tuanhiep) / [RSS](/posts/index.xml)'
   analytics:
     google:
       SiteVerificationTag: "p0E9Md4M8vdZsufpDXcbZrV0pgtWlIEvy9vy0XYvl0w"
-  # lastModFormat: "Jan 2, 2006" # (tuỳ chọn format ngày)
   mermaid:
     enable: true
-    theme: "default" # Các lựa chọn: default, dark, neutral, forest
+    theme: "default"
 
 menu:
   main:
-    - identifier: about
+    - identifier: nav-about
       name: About
       url: /about/
       weight: 1
-    - identifier: posts
-      name: Posts
-      url: /posts/
+    - identifier: track-system-design
+      name: System Design
+      url: /posts/system-design/
       weight: 2
-    # 2. THÊM MENU NÀY VÀO TRANG CHỦ
-    - identifier: series
+    - identifier: track-principal-craft
+      name: Production Engineering
+      url: /posts/principal-craft/
+      weight: 3
+    - identifier: track-sovereignty-gov
+      name: Sovereign Governance
+      url: /posts/sovereignty-gov/
+      weight: 4
+    - identifier: nav-series
       name: Series
       url: /series/
-      weight: 3
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 4
-    - identifier: linkedin
-      name: LinkedIn
-      url: "https://www.linkedin.com/in/tuan-hiep-tran/"
       weight: 5
-    - identifier: github
-      name: GitHub
-      url: "https://github.com/tuanhiep"
+    - identifier: nav-sovera
+      name: Sovera
+      url: /sovera/
       weight: 6
-    - identifier: rss
-      name: RSS
-      url: /posts/index.xml
+    - identifier: nav-books
+      name: Books
+      url: /books/
       weight: 7
 
 markup:

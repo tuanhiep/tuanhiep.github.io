@@ -10,10 +10,10 @@
     <ol style="margin-bottom: 0; padding-left: 1.5rem;">
         {{ range $sortedSeries }}
         <li style="margin-bottom: 0.5rem;">
-            {{ if eq .Permalink $.Page.Permalink }}
+            {{ if eq .RelPermalink $.Page.RelPermalink }}
             <strong>{{ .Title }} <em>(You are here)</em></strong>
             {{ else }}
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             {{ end }}
         </li>
         {{ end }}

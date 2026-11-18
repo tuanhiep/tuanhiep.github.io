@@ -1,29 +1,18 @@
-# tuanhiep.github.io
+# Tuan Hiep TRAN — Technocrat Press
 
-System Design and AI Infrastructure blog published with GitHub Pages.
+Engineering publication, technology governance research, and systems architecture showcase built with **Hugo** and **PaperMod**, published at `https://tuanhiep.github.io/`.
 
-## Purpose
+## Sections
 
-This repository hosts the public blog focused on system design, AI infrastructure, and engineering notes.
+- **`/posts/system-design/`** — Distributed systems architecture, matching engines, idempotent payment ledgers, and flash-sale admission control.
+- **`/posts/principal-craft/`** — Production engineering, enterprise complexity, lock-free PostgreSQL concurrency, distributed autopsies, and reactive/imperative boundaries.
+- **`/posts/sovereignty-gov/`** — Bilingual (`EN` / `VI`) monographs on technology governance, digital sovereignty (EU DORA Art. 28, Vietnam PDPL 91 / Decree 356), BIAN Core Banking, and Sovereign AI.
+- **`/sovera/`** — Clean-room overview of **SOVERA**, an independent Architecture & Digital Sovereignty Decision Engine.
+- **`/books/`** — Engineering monographs alongside illustrated bilingual cultural heritage editions.
 
-## Contents
+## Local Development
 
-- Blog posts under `content/`.
-- Static assets under `static/`.
-- Hugo layouts, theme configuration, and generated public output.
-
-## How To Use
-
-Edit content in the source folders, preview with Hugo locally, then publish through the configured GitHub Pages flow.
-
-## Status
-
-Active writing repo. The next upgrade is to document the local Hugo command, publishing flow, and content taxonomy.
-
-## Validation
-
-Preview the site locally before publishing and check post routes, tags, assets, and generated output.
-
-## Editorial Notes
-
-The repo should make the writing system explicit: topic taxonomy, publishing flow, and the standard for turning notes into durable system-design essays.
+```bash
+hugo server -D
+hugo --gc --minify
+```

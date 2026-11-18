@@ -88,10 +88,48 @@
     }
 
     .about-lede {
-        max-width: 760px;
-        margin: 1.25rem 0 0;
+        max-width: 780px;
+        margin: 1.15rem 0 0;
+        color: var(--primary);
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.55;
+    }
+
+    .about-sublede {
+        max-width: 780px;
+        margin: 0.9rem 0 0;
         color: var(--content);
-        font-size: 1.18rem;
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .about-section {
+        margin-top: 2.5rem;
+    }
+
+    .about-section h2 {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin: 0 0 1rem !important;
+        font-size: 1.3rem;
+    }
+
+    .about-inst {
+        margin: 0 0 0.45rem !important;
+        font-size: 0.88rem !important;
+        color: var(--primary) !important;
+        line-height: 1.45;
+    }
+
+    .about-grid h3 a {
+        color: var(--primary);
+        box-shadow: none;
+    }
+
+    .about-grid h3 a:hover {
+        text-decoration: underline;
     }
 
     .about-actions {
@@ -202,6 +240,740 @@
         border-top: 1px solid var(--border);
     }
 
+    .about-grid h2 a {
+        color: var(--primary);
+        box-shadow: none;
+    }
+
+    .about-grid h2 a:hover {
+        box-shadow: 0 1px 0 var(--primary);
+    }
+
+    .books-section {
+        margin-top: 2.5rem;
+    }
+
+    .books-section h2 {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin: 0 0 0.75rem !important;
+        font-size: 1.35rem;
+    }
+
+    .books-intro {
+        max-width: 820px;
+        color: var(--secondary);
+        font-size: 0.98rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .book-badge {
+        display: inline-block;
+        padding: 0.18rem 0.6rem;
+        margin-bottom: 0.55rem;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        color: var(--secondary);
+        background: var(--theme);
+    }
+
+    .book-badge-live {
+        color: var(--primary);
+        border-color: var(--primary);
+    }
+
+    .book-badge-upcoming {
+        color: var(--primary);
+    }
+
+    .about-grid h3,
+    .book-details h3 {
+        margin: 0.15rem 0 0.45rem !important;
+        font-size: 1.12rem;
+        line-height: 1.3;
+    }
+
+    .book-inline-links {
+        margin-top: 0.75rem !important;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+
+    .books-featured-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.25rem;
+        margin: 1.5rem 0 2rem;
+    }
+
+    .book-card {
+        display: grid;
+        grid-template-columns: 150px minmax(0, 1fr);
+        gap: 1.15rem;
+        padding: 1.25rem;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        background: var(--entry);
+        align-items: start;
+    }
+
+    .book-cover {
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+        border: 1px solid var(--border);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+        display: block;
+    }
+
+    .book-subtitle {
+        margin: 0 0 0.4rem !important;
+        font-size: 0.92rem;
+        font-weight: 600;
+        color: var(--primary);
+    }
+
+    .book-specs {
+        margin: 0 0 0.6rem !important;
+        font-size: 0.85rem;
+        color: var(--secondary);
+    }
+
+    .book-desc {
+        margin: 0 0 0.85rem !important;
+        font-size: 0.92rem;
+        color: var(--content);
+        line-height: 1.55;
+    }
+
+    .book-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem;
+    }
+
+    .book-links a {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.3rem 0.75rem;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: var(--theme);
+        color: var(--primary);
+        box-shadow: none;
+        font-size: 0.85rem;
+        font-weight: 600;
+    }
+
+    .book-links a:hover {
+        border-color: var(--primary);
+    }
+
+    :root {
+        --nav-width: 1280px;
+        --main-width: 1020px;
+        --track-sd-color: #1d4ed8;
+        --track-sd-bg: rgba(37, 99, 235, 0.08);
+        --track-sd-border: rgba(37, 99, 235, 0.30);
+        --track-arch-color: #0f766e;
+        --track-arch-bg: rgba(13, 148, 136, 0.08);
+        --track-arch-border: rgba(13, 148, 136, 0.30);
+        --track-sov-color: #6d28d9;
+        --track-sov-bg: rgba(124, 58, 237, 0.08);
+        --track-sov-border: rgba(124, 58, 237, 0.30);
+    }
+
+    :root[data-theme="dark"] {
+        --track-sd-color: #60a5fa;
+        --track-sd-bg: rgba(96, 165, 250, 0.14);
+        --track-sd-border: rgba(96, 165, 250, 0.36);
+        --track-arch-color: #2dd4bf;
+        --track-arch-bg: rgba(45, 212, 191, 0.14);
+        --track-arch-border: rgba(45, 212, 191, 0.36);
+        --track-sov-color: #c4b5fd;
+        --track-sov-bg: rgba(167, 139, 250, 0.14);
+        --track-sov-border: rgba(167, 139, 250, 0.36);
+    }
+
+    .post-single:not(.about-page) {
+        max-width: 820px;
+        margin: 0 auto;
+    }
+
+    .header-nav .logo a {
+        font-size: 18px;
+        white-space: nowrap;
+    }
+
+    .header-nav .menu {
+        column-gap: 14px;
+    }
+
+    .header-nav .menu a {
+        font-size: 14px;
+    }
+
+    /* Top Header Language Switcher (EN / VI) */
+    .lang-switch-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.15rem;
+        padding: 0.14rem 0.35rem;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: var(--entry);
+        font-size: 0.72rem;
+        line-height: 1;
+    }
+
+    .lang-switch-pill .lang-sep {
+        color: var(--tertiary);
+        font-size: 0.7rem;
+    }
+
+    .lang-btn {
+        appearance: none;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0.18rem 0.38rem;
+        border-radius: 999px;
+        color: var(--secondary);
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        transition: all 0.14s ease;
+    }
+
+    .lang-btn:hover {
+        color: var(--primary);
+    }
+
+    .lang-btn.active {
+        background: var(--primary);
+        color: var(--theme);
+    }
+
+    /* Hero Action Pills (High-Visibility LinkedIn, GitHub, Books, RSS) */
+    .home-connect-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.55rem;
+        margin: 0 0 1.35rem;
+    }
+
+    .connect-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.42rem;
+        padding: 0.42rem 0.85rem;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: var(--theme);
+        color: var(--primary);
+        font-size: 0.83rem;
+        font-weight: 600;
+        text-decoration: none;
+        box-shadow: none !important;
+        transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+
+    .connect-pill:hover {
+        border-color: var(--primary);
+        transform: translateY(-1px);
+    }
+
+    .connect-pill-primary {
+        border-color: var(--track-sd-border);
+        color: var(--track-sd-color);
+        background: var(--track-sd-bg);
+    }
+
+    .connect-pill-primary:hover {
+        border-color: var(--track-sd-color);
+    }
+
+    /* Custom Vector SVG Icons */
+    .track-svg {
+        width: 15px;
+        height: 15px;
+        flex-shrink: 0;
+        vertical-align: -2px;
+    }
+
+    .track-svg-series {
+        width: 13px;
+        height: 13px;
+    }
+
+    /* Home Architectural Atlas (Stripe-Press Minimalist Cards) */
+    .home-atlas-wrapper {
+        margin-bottom: 1.75rem !important;
+        padding: 1.75rem 1.85rem !important;
+        border: 1px solid var(--border);
+        background: var(--entry);
+    }
+
+    .home-eyebrow {
+        margin: 0 0 0.45rem !important;
+        font-size: 0.76rem;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        color: var(--secondary);
+    }
+
+    .home-hero-head h1 {
+        font-size: 1.85rem !important;
+        line-height: 1.2;
+    }
+
+    .home-hero-lede {
+        margin: 0.5rem 0 1rem !important;
+        font-size: 0.98rem;
+    }
+
+    .home-atlas-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+        margin: 0;
+    }
+
+    .atlas-card {
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        padding: 1.1rem 1.15rem;
+        border: 1px solid var(--border);
+        border-top-width: 3px;
+        border-radius: 8px;
+        background: var(--theme);
+    }
+
+    .atlas-sd { border-top-color: var(--track-sd-color); }
+    .atlas-arch { border-top-color: var(--track-arch-color); }
+    .atlas-sov { border-top-color: var(--track-sov-color); }
+
+    .atlas-card-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
+        margin-bottom: 0.55rem;
+    }
+
+    .atlas-title-wrap {
+        display: flex;
+        align-items: center;
+        gap: 0.45rem;
+        margin: 0 !important;
+        font-size: 1.02rem;
+        line-height: 1.25;
+    }
+
+    .atlas-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 26px;
+        height: 26px;
+        border-radius: 6px;
+        flex-shrink: 0;
+    }
+
+    .atlas-icon-sd { color: var(--track-sd-color); background: var(--track-sd-bg); }
+    .atlas-icon-arch { color: var(--track-arch-color); background: var(--track-arch-bg); }
+    .atlas-icon-sov { color: var(--track-sov-color); background: var(--track-sov-bg); }
+
+    .about-grid-2 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+        margin: 1.25rem 0 2rem;
+    }
+
+    .about-grid-2 article {
+        padding: 1.2rem 1.25rem;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: var(--entry);
+    }
+
+    .about-grid-2 h2 {
+        display: flex;
+        align-items: center;
+        gap: 0.55rem;
+        margin: 0 0 0.55rem !important;
+        font-size: 1.05rem;
+    }
+
+    .about-grid-2 p {
+        margin: 0;
+        color: var(--secondary);
+        font-size: 0.96rem;
+    }
+
+    .track-icon {
+        font-size: 1rem;
+        line-height: 1;
+        flex-shrink: 0;
+    }
+
+    .atlas-count {
+        flex-shrink: 0;
+        padding: 0.16rem 0.55rem;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: var(--entry);
+        font-size: 0.74rem;
+        font-weight: 600;
+        color: var(--primary);
+        text-decoration: none;
+        box-shadow: none !important;
+        transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+
+    .atlas-count:hover {
+        border-color: var(--primary);
+        transform: translateX(1px);
+    }
+
+    .atlas-card h2 a {
+        color: var(--primary);
+        box-shadow: none;
+    }
+
+    .atlas-card h2 a:hover {
+        text-decoration: underline;
+    }
+
+    .atlas-desc {
+        margin: 0 0 0.75rem !important;
+        font-size: 0.84rem;
+        line-height: 1.45;
+        color: var(--secondary);
+    }
+
+    .atlas-series-list {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.85rem;
+        font-size: 0.82rem;
+    }
+
+    .atlas-series-list li {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 0.5rem;
+        padding: 0.28rem 0;
+        border-top: 1px dashed var(--border);
+    }
+
+    .atlas-series-list li > a,
+    .atlas-series-list li.atlas-upcoming > span:first-child {
+        flex: 1 1 auto;
+        min-width: 0;
+        line-height: 1.35;
+    }
+
+    .atlas-series-list li a {
+        color: var(--primary);
+        box-shadow: none;
+        font-weight: 500;
+    }
+
+    .atlas-series-list li a:hover {
+        text-decoration: underline;
+    }
+
+    .atlas-series-list li > a + span,
+    .atlas-series-list li > em {
+        flex-shrink: 0;
+        white-space: nowrap;
+        font-size: 0.74rem;
+        color: var(--secondary);
+        font-style: normal;
+    }
+
+    .atlas-series-list li.atlas-upcoming > span:first-child {
+        color: var(--secondary);
+        font-weight: 500;
+    }
+
+    /* Option B: Full-Width Dual Showcase Grid (Sovera Engine + Books Shelf) */
+    .home-showcase-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .home-books-strip {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.9rem;
+        min-width: 0;
+        padding: 0.85rem 1.05rem;
+        border: 1px solid var(--border);
+        border-left: 4px solid var(--primary);
+        border-radius: 8px;
+        background: var(--theme);
+    }
+
+    .home-strip-sovera {
+        border-left-color: var(--track-sd-color);
+    }
+
+    .books-strip-copy {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.35rem;
+        min-width: 0;
+    }
+
+    .books-strip-tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.16rem 0.58rem;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: var(--entry);
+        font-size: 0.74rem;
+        font-weight: 700;
+        color: var(--primary);
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .books-strip-copy p {
+        margin: 0 !important;
+        font-size: 0.85rem;
+        line-height: 1.45;
+        color: var(--secondary);
+    }
+
+    .books-strip-copy strong {
+        color: var(--primary);
+    }
+
+    .books-strip-cta {
+        display: inline-flex;
+        align-items: center;
+        flex-shrink: 0;
+        white-space: nowrap;
+        padding: 0.36rem 0.85rem;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: var(--entry);
+        color: var(--primary);
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-decoration: none;
+        box-shadow: none !important;
+        transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+
+    .books-strip-cta:hover {
+        border-color: var(--primary);
+        transform: translateX(2px);
+    }
+
+    .atlas-cta {
+        margin-top: auto;
+        font-size: 0.84rem;
+        font-weight: 700;
+        color: var(--primary);
+        box-shadow: none;
+    }
+
+    .atlas-cta:hover {
+        text-decoration: underline;
+    }
+
+    .home-hero-footer {
+        padding-top: 0.5rem;
+        border-top: 1px solid var(--border);
+    }
+
+    /* Stream Header & Interactive Filter Bar */
+    .home-stream-header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.85rem;
+        margin: 1.5rem 0 1.15rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .home-stream-title h2 {
+        margin: 0 !important;
+        font-size: 1.25rem;
+    }
+
+    .home-stream-title span {
+        font-size: 0.84rem;
+        color: var(--secondary);
+    }
+
+    .home-filter-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+    }
+
+    .filter-btn {
+        appearance: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        cursor: pointer;
+        padding: 0.38rem 0.82rem;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: var(--entry);
+        color: var(--secondary);
+        font-size: 0.82rem;
+        font-weight: 600;
+        transition: all 0.15s ease;
+    }
+
+    .filter-btn:hover {
+        color: var(--primary);
+        border-color: var(--secondary);
+    }
+
+    .filter-btn.active {
+        background: var(--primary);
+        color: var(--theme);
+        border-color: var(--primary);
+    }
+
+    .filter-btn-sd.active {
+        background: var(--track-sd-color);
+        border-color: var(--track-sd-color);
+        color: #fff;
+    }
+
+    .filter-btn-arch.active {
+        background: var(--track-arch-color);
+        border-color: var(--track-arch-color);
+        color: #fff;
+    }
+
+    .filter-btn-sov.active {
+        background: var(--track-sov-color);
+        border-color: var(--track-sov-color);
+        color: #fff;
+    }
+
+    :root[data-theme="dark"] .filter-btn.active {
+        color: #111827;
+    }
+
+    .filter-empty-state {
+        padding: 1.25rem 1.5rem;
+        border: 1px dashed var(--track-sov-border);
+        border-radius: 8px;
+        background: var(--track-sov-bg);
+        margin-bottom: 1.5rem;
+        font-size: 0.95rem;
+    }
+
+    /* Post Taxonomy Ribbon & Color-Coded Card Accents */
+    .entry-taxonomy-bar {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.45rem;
+        margin-bottom: 0.55rem;
+        position: relative;
+        z-index: 2;
+    }
+
+    .post-header .entry-taxonomy-bar {
+        margin-bottom: 0.75rem;
+    }
+
+    .track-pill,
+    .series-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        padding: 0.16rem 0.58rem;
+        border-radius: 999px;
+        font-size: 0.74rem;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        line-height: 1.35;
+        text-decoration: none;
+        box-shadow: none !important;
+    }
+
+    .track-pill-sd {
+        color: var(--track-sd-color);
+        background: var(--track-sd-bg);
+        border: 1px solid var(--track-sd-border);
+    }
+
+    .track-pill-arch {
+        color: var(--track-arch-color);
+        background: var(--track-arch-bg);
+        border: 1px solid var(--track-arch-border);
+    }
+
+    .track-pill-sov {
+        color: var(--track-sov-color);
+        background: var(--track-sov-bg);
+        border: 1px solid var(--track-sov-border);
+    }
+
+    .series-pill {
+        color: var(--secondary);
+        background: var(--code-bg);
+        border: 1px solid var(--border);
+        font-weight: 600;
+    }
+
+    .post-entry.track-sd {
+        border-left: 4px solid var(--track-sd-color);
+        transition: transform 0.14s ease, box-shadow 0.14s ease;
+    }
+
+    .post-entry.track-arch {
+        border-left: 4px solid var(--track-arch-color);
+        transition: transform 0.14s ease, box-shadow 0.14s ease;
+    }
+
+    .post-entry.track-sov {
+        border-left: 4px solid var(--track-sov-color);
+        transition: transform 0.14s ease, box-shadow 0.14s ease;
+    }
+
+    .post-entry.track-sd:hover,
+    .post-entry.track-arch:hover,
+    .post-entry.track-sov:hover {
+        transform: translateY(-2px);
+    }
+
+    @media (max-width: 900px) {
+        .home-atlas-grid,
+        .home-showcase-grid,
+        .books-featured-grid,
+        .about-grid-2 {
+            grid-template-columns: 1fr;
+        }
+    }
+
     @media (max-width: 768px) {
         .about-hero {
             padding-top: 2.5rem;
@@ -218,5 +990,103 @@
         .about-grid {
             grid-template-columns: 1fr;
         }
+
+        .book-card {
+            grid-template-columns: 1fr;
+        }
+
+        .book-cover-wrap {
+            max-width: 180px;
+        }
+
+        .home-atlas-wrapper {
+            padding: 1.25rem !important;
+        }
+
+        .home-books-strip {
+            flex-direction: column;
+            align-items: flex-start;
+        }
     }
 </style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    // 1. Interactive Track Filter
+    const buttons = document.querySelectorAll(".home-filter-bar .filter-btn");
+    const entries = document.querySelectorAll(".post-entry[data-track]");
+    const emptyState = document.getElementById("filter-empty-state");
+
+    if (buttons.length && entries.length) {
+        function applyFilter(track) {
+            let visibleCount = 0;
+            entries.forEach(function (entry) {
+                const matches = track === "all" || entry.getAttribute("data-track") === track;
+                entry.style.display = matches ? "" : "none";
+                if (matches) visibleCount++;
+            });
+            buttons.forEach(function (btn) {
+                btn.classList.toggle("active", btn.getAttribute("data-filter") === track);
+            });
+            if (emptyState) {
+                emptyState.hidden = visibleCount > 0;
+            }
+        }
+
+        buttons.forEach(function (btn) {
+            btn.addEventListener("click", function () {
+                const track = btn.getAttribute("data-filter");
+                applyFilter(track);
+                const url = new URL(window.location);
+                if (track === "all") {
+                    url.searchParams.delete("track");
+                } else {
+                    url.searchParams.set("track", track);
+                }
+                window.history.replaceState({}, "", url);
+            });
+        });
+
+        const initialTrack = new URLSearchParams(window.location.search).get("track");
+        if (initialTrack && ["all", "sd", "arch", "sov"].includes(initialTrack)) {
+            applyFilter(initialTrack);
+        }
+    }
+
+    // 2. Bilingual EN / VI Switcher (Top Header Pill)
+    const langButtons = document.querySelectorAll(".lang-switch-pill .lang-btn");
+    const i18nNodes = document.querySelectorAll("[data-i18n-en][data-i18n-vi]");
+
+    function applyLanguage(lang) {
+        const chosen = lang === "vi" ? "vi" : "en";
+        langButtons.forEach(function (btn) {
+            btn.classList.toggle("active", btn.getAttribute("data-lang-switch") === chosen);
+        });
+        i18nNodes.forEach(function (node) {
+            const val = node.getAttribute("data-i18n-" + chosen);
+            if (val) node.textContent = val;
+        });
+        document.documentElement.setAttribute("data-ui-lang", chosen);
+        try {
+            localStorage.setItem("tp_lang", chosen);
+        } catch (e) {}
+    }
+
+    langButtons.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+            applyLanguage(btn.getAttribute("data-lang-switch"));
+        });
+    });
+
+    const urlLang = new URLSearchParams(window.location.search).get("lang");
+    let savedLang = "en";
+    try {
+        savedLang = urlLang || localStorage.getItem("tp_lang") || "en";
+    } catch (e) {
+        savedLang = urlLang || "en";
+    }
+    if (savedLang === "vi") {
+        applyLanguage("vi");
+    }
+});
+</script>

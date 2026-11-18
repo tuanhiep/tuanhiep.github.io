@@ -1,0 +1,28 @@
+{{- $page := .page -}}
+{{- $clickable := .clickable | default false -}}
+{{- $slug := partial "get_track.html" $page -}}
+{{- $label := "System Design" -}}
+{{- $trackUrl := "/posts/system-design/" -}}
+{{- if eq $slug "arch" -}}
+  {{- $label = "Production Engineering" -}}
+  {{- $trackUrl = "/posts/principal-craft/" -}}
+{{- else if eq $slug "sov" -}}
+  {{- $label = "Sovereign Governance" -}}
+  {{- $trackUrl = "/posts/sovereignty-gov/" -}}
+{{- end -}}
+<div class="entry-taxonomy-bar">
+  {{- if $clickable -}}
+  <a class="track-pill track-pill-{{ $slug }}" href="{{ $trackUrl }}">{{ partial "track_icon.html" $slug }} <span>{{ $label }}</span></a>
+  {{- else -}}
+  <span class="track-pill track-pill-{{ $slug }}">{{ partial "track_icon.html" $slug }} <span>{{ $label }}</span></span>
+  {{- end -}}
+  {{- with $page.Params.series -}}
+    {{- $seriesName := index . 0 -}}
+    {{- $seriesLink := printf "/series/%s/" ($seriesName | urlize) -}}
+    {{- if $clickable -}}
+    <a class="series-pill" href="{{ $seriesLink }}">{{ partial "track_icon.html" "series" }} <span>{{ $seriesName }}{{ with $page.Params.series_order }} · Part {{ . }}{{ end }}</span></a>
+    {{- else -}}
+    <span class="series-pill">{{ partial "track_icon.html" "series" }} <span>{{ $seriesName }}{{ with $page.Params.series_order }} · Part {{ . }}{{ end }}</span></span>
+    {{- end -}}
+  {{- end -}}
+</div>
