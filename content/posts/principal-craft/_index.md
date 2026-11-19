@@ -7,6 +7,8 @@ aliases:
   - "/principal/"
   - "/principal/posts/"
 description: "Runtime internals, enterprise complexity, lock-free PostgreSQL concurrency, distributed failure autopsies, and safe hybrid reactive/imperative boundaries."
+images:
+  - "/images/og/og-production-engineering.png"
 ---
 
 Field studies from the boundary where distributed theory collides with production physics, database locks, and runtime schedulers. Every series dissects real failure modes and operational trade-offs:

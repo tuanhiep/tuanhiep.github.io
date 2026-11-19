@@ -6,6 +6,8 @@ summary: "Technical engineering books alongside published illustrated bilingual 
 layout: "about"
 hideMeta: true
 showToc: false
+images:
+  - "/images/og/og-books.png"
 ---
 
 <section class="about-hero">

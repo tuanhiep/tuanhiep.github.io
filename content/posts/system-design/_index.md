@@ -3,6 +3,8 @@ title: "System Design & AI Infra"
 aliases:
   - "/system-design/"
 description: "Planetary-scale distributed systems, deterministic matching engines, financial ledgers, flash-sale admission control, and resilient AI/LLM backpressure infrastructure."
+images:
+  - "/images/og/og-system-design.png"
 ---
 
 Field architectures for high-load, correctness-critical software systems. Each series treats an infrastructure problem through its **invariants**, **physical bottlenecks**, and **failure modes**:

@@ -5,6 +5,8 @@ summary: "Tuan Hiep TRAN — Distributed Systems & AI Architect, Doctoral Resear
 layout: "about"
 hideMeta: true
 showToc: false
+images:
+  - "/images/og/og-technocrat-press.png"
 ---
 
 <section class="about-hero">
@@ -48,7 +50,7 @@ Over the past decade across France and the United States — at <strong>Walmart 
 </article>
 <article>
 <span class="book-badge">2006 – 2010 · Hanoi, Vietnam</span>
-<h3>B.S. in Computer Science (Talents Program / KSTN)</h3>
+<h3>B.S. in Computer Science (Center for Talents Training · KSCLC)</h3>
 <p class="about-inst"><strong>Hanoi University of Science and Technology (HUST)</strong> — <em>Rank 1st in Cohort (Valedictorian)</em>.</p>
 <p>Awarded a full Vietnamese Government scholarship for top national engineering talent to pursue advanced engineering studies in France.</p>
 </article>

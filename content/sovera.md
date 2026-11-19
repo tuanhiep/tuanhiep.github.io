@@ -8,6 +8,8 @@ summary: "SOVERA (Sovereignty × Veracity) — Offline-Ready Architecture, Digit
 layout: "about"
 hideMeta: true
 showToc: false
+images:
+  - "/images/og/og-sovera.png"
 ---
 
 <section class="about-hero">

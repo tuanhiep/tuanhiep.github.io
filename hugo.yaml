@@ -49,6 +49,8 @@ params:
     Content: >
       Engineering blueprints, runtime failure autopsies, and independent technology governance & digital sovereignty research from a Principal Systems Architect and GEM DBA doctoral researcher.
   showLastMod: true
+  images:
+    - "/images/og/og-technocrat-press.png"
   footer:
     text: 'Technocrat Press · [About](/about/) / [Sovera](/sovera/) / [Books](/books/) / [Tags](/tags/) / [LinkedIn](https://www.linkedin.com/in/tuan-hiep-tran/) / [GitHub](https://github.com/tuanhiep) / [RSS](/posts/index.xml)'
   analytics:

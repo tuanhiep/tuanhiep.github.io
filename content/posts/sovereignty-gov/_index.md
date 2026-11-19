@@ -5,6 +5,8 @@ aliases:
   - "/governance/"
   - "/sovereignty-gov/"
 description: "Independent practitioner and scholar monographs on technology governance, institutional strategy, digital sovereignty (Vietnam PDPL 91 / Decree 356 & EU DORA Art. 28), BIAN Core Banking, and Sovereign AI (EN / VI)."
+images:
+  - "/images/og/og-sovereign-governance.png"
 ---
 
 <div class="sov-bilingual-intro">
