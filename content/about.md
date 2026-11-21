@@ -316,7 +316,7 @@ Trong hơn một thập kỷ học tập và vận hành hệ thống sản xu�
 Song song với các bài viết chuyên sâu, tôi là tác giả và kiến trúc sư trưởng của <a href="/sovera/"><strong>SOVERA</strong></a> — nền tảng phân tích kiến trúc, chủ quyền số và pháp y rủi ro doanh nghiệp sẵn sàng chạy ngoại tuyến (tách bạch tuyệt đối lõi tính toán tất định khỏi lớp tổng hợp AI có rào chắn) — đồng thời sáng lập tủ sách di sản song ngữ có tranh minh họa <strong>Vietnamese Waves™</strong> giới thiệu tại trang <a href="/books/"><strong>Books</strong></a>.
 </p>
 <p>
-Tôi viết blog này để tự rèn giũa tư duy và chia sẻ thẳng thắn những bài toán đánh đổi khi làm hệ thống thật, thay vì lặp lại những khẩu hiệu sáo rỗng. Nếu một bài viết khơi gợi cho bạn câu hỏi, góc nhìn phản biện hay một cách thiết kế hay hơn, rất vui được kết nối cùng bạn qua <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">LinkedIn</a> hoặc <a href="https://github.com/tuanhiep" rel="noopener noreferrer" target="_blank">GitHub</a>.
+Tôi viết blog này để tự rèn giũa tư duy và chia sẻ thẳng thắn những bài toán đánh đổi khi làm hệ thống thật. Nếu một bài viết khơi gợi cho bạn câu hỏi, góc nhìn phản biện hay một cách thiết kế hay hơn, rất vui được kết nối cùng bạn qua <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">LinkedIn</a> hoặc <a href="https://github.com/tuanhiep" rel="noopener noreferrer" target="_blank">GitHub</a>.
 </p>
 </section>
 </div>
