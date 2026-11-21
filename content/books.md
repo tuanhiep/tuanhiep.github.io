@@ -2,7 +2,7 @@
 title: "Books"
 url: "/books/"
 date: 2026-11-18
-summary: "Technical engineering books alongside published illustrated bilingual heritage editions from Technocrat Press & Vietnamese Waves™."
+summary: "Technical engineering books alongside published illustrated bilingual heritage editions from Technocrat Press & Vietnamese Waves™ (EN / FR / VI)."
 layout: "about"
 hideMeta: true
 showToc: false
@@ -10,6 +10,7 @@ images:
   - "/images/og/og-books.png"
 ---
 
+<div class="lang-panel" data-lang-panel="en" lang="en">
 <section class="about-hero">
 <p class="about-kicker"><span aria-hidden="true">🪷</span> Technocrat Press &amp; Vietnamese Waves™</p>
 <h1>Books</h1>
@@ -18,6 +19,7 @@ Long-form technical books distilled from production architecture work alongside 
 </p>
 <div class="about-actions" aria-label="Publisher Links">
 <a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">📖 Amazon Author Central</a>
+<a href="https://forms.gle/HKEdDUc64eFhd3eHA" rel="noopener noreferrer" target="_blank">🪷 Join Reader Circle</a>
 <a href="/posts/system-design/">🏛️ Read System Design Online</a>
 <a href="/sovera/">🛠️ Sovera Engine</a>
 <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">🌐 LinkedIn</a>
@@ -65,7 +67,7 @@ Beyond distributed systems and doctoral research, I steward <strong>Vietnamese W
 <span class="book-badge book-badge-live">Published Live · #1 Amazon Best Seller</span>
 <h3>The Complete Vietnamese Folk Tales &amp; Witty Parables</h3>
 <p class="book-subtitle">60 Classic Illustrated Stories — Bilingual English &amp; Vietnamese Treasury (Volume 1)</p>
-<p class="book-specs">152 Pages · 64 Full-Color Illustrations · Paperback &amp; Kindle eBook · Rated <strong>5.0 ⭐</strong> across US &amp; France</p>
+<p class="book-specs">60 Bilingual Stories · 64 Full-Color Illustrations · 6 × 9" Paperback &amp; Kindle eBook · Rated <strong>5.0 ⭐</strong> across US &amp; France</p>
 <p class="book-desc">
 Sixty timeless Vietnamese folktales, witty parables, and village humor tales presented side-by-side in expressive English and clean modern Vietnamese — crowned <strong>#1 Best Seller</strong> in <em>Children's Asian Folk Tales</em> and Top 100 in <em>Children's Literature</em> on Amazon.
 </p>
@@ -80,15 +82,17 @@ Sixty timeless Vietnamese folktales, witty parables, and village humor tales pre
 <img src="/images/books/vietnamese-myths-and-legends.jpg" alt="Front cover of Vietnamese Myths and Sacred Legends" class="book-cover" loading="lazy" />
 </div>
 <div class="book-details">
-<span class="book-badge book-badge-upcoming">Releasing Thanksgiving 2026</span>
+<span class="book-badge book-badge-live">Published Live · Volume II Companion</span>
 <h3>Vietnamese Myths &amp; Sacred Legends</h3>
 <p class="book-subtitle">36 Timeless Illustrated Stories of Creation, Heroes &amp; Magic — Bilingual Treasury (Volume 2)</p>
-<p class="book-specs">162 Pages · 36 Myths &amp; Epics · Full-Color Collector's Art · Paperback, Hardcover &amp; Kindle</p>
+<p class="book-specs">36 Bilingual Myths &amp; Epics · 41 Full-Color Plates · 6 × 9" Paperback &amp; Kindle eBook · Read-Aloud Glossary</p>
 <p class="book-desc">
 The grand mythic companion to Volume 1 — spanning Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh, Thánh Gióng, Hoàn Kiếm Lake, Tấm &amp; Cám, and Tết legends with <em>Heritage &amp; Mythic Soul Notes</em> and a read-aloud pronunciation glossary.
 </p>
 <div class="book-links">
-<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">Follow on Amazon Author Central</a>
+<a href="https://www.amazon.com/dp/B0HSCX2G1J" rel="noopener noreferrer" target="_blank">Kindle Edition</a>
+<a href="https://www.amazon.com/dp/B0HSGS48CS" rel="noopener noreferrer" target="_blank">Paperback Edition</a>
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">Amazon Author Central</a>
 </div>
 </div>
 </article>
@@ -102,3 +106,200 @@ for enterprise architecture advisory, GEM DBA collaboration, or media/review inq
 <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">🌐 LinkedIn</a>.
 </p>
 </section>
+</div>
+
+<div class="lang-panel" data-lang-panel="fr" lang="fr" hidden>
+<section class="about-hero">
+<p class="about-kicker"><span aria-hidden="true">🪷</span> Technocrat Press &amp; Vietnamese Waves™</p>
+<h1>Livres &amp; Éditions</h1>
+<p class="about-lede">
+Ouvrages techniques de référence issus de l'architecture de production, aux côtés d'éditions patrimoniales bilingues illustrées publiées dans le monde entier sur Amazon.
+</p>
+<div class="about-actions" aria-label="Liens Éditeur">
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">📖 Page Auteur Amazon</a>
+<a href="https://forms.gle/HKEdDUc64eFhd3eHA" rel="noopener noreferrer" target="_blank">🪷 Cercle des Lecteurs</a>
+<a href="/posts/system-design/">🏛️ Lire System Design</a>
+<a href="/sovera/">🛠️ Moteur Sovera</a>
+<a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">🌐 LinkedIn</a>
+</div>
+</section>
+
+<section class="books-section">
+<h2><span aria-hidden="true">🏛️</span> Technocrat Press — Ingénierie &amp; IA Souveraine</h2>
+<p class="books-intro">
+Manuels pratiques distillant invariants distribués, autopsies de production et architecture réglementaire calculable en références durables. Plusieurs chapitres préparatoires sont publiés directement dans les trois rubriques de ce site.
+</p>
+<div class="about-grid">
+<article>
+<span class="book-badge">En préparation · 2027</span>
+<h3>L7 Systems Architecture</h3>
+<p><em>Deterministic Invariants, Backpressure &amp; High-Throughput Distributed Systems</em> (8 chapitres, EN). Synthèse sur la concurrence bornée, les ponts réactifs hybrides et les autopsies d'incidents de production.</p>
+<p class="book-inline-links"><a href="/posts/principal-craft/">Lire les articles Production Engineering →</a></p>
+</article>
+<article>
+<span class="book-badge">En préparation · 2027</span>
+<h3>System Design Battlegrounds</h3>
+<p><em>The Staff+ Architect's Playbook for High-Throughput Distributed Engines</em> (10 chapitres, EN). Architectures complètes pour carnets d'ordres à la microseconde, grands livres de paiement et contrôle d'admission.</p>
+<p class="book-inline-links"><a href="/posts/system-design/">Lire les articles System Design →</a></p>
+</article>
+<article>
+<span class="book-badge">Parcours Recherche GEM DBA · 2027</span>
+<h3>Sovereign Cloud &amp; AI Governance</h3>
+<p><em>Technology Governance, Digital Sovereignty &amp; Cloud Exitability (UE DORA Art. 28, RGPD &amp; Vietnam PDPL 91)</em>. Passerelle entre stratégie institutionnelle, gestion exécutive du risque, architecture bancaire BIAN et systèmes souverains auditables.</p>
+<p class="book-inline-links"><a href="/posts/sovereignty-gov/">Explorer Sovereign Governance →</a></p>
+</article>
+</div>
+</section>
+
+<section class="books-section books-heritage">
+<h2><span aria-hidden="true">🪷</span> Vietnamese Waves™ — Collection Patrimoine Bilingue</h2>
+<p class="books-intro">
+Au-delà des systèmes distribués et de la recherche doctorale, je dirige <strong>Vietnamese Waves™</strong> — des éditions de collection bilingues anglais-vietnamien abondamment illustrées pour transmettre contes populaires, mythologie et sagesse ancestrale aux familles internationales et à la diaspora.
+</p>
+<div class="books-featured-grid">
+<article class="book-card">
+<div class="book-cover-wrap">
+<img src="/images/books/vietnamese-folk-tales-treasury.jpg" alt="Couverture de The Complete Vietnamese Folk Tales and Witty Parables" class="book-cover" loading="lazy" />
+</div>
+<div class="book-details">
+<span class="book-badge book-badge-live">Publié · #1 Best-Seller Amazon</span>
+<h3>The Complete Vietnamese Folk Tales &amp; Witty Parables</h3>
+<p class="book-subtitle">60 Contes Classiques Illustrés — Trésor Bilingue Anglais &amp; Vietnamien (Tome 1)</p>
+<p class="book-specs">60 Histoires Bilingues · 64 Illustrations Couleur · Format 6 × 9" Broché &amp; Kindle · Noté <strong>5,0 ⭐</strong> aux États-Unis &amp; en France</p>
+<p class="book-desc">
+Soixante contes populaires vietnamiens, paraboles malicieuses et récits humoristiques présentés en parallèle en anglais littéraire et en vietnamien moderne — couronné <strong>#1 Best-Seller Amazon</strong> en <em>Children's Asian Folk Tales</em> et Top 100 en <em>Children's Literature</em>.
+</p>
+<div class="book-links">
+<a href="https://www.amazon.com/dp/B0HMSF6P9V" rel="noopener noreferrer" target="_blank">Édition Kindle</a>
+<a href="https://www.amazon.com/dp/B0HMSK9T2G" rel="noopener noreferrer" target="_blank">Édition Brochée</a>
+</div>
+</div>
+</article>
+<article class="book-card">
+<div class="book-cover-wrap">
+<img src="/images/books/vietnamese-myths-and-legends.jpg" alt="Couverture de Vietnamese Myths and Sacred Legends" class="book-cover" loading="lazy" />
+</div>
+<div class="book-details">
+<span class="book-badge book-badge-live">Publié · Tome II Compagnon</span>
+<h3>Vietnamese Myths &amp; Sacred Legends</h3>
+<p class="book-subtitle">36 Mythes &amp; Légendes Sacrées Illustrés — Trésor Bilingue (Tome 2)</p>
+<p class="book-specs">36 Mythes &amp; Épopées Bilingues · 41 Planches Couleur · Format 6 × 9" Broché &amp; Kindle · Glossaire de Prononciation</p>
+<p class="book-desc">
+Le grand compagnon mythologique du Tome 1 — de Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh et Thánh Gióng au lac Hoàn Kiếm, Tấm &amp; Cám et aux traditions du Têt, enrichi de notes culturelles et d'un glossaire de lecture à voix haute.
+</p>
+<div class="book-links">
+<a href="https://www.amazon.com/dp/B0HSCX2G1J" rel="noopener noreferrer" target="_blank">Édition Kindle</a>
+<a href="https://www.amazon.com/dp/B0HSGS48CS" rel="noopener noreferrer" target="_blank">Édition Brochée</a>
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">Page Auteur Amazon</a>
+</div>
+</div>
+</article>
+</div>
+</section>
+
+<section class="about-crosslink" aria-label="Conférences, Conseil et Presse">
+<p>
+<strong>Conférences, Conseil &amp; Exemplaires Presse :</strong>
+pour toute sollicitation en architecture d'entreprise, collaboration académique GEM DBA ou presse/lecture critique, contactez-moi sur
+<a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">🌐 LinkedIn</a>.
+</p>
+</section>
+</div>
+
+<div class="lang-panel" data-lang-panel="vi" lang="vi" hidden>
+<section class="about-hero">
+<p class="about-kicker"><span aria-hidden="true">🪷</span> Technocrat Press &amp; Vietnamese Waves™</p>
+<h1>Tủ Sách Xuất Bản</h1>
+<p class="about-lede">
+Những chuyên khảo kỹ nghệ chắt lọc từ thực chiến hệ thống phân tán, song hành cùng bộ ấn phẩm di sản văn hóa Việt song ngữ minh họa màu phát hành toàn cầu trên Amazon.
+</p>
+<div class="about-actions" aria-label="Liên kết Xuất bản">
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">📖 Trang Tác Giả Amazon</a>
+<a href="https://forms.gle/HKEdDUc64eFhd3eHA" rel="noopener noreferrer" target="_blank">🪷 Cộng Đồng Độc Giả</a>
+<a href="/posts/system-design/">🏛️ Đọc System Design</a>
+<a href="/sovera/">🛠️ Động Cơ Sovera</a>
+<a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">🌐 LinkedIn</a>
+</div>
+</section>
+
+<section class="books-section">
+<h2><span aria-hidden="true">🏛️</span> Technocrat Press — Hệ Thống L7 &amp; AI Chủ Quyền</h2>
+<p class="books-intro">
+Bộ cẩm nang thực hành kết tinh bất biến hệ thống phân tán, giải phẫu sự cố production và kiến trúc tuân thủ số thành tài liệu tham khảo dài hạn. Các chương nền tảng đang được công bố dần qua ba chuyên mục trên blog này.
+</p>
+<div class="about-grid">
+<article>
+<span class="book-badge">Đang biên soạn · 2027</span>
+<h3>L7 Systems Architecture</h3>
+<p><em>Deterministic Invariants, Backpressure &amp; High-Throughput Distributed Systems</em> (8 chương, EN). Kết tinh kiểm soát đồng thời có giới hạn, cầu nối phản ứng/mệnh lệnh và các ca giải phẫu hệ thống thật.</p>
+<p class="book-inline-links"><a href="/posts/principal-craft/">Đọc loạt bài Production Engineering →</a></p>
+</article>
+<article>
+<span class="book-badge">Đang biên soạn · 2027</span>
+<h3>System Design Battlegrounds</h3>
+<p><em>The Staff+ Architect's Playbook for High-Throughput Distributed Engines</em> (10 chương, EN). Thiết kế chi tiết sổ lệnh vi giây, sổ cái thanh toán kép và cửa kiểm soát tải Flash Sale.</p>
+<p class="book-inline-links"><a href="/posts/system-design/">Đọc loạt bài System Design →</a></p>
+</article>
+<article>
+<span class="book-badge">Nhánh Nghiên Cứu GEM DBA · 2027</span>
+<h3>Sovereign Cloud &amp; AI Governance</h3>
+<p><em>Technology Governance, Digital Sovereignty &amp; Cloud Exitability (EU DORA Điều 28, GDPR &amp; Luật BVDLCN VN 91)</em>. Kết nối chiến lược thể chế, phân bổ rủi ro điều hành, kiến trúc ngân hàng BIAN và hạ tầng AI chủ quyền kiểm toán được.</p>
+<p class="book-inline-links"><a href="/posts/sovereignty-gov/">Khám phá Sovereign Governance →</a></p>
+</article>
+</div>
+</section>
+
+<section class="books-section books-heritage">
+<h2><span aria-hidden="true">🪷</span> Vietnamese Waves™ — Bộ Sách Di Sản Văn Hóa Song Ngữ</h2>
+<p class="books-intro">
+Bên cạnh kỹ nghệ hệ thống và nghiên cứu Tiến sĩ, tôi sáng lập và biên soạn <strong>Vietnamese Waves™</strong> — dòng sách song ngữ Anh–Việt chuẩn sưu tầm có tranh minh họa màu nhằm giữ gìn truyện cổ, thần thoại và đạo lý Tổ Tiên cho các gia đình đa văn hóa và thế hệ Việt Nam toàn cầu.
+</p>
+<div class="books-featured-grid">
+<article class="book-card">
+<div class="book-cover-wrap">
+<img src="/images/books/vietnamese-folk-tales-treasury.jpg" alt="Bìa sách The Complete Vietnamese Folk Tales and Witty Parables" class="book-cover" loading="lazy" />
+</div>
+<div class="book-details">
+<span class="book-badge book-badge-live">Đã Phát Hành · #1 Amazon Best Seller</span>
+<h3>The Complete Vietnamese Folk Tales &amp; Witty Parables</h3>
+<p class="book-subtitle">60 Truyện Dân Gian &amp; Tiếu Lâm Kinh Điển — Hợp Tuyển Song Ngữ Anh &amp; Việt (Tập 1)</p>
+<p class="book-specs">60 Truyện Song Ngữ · 64 Tranh Màu · Khổ In 6 × 9" Bìa Mềm &amp; Kindle eBook · Đạt <strong>5.0 ⭐</strong> tại Mỹ &amp; Pháp</p>
+<p class="book-desc">
+Sáu mươi tích cổ dân gian, ngụ ngôn thâm thúy và giai thoại hóm hỉnh trình bày đối chiếu giữa tiếng Anh truyền cảm và tiếng Việt hiện đại trong sáng — vươn lên <strong>#1 Best Seller</strong> bảng xếp hạng <em>Children's Asian Folk Tales</em> và Top 100 <em>Children's Literature</em> trên Amazon.
+</p>
+<div class="book-links">
+<a href="https://www.amazon.com/dp/B0HMSF6P9V" rel="noopener noreferrer" target="_blank">Bản Kindle eBook</a>
+<a href="https://www.amazon.com/dp/B0HMSK9T2G" rel="noopener noreferrer" target="_blank">Bản Sách Giấy Paperback</a>
+</div>
+</div>
+</article>
+<article class="book-card">
+<div class="book-cover-wrap">
+<img src="/images/books/vietnamese-myths-and-legends.jpg" alt="Bìa sách Vietnamese Myths and Sacred Legends" class="book-cover" loading="lazy" />
+</div>
+<div class="book-details">
+<span class="book-badge book-badge-live">Đã Phát Hành · Tập II Sánh Đôi</span>
+<h3>Vietnamese Myths &amp; Sacred Legends</h3>
+<p class="book-subtitle">36 Huyền Tích Lập Quốc, Anh Hùng &amp; Phép Màu — Hợp Tuyển Song Ngữ (Tập 2)</p>
+<p class="book-specs">36 Thần Thoại &amp; Sử Thi · 41 Bức Tranh Màu · Khổ In 6 × 9" Bìa Mềm &amp; Kindle · Từ Điển Đọc Vần</p>
+<p class="book-desc">
+Tập sách đồng hành quy mô lớn cùng Tập 1 — từ Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh, Thánh Gióng, Hồ Gươm tới Tấm Cám và sự tích Tết cổ truyền, kèm mục giải nghĩa văn hóa (<em>Heritage &amp; Mythic Soul Notes</em>) và bảng hướng dẫn phát âm.
+</p>
+<div class="book-links">
+<a href="https://www.amazon.com/dp/B0HSCX2G1J" rel="noopener noreferrer" target="_blank">Bản Kindle eBook</a>
+<a href="https://www.amazon.com/dp/B0HSGS48CS" rel="noopener noreferrer" target="_blank">Bản Sách Giấy Paperback</a>
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">Trang Tác Giả Amazon</a>
+</div>
+</div>
+</article>
+</div>
+</section>
+
+<section class="about-crosslink" aria-label="Diễn Giả, Cố Vấn &amp; Bản Đọc Thử">
+<p>
+<strong>Diễn Giả, Cố Vấn Kiến Trúc &amp; Hợp Tác Xuất Bản:</strong>
+quý đối tác doanh nghiệp, học giả GEM DBA hoặc truyền thông quan tâm tới sách kỹ trị và di sản có thể kết nối trực tiếp qua
+<a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">🌐 LinkedIn</a>.
+</p>
+</section>
+</div>

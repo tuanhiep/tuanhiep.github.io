@@ -23,9 +23,21 @@
     {{- end }}
   </h1>
   {{- if .Description }}
+  {{- if or .Params.description_fr .Params.description_vi }}
+  <div class="post-description">
+    <span data-lang-panel="en" lang="en">{{ .Description | markdownify }}</span>
+    {{- with .Params.description_fr }}
+    <span data-lang-panel="fr" lang="fr" hidden>{{ . | markdownify }}</span>
+    {{- end }}
+    {{- with .Params.description_vi }}
+    <span data-lang-panel="vi" lang="vi" hidden>{{ . | markdownify }}</span>
+    {{- end }}
+  </div>
+  {{- else }}
   <div class="post-description">
     {{ .Description | markdownify }}
   </div>
+  {{- end }}
   {{- end }}
 </header>
 {{- end }}

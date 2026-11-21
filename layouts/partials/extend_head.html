@@ -2,6 +2,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,500..700;1,6..72,400..600&display=swap">
 
+<script>
+(function () {
+    try { localStorage.removeItem("tp_lang"); } catch (e) {}
+    var urlLang = new URLSearchParams(window.location.search).get("lang");
+    var saved = "en";
+    try { saved = urlLang || sessionStorage.getItem("tp_session_lang") || "en"; } catch (e) { saved = urlLang || "en"; }
+    if (saved !== "en" && saved !== "fr" && saved !== "vi") { saved = "en"; }
+    document.documentElement.setAttribute("data-ui-lang", saved);
+})();
+</script>
+
 {{ if or .Params.math .Site.Params.math }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
@@ -530,11 +541,11 @@
         font-size: 14px;
     }
 
-    /* Top Header Language Switcher (EN / VI) */
+    /* Top Header Language Switcher (EN / FR / VI) */
     .lang-switch-pill {
         display: inline-flex;
         align-items: center;
-        gap: 0.15rem;
+        gap: 0.12rem;
         padding: 0.14rem 0.35rem;
         border: 1px solid var(--border);
         border-radius: 999px;
@@ -553,7 +564,12 @@
         background: transparent;
         border: none;
         cursor: pointer;
-        padding: 0.18rem 0.38rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-block-size: 24px;
+        min-inline-size: 26px;
+        padding: 0.18rem 0.42rem;
         border-radius: 999px;
         color: var(--secondary);
         font-size: 0.72rem;
@@ -566,9 +582,30 @@
         color: var(--primary);
     }
 
+    .lang-btn:focus-visible {
+        outline: 2px solid var(--primary);
+        outline-offset: 2px;
+    }
+
     .lang-btn.active {
         background: var(--primary);
         color: var(--theme);
+    }
+
+    .lang-panel[hidden] {
+        display: none;
+    }
+
+    html[data-ui-lang="fr"]:has([data-lang-panel="fr"]) [data-lang-panel]:not([data-lang-panel="fr"]),
+    html[data-ui-lang="vi"]:has([data-lang-panel="vi"]) [data-lang-panel]:not([data-lang-panel="vi"]),
+    html[data-ui-lang="en"] [data-lang-panel]:not([data-lang-panel="en"]),
+    html:not([data-ui-lang]) [data-lang-panel]:not([data-lang-panel="en"]) {
+        display: none;
+    }
+
+    html[data-ui-lang="fr"]:has([data-lang-panel="fr"]) [data-lang-panel="fr"][hidden],
+    html[data-ui-lang="vi"]:has([data-lang-panel="vi"]) [data-lang-panel="vi"][hidden] {
+        display: block;
     }
 
     /* Hero Action Pills (High-Visibility LinkedIn, GitHub, Books, RSS) */
@@ -1167,40 +1204,67 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    // 2. Bilingual EN / VI Switcher (Top Header Pill)
+    // 2. Trilingual EN / FR / VI Switcher (Top Header Pill)
     const langButtons = document.querySelectorAll(".lang-switch-pill .lang-btn");
-    const i18nNodes = document.querySelectorAll("[data-i18n-en][data-i18n-vi]");
+    const langPanels = document.querySelectorAll("[data-lang-panel]");
+    const i18nNodes = document.querySelectorAll("[data-i18n-en]");
+    const supportedLangs = ["en", "fr", "vi"];
 
-    function applyLanguage(lang) {
-        const chosen = lang === "vi" ? "vi" : "en";
-        langButtons.forEach(function (btn) {
-            btn.classList.toggle("active", btn.getAttribute("data-lang-switch") === chosen);
+    function hasLanguageOnPage(lang) {
+        if (lang === "en") return true;
+        if (langPanels.length > 0) {
+            return Array.from(langPanels).some(function (p) {
+                return p.getAttribute("data-lang-panel") === lang;
+            });
+        }
+        return Array.from(i18nNodes).some(function (n) {
+            return Boolean(n.getAttribute("data-i18n-" + lang));
         });
+    }
+
+    function applyLanguage(lang, persistChoice) {
+        const requested = supportedLangs.includes(lang) ? lang : "en";
+        const effective = hasLanguageOnPage(requested) ? requested : "en";
+
+        langButtons.forEach(function (btn) {
+            const isSelected = btn.getAttribute("data-lang-switch") === effective;
+            btn.classList.toggle("active", isSelected);
+            btn.setAttribute("aria-pressed", isSelected ? "true" : "false");
+        });
+
+        langPanels.forEach(function (panel) {
+            const match = panel.getAttribute("data-lang-panel") === effective;
+            panel.hidden = !match;
+        });
+
         i18nNodes.forEach(function (node) {
-            const val = node.getAttribute("data-i18n-" + chosen);
+            const val = node.getAttribute("data-i18n-" + effective) || node.getAttribute("data-i18n-en");
             if (val) node.textContent = val;
         });
-        document.documentElement.setAttribute("data-ui-lang", chosen);
-        try {
-            localStorage.setItem("tp_lang", chosen);
-        } catch (e) {}
+
+        document.documentElement.setAttribute("data-ui-lang", effective);
+        if (persistChoice !== false) {
+            try {
+                sessionStorage.setItem("tp_session_lang", requested);
+            } catch (e) {}
+        }
     }
 
     langButtons.forEach(function (btn) {
         btn.addEventListener("click", function () {
-            applyLanguage(btn.getAttribute("data-lang-switch"));
+            applyLanguage(btn.getAttribute("data-lang-switch"), true);
         });
     });
 
-    const urlLang = new URLSearchParams(window.location.search).get("lang");
-    let savedLang = "en";
-    try {
-        savedLang = urlLang || localStorage.getItem("tp_lang") || "en";
-    } catch (e) {
-        savedLang = urlLang || "en";
-    }
-    if (savedLang === "vi") {
-        applyLanguage("vi");
+    if (langButtons.length > 0 || langPanels.length > 0 || i18nNodes.length > 0) {
+        const urlLang = new URLSearchParams(window.location.search).get("lang");
+        let savedLang = "en";
+        try {
+            savedLang = urlLang || sessionStorage.getItem("tp_session_lang") || "en";
+        } catch (e) {
+            savedLang = urlLang || "en";
+        }
+        applyLanguage(savedLang, Boolean(urlLang));
     }
 });
 </script>
