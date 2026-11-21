@@ -292,11 +292,11 @@ Trong hơn một thập kỷ học tập và vận hành hệ thống sản xu�
 <div class="about-grid">
 <article class="atlas-sd" style="border-top-width: 3px;">
 <h3><span aria-hidden="true">🏛️</span> <a href="/posts/system-design/">System Design</a></h3>
-<p>Bản thiết kế hệ thống phân tán nơi tính đúng đắn, độ trễ và tải cực đại giao tranh: sổ lệnh khớp giá, sổ cái kép thanh toán, kiểm soát cửa vào Flash Sale và hệ thống LLM chịu áp lực ngược. <em>(Thuần tiếng Anh)</em></p>
+<p>Bản thiết kế hệ thống phân tán nơi tính đúng đắn, độ trễ và tải cực đại giao tranh: sổ lệnh khớp giá, sổ cái kép thanh toán, kiểm soát cửa vào Flash Sale và cơ chế điều tiết tải cho hệ thống LLM (backpressure). <em>(Thuần tiếng Anh)</em></p>
 </article>
 <article class="atlas-arch" style="border-top-width: 3px;">
 <h3><span aria-hidden="true">🪞</span> <a href="/posts/principal-craft/">Production Engineering</a></h3>
-<p>Giải phẫu thẳng thắn hành vi hệ thống trong môi trường sản xuất thật: hàng đợi không khóa trên PostgreSQL, xử lý tiến trình treo, cơ chế gia hạn khóa phân tán và ranh giới phản ứng/mệnh lệnh. <em>(Thuần tiếng Anh)</em></p>
+<p>Phân tích thẳng thắn cách hệ thống vận hành khi chạy thật ngoài production: hàng đợi không khóa trên PostgreSQL, xử lý tiến trình treo, cơ chế gia hạn khóa phân tán và ranh giới an toàn giữa luồng đồng bộ (imperative) với luồng phản ứng (reactive). <em>(Thuần tiếng Anh)</em></p>
 </article>
 <article class="atlas-sov" style="border-top-width: 3px;">
 <h3><span aria-hidden="true">⛩️</span> <a href="/posts/sovereignty-gov/">Sovereign Governance</a></h3>
@@ -311,12 +311,12 @@ Trong hơn một thập kỷ học tập và vận hành hệ thống sản xu�
 </section>
 
 <section class="about-body">
-<h2>Bên Ngoài Đường Ống Hệ Thống</h2>
+<h2>Ngoài Những Hệ Thống</h2>
 <p>
-Song song với các bài viết chuyên sâu, tôi là tác giả và kiến trúc sư trưởng của <a href="/sovera/"><strong>SOVERA</strong></a> — động cơ quyết định độc lập chạy được ngoại tuyến về Kiến trúc, Chủ quyền Số và Pháp y Rủi ro Doanh nghiệp (tách bạch tuyệt đối lõi tính toán tất định khỏi lớp tổng hợp AI có rào chắn) — đồng thời sáng lập tủ sách di sản song ngữ có tranh minh họa <strong>Vietnamese Waves™</strong> giới thiệu tại trang <a href="/books/"><strong>Books</strong></a>.
+Song song với các bài viết chuyên sâu, tôi là tác giả và kiến trúc sư trưởng của <a href="/sovera/"><strong>SOVERA</strong></a> — nền tảng phân tích kiến trúc, chủ quyền số và pháp y rủi ro doanh nghiệp sẵn sàng chạy ngoại tuyến (tách bạch tuyệt đối lõi tính toán tất định khỏi lớp tổng hợp AI có rào chắn) — đồng thời sáng lập tủ sách di sản song ngữ có tranh minh họa <strong>Vietnamese Waves™</strong> giới thiệu tại trang <a href="/books/"><strong>Books</strong></a>.
 </p>
 <p>
-Tôi viết tại đây để kiểm chứng tư duy của chính mình bằng đánh đổi kỹ nghệ thực tế thay vì khẩu hiệu. Nếu một bài viết gợi mở câu hỏi, phản biện hoặc hướng thiết kế tốt hơn, rất hân hạnh được kết nối cùng bạn qua <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">LinkedIn</a> hoặc <a href="https://github.com/tuanhiep" rel="noopener noreferrer" target="_blank">GitHub</a>.
+Tôi viết blog này để tự rèn giũa tư duy và chia sẻ thẳng thắn những bài toán đánh đổi khi làm hệ thống thật, thay vì lặp lại những khẩu hiệu sáo rỗng. Nếu một bài viết khơi gợi cho bạn câu hỏi, góc nhìn phản biện hay một cách thiết kế hay hơn, rất vui được kết nối cùng bạn qua <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">LinkedIn</a> hoặc <a href="https://github.com/tuanhiep" rel="noopener noreferrer" target="_blank">GitHub</a>.
 </p>
 </section>
 </div>
