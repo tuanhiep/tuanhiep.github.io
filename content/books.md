@@ -19,8 +19,9 @@ Long-form technical books distilled from production architecture work alongside 
 </p>
 <div class="about-actions" aria-label="Publisher Links">
 <a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">📖 Amazon Author Central</a>
-<a href="https://forms.gle/HKEdDUc64eFhd3eHA" rel="noopener noreferrer" target="_blank">🪷 Join Reader Circle</a>
 <a href="/posts/system-design/">🏛️ Read System Design Online</a>
+<a href="/posts/principal-craft/">⚙️ Read Production Engineering Online</a>
+<a href="/posts/sovereignty-gov/">🛡️ Explore Sovereign Governance</a>
 <a href="/sovera/">🛠️ Sovera Engine</a>
 <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">🌐 LinkedIn</a>
 </div>
@@ -82,7 +83,7 @@ Sixty timeless Vietnamese folktales, witty parables, and village humor tales pre
 <img src="/images/books/vietnamese-myths-and-legends.jpg" alt="Front cover of Vietnamese Myths and Sacred Legends" class="book-cover" loading="lazy" />
 </div>
 <div class="book-details">
-<span class="book-badge book-badge-live">Released Thanksgiving 2026 · Volume II</span>
+<span class="book-badge book-badge-live">Released Thanksgiving 2026</span>
 <h3>Vietnamese Myths &amp; Sacred Legends</h3>
 <p class="book-subtitle">36 Timeless Illustrated Stories of Creation, Heroes &amp; Magic — Bilingual Treasury (Volume 2)</p>
 <p class="book-specs">36 Bilingual Myths &amp; Epics · 41 Full-Color Plates · 6 × 9" Paperback &amp; Kindle eBook · Read-Aloud Glossary</p>
@@ -110,8 +111,7 @@ Skip dry flashcards and learn real Vietnamese rhythm through thirty memorable st
 </p>
 <div class="book-links">
 <a href="/va/01/" class="book-cta-primary">🎧 Try Lesson 1 Live Audio</a>
-<a href="https://forms.gle/HKEdDUc64eFhd3eHA" rel="noopener noreferrer" target="_blank">🎄 Notify Me for Christmas Release</a>
-<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">Amazon Author Central</a>
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">🔔 Follow Author on Amazon</a>
 </div>
 </div>
 </article>
@@ -136,8 +136,9 @@ Ouvrages techniques de référence issus de l'architecture de production, aux c�
 </p>
 <div class="about-actions" aria-label="Liens Éditeur">
 <a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">📖 Page Auteur Amazon</a>
-<a href="https://forms.gle/HKEdDUc64eFhd3eHA" rel="noopener noreferrer" target="_blank">🪷 Cercle des Lecteurs</a>
 <a href="/posts/system-design/">🏛️ Lire System Design</a>
+<a href="/posts/principal-craft/">⚙️ Lire Production Engineering</a>
+<a href="/posts/sovereignty-gov/">🛡️ Explorer Sovereign Governance</a>
 <a href="/sovera/">🛠️ Moteur Sovera</a>
 <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">🌐 LinkedIn</a>
 </div>
@@ -199,7 +200,7 @@ Soixante contes populaires vietnamiens, paraboles malicieuses et récits humoris
 <img src="/images/books/vietnamese-myths-and-legends.jpg" alt="Couverture de Vietnamese Myths and Sacred Legends" class="book-cover" loading="lazy" />
 </div>
 <div class="book-details">
-<span class="book-badge book-badge-live">Paru pour Thanksgiving 2026 · Tome II</span>
+<span class="book-badge book-badge-live">Paru · Thanksgiving 2026</span>
 <h3>Vietnamese Myths &amp; Sacred Legends</h3>
 <p class="book-subtitle">36 Mythes &amp; Légendes Sacrées Illustrés — Trésor Bilingue (Tome 2)</p>
 <p class="book-specs">36 Mythes &amp; Épopées Bilingues · 41 Planches Couleur · Format 6 × 9" Broché &amp; Kindle · Glossaire de Prononciation</p>
@@ -227,8 +228,7 @@ Oubliez les listes de vocabulaire stériles : maîtrisez le rythme et les tons d
 </p>
 <div class="book-links">
 <a href="/va/01/" class="book-cta-primary">🎧 Écouter la Leçon 1 en Direct</a>
-<a href="https://forms.gle/HKEdDUc64eFhd3eHA" rel="noopener noreferrer" target="_blank">🎄 Alerte Sortie Noël</a>
-<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">Page Auteur Amazon</a>
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">🔔 Suivre sur Amazon (Sortie Noël)</a>
 </div>
 </div>
 </article>
@@ -253,8 +253,9 @@ Những chuyên khảo kỹ nghệ chắt lọc từ thực chiến hệ thống
 </p>
 <div class="about-actions" aria-label="Liên kết Xuất bản">
 <a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">📖 Trang Tác Giả Amazon</a>
-<a href="https://forms.gle/HKEdDUc64eFhd3eHA" rel="noopener noreferrer" target="_blank">🪷 Cộng Đồng Độc Giả</a>
 <a href="/posts/system-design/">🏛️ Đọc System Design</a>
+<a href="/posts/principal-craft/">⚙️ Đọc Production Engineering</a>
+<a href="/posts/sovereignty-gov/">🛡️ Khám Phá Sovereign Governance</a>
 <a href="/sovera/">🛠️ Động Cơ Sovera</a>
 <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">🌐 LinkedIn</a>
 </div>
@@ -316,7 +317,7 @@ Sáu mươi tích cổ dân gian, ngụ ngôn thâm thúy và giai thoại hóm 
 <img src="/images/books/vietnamese-myths-and-legends.jpg" alt="Bìa sách Vietnamese Myths and Sacred Legends" class="book-cover" loading="lazy" />
 </div>
 <div class="book-details">
-<span class="book-badge book-badge-live">Phát Hành Dịp Lễ Tạ Ơn 2026 · Tập II</span>
+<span class="book-badge book-badge-live">Phát Hành · Lễ Tạ Ơn 2026</span>
 <h3>Vietnamese Myths &amp; Sacred Legends</h3>
 <p class="book-subtitle">36 Huyền Tích Lập Quốc, Anh Hùng &amp; Phép Màu — Hợp Tuyển Song Ngữ (Tập 2)</p>
 <p class="book-specs">36 Thần Thoại &amp; Sử Thi · 41 Bức Tranh Màu · Khổ In 6 × 9" Bìa Mềm &amp; Kindle · Từ Điển Đọc Vần</p>
@@ -344,8 +345,7 @@ Thay vì học vẹt thẻ từ rời rạc, người học nước ngoài và t
 </p>
 <div class="book-links">
 <a href="/va/01/" class="book-cta-primary">🎧 Nghe Thử Bài 1 Trực Tiếp</a>
-<a href="https://forms.gle/HKEdDUc64eFhd3eHA" rel="noopener noreferrer" target="_blank">🎄 Nhận Thông Báo Ra Mắt Noel</a>
-<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">Trang Tác Giả Amazon</a>
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">🔔 Theo Dõi Amazon (Nhận Tin Noel)</a>
 </div>
 </div>
 </article>
