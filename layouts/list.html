@@ -1,5 +1,13 @@
 {{- define "main" }}
 
+{{- if .Params.cleanHub }}
+<article class="post-single about-page">
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+</article>
+{{- else }}
+
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
 {{- partial "index_profile.html" . }}
 {{- else }} {{/* if not profileMode */}}
@@ -136,5 +144,6 @@
 {{- end }}
 
 {{- end }}{{/* end profileMode */}}
+{{- end }}{{/* end cleanHub */}}
 
 {{- end }}{{- /* end main */ -}}
