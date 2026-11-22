@@ -406,6 +406,8 @@
 
     .book-badge-upcoming {
         color: var(--primary);
+        border-color: #d97706;
+        background: rgba(217, 119, 6, 0.08);
     }
 
     .about-grid h3,
@@ -443,6 +445,13 @@
         border-radius: 10px;
         background: var(--entry);
         align-items: start;
+    }
+
+    .book-card-wide {
+        grid-column: 1 / -1;
+        grid-template-columns: 168px minmax(0, 1fr);
+        gap: 1.4rem;
+        border-color: rgba(217, 119, 6, 0.45);
     }
 
     .book-cover {
@@ -495,6 +504,16 @@
 
     .book-links a:hover {
         border-color: var(--primary);
+    }
+
+    .book-links a.book-cta-primary {
+        background: var(--primary);
+        color: var(--theme);
+        border-color: var(--primary);
+    }
+
+    .book-links a.book-cta-primary:hover {
+        opacity: 0.9;
     }
 
     :root {
@@ -1142,7 +1161,8 @@
             grid-template-columns: 1fr;
         }
 
-        .book-card {
+        .book-card,
+        .book-card-wide {
             grid-template-columns: 1fr;
         }
 
@@ -1160,6 +1180,469 @@
         }
     }
 </style>
+
+{{ if eq .Section "va" }}
+<style>
+    .va-shell {
+        max-width: 820px;
+        margin: 0 auto;
+    }
+
+    .va-hero {
+        margin-bottom: 1.5rem;
+    }
+
+    .va-kicker {
+        font-size: 0.78rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--secondary);
+        margin: 0 0 0.5rem;
+    }
+
+    .va-hero h1 {
+        margin: 0 0 0.35rem !important;
+        font-size: clamp(1.55rem, 1.2rem + 1.2vw, 2.15rem);
+        line-height: 1.2;
+    }
+
+    .va-vi-subtitle {
+        margin: 0;
+        color: var(--secondary);
+        font-size: 1.05rem;
+    }
+
+    .va-dock {
+        position: sticky;
+        top: 0.75rem;
+        z-index: 20;
+        background: var(--entry);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 1rem 1.15rem;
+        margin-bottom: 1.75rem;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .va-audio {
+        width: 100%;
+        min-height: 44px;
+        margin-bottom: 0.85rem;
+    }
+
+    .va-toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.55rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .va-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+    }
+
+    .va-btn {
+        appearance: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0.45rem 0.9rem;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: var(--theme);
+        color: var(--primary);
+        font-family: var(--font-sans);
+        font-size: 0.86rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+    }
+
+    .va-btn:hover {
+        border-color: var(--primary);
+        background: var(--code-bg);
+    }
+
+    .va-btn.is-active,
+    .va-btn[aria-pressed="true"] {
+        background: var(--primary);
+        color: var(--theme);
+        border-color: var(--primary);
+        font-weight: 600;
+    }
+
+    .va-btn:focus-visible,
+    .va-row:focus-visible,
+    .va-vocab-card:focus-visible,
+    .va-pager a:focus-visible {
+        outline: 2px solid var(--primary);
+        outline-offset: 2px;
+    }
+
+    .va-meta {
+        margin: 0.7rem 0 0;
+        font-size: 0.84rem;
+        color: var(--secondary);
+    }
+
+    .va-transcript h2,
+    .va-vocab h2 {
+        margin-top: 1.5rem !important;
+        margin-bottom: 0.85rem !important;
+        font-size: 1.35rem;
+    }
+
+    .va-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+
+    .va-row {
+        appearance: none;
+        width: 100%;
+        text-align: left;
+        display: grid;
+        grid-template-columns: 2.1rem 1fr;
+        gap: 0.75rem;
+        align-items: start;
+        padding: 0.85rem 1rem;
+        min-height: 52px;
+        border-radius: 10px;
+        border: 1px solid var(--border);
+        background: var(--entry);
+        color: var(--content);
+        cursor: pointer;
+        font-family: inherit;
+        transition: border-color 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .va-row:hover {
+        border-color: var(--secondary);
+        background: var(--code-bg);
+    }
+
+    .va-row.is-active {
+        border-color: var(--primary);
+        background: var(--code-bg);
+        box-shadow: inset 4px 0 0 var(--primary);
+    }
+
+    .va-badge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 1.85rem;
+        height: 1.85rem;
+        border-radius: 999px;
+        background: var(--code-bg);
+        border: 1px solid var(--border);
+        color: var(--secondary);
+        font-family: var(--font-mono);
+        font-size: 0.8rem;
+        font-weight: 600;
+        flex-shrink: 0;
+    }
+
+    .va-row.is-active .va-badge {
+        background: var(--primary);
+        color: var(--theme);
+        border-color: var(--primary);
+    }
+
+    .va-lines {
+        display: block;
+    }
+
+    .va-vi {
+        display: block;
+        font-size: 1.06rem;
+        font-weight: 500;
+        color: var(--primary);
+        margin-bottom: 0.2rem;
+    }
+
+    .va-en {
+        display: block;
+        font-size: 0.92rem;
+        color: var(--secondary);
+    }
+
+    .va-vocab-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 0.65rem;
+    }
+
+    .va-vocab-card {
+        appearance: none;
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1.65rem 1fr;
+        grid-template-rows: auto auto;
+        column-gap: 0.6rem;
+        padding: 0.75rem 0.9rem;
+        min-height: 56px;
+        border-radius: 10px;
+        border: 1px solid var(--border);
+        background: var(--entry);
+        cursor: pointer;
+        font-family: inherit;
+        transition: border-color 0.15s ease, background-color 0.15s ease;
+    }
+
+    .va-vocab-card:hover {
+        border-color: var(--secondary);
+        background: var(--code-bg);
+    }
+
+    .va-vocab-card.is-active {
+        border-color: var(--primary);
+        background: var(--code-bg);
+        box-shadow: inset 3px 0 0 var(--primary);
+    }
+
+    .va-vocab-num {
+        grid-row: 1 / span 2;
+        align-self: center;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 1.55rem;
+        height: 1.55rem;
+        border-radius: 999px;
+        background: var(--code-bg);
+        border: 1px solid var(--border);
+        color: var(--secondary);
+        font-family: var(--font-mono);
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+
+    .va-vocab-card.is-active .va-vocab-num {
+        background: var(--primary);
+        color: var(--theme);
+        border-color: var(--primary);
+    }
+
+    .va-vocab-vi {
+        font-size: 0.98rem;
+        font-weight: 600;
+        color: var(--primary);
+    }
+
+    .va-vocab-en {
+        font-size: 0.85rem;
+        color: var(--secondary);
+    }
+
+    .va-pager {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        padding-top: 1.25rem;
+        border-top: 1px solid var(--border);
+    }
+
+    .va-pager a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        padding: 0.45rem 0.95rem;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: var(--entry);
+        color: var(--primary);
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .va-pager a:hover {
+        border-color: var(--primary);
+        background: var(--code-bg);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .va-btn,
+        .va-row,
+        .va-vocab-card {
+            transition: none;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .va-dock {
+            position: static;
+            padding: 0.85rem;
+        }
+    }
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const shell = document.querySelector(".va-shell");
+    const audio = document.getElementById("va-audio");
+    const syncNode = document.getElementById("va-sync-data");
+    if (!shell || !audio) return;
+
+    let timings = {};
+    if (syncNode) {
+        try {
+            timings = JSON.parse(syncNode.textContent || "{}");
+        } catch (e) {}
+    }
+
+    const voiceBtns = Array.from(shell.querySelectorAll("[data-va-voice]"));
+    const rateBtns = Array.from(shell.querySelectorAll("[data-va-rate]"));
+    const followBtn = shell.querySelector("[data-va-follow]");
+    const cueNodes = Array.from(shell.querySelectorAll("[data-va-cue]"));
+
+    let activeVoice = (voiceBtns[0] && voiceBtns[0].getAttribute("data-va-voice")) || "female";
+    let activeRate = 1.0;
+    let autoFollow = true;
+    let currentCue = null;
+
+    const prefersReduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    function getCueRanges() {
+        return timings[activeVoice] || {};
+    }
+
+    function setActiveCue(cueId) {
+        if (currentCue === cueId) return;
+        currentCue = cueId;
+        cueNodes.forEach(function (el) {
+            const match = cueId !== null && el.getAttribute("data-va-cue") === cueId;
+            el.classList.toggle("is-active", match);
+            el.setAttribute("aria-pressed", match ? "true" : "false");
+            if (match && autoFollow) {
+                el.scrollIntoView({
+                    block: "nearest",
+                    behavior: prefersReduced ? "auto" : "smooth"
+                });
+            }
+        });
+    }
+
+    function findCueAtTime(t) {
+        const ranges = getCueRanges();
+        let hit = null;
+        Object.keys(ranges).forEach(function (id) {
+            const pair = ranges[id];
+            if (pair && pair.length === 2 && t >= pair[0] && t <= pair[1] + 0.12) {
+                hit = id;
+            }
+        });
+        return hit;
+    }
+
+    function seekToTime(t, autoPlay) {
+        const apply = function () {
+            try {
+                audio.currentTime = Math.max(0, t);
+            } catch (e) {}
+            audio.playbackRate = activeRate;
+            if (autoPlay) {
+                const p = audio.play();
+                if (p && typeof p.catch === "function") p.catch(function () {});
+            }
+        };
+        if (audio.readyState >= 1) {
+            apply();
+        } else {
+            audio.addEventListener("loadedmetadata", apply, { once: true });
+            audio.load();
+        }
+    }
+
+    voiceBtns.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+            const nextVoice = btn.getAttribute("data-va-voice");
+            const nextSrc = btn.getAttribute("data-src");
+            if (!nextVoice || !nextSrc || nextVoice === activeVoice) return;
+
+            const wasPlaying = !audio.paused && !audio.ended;
+            const prevTime = audio.currentTime || 0;
+            const prevDuration = audio.duration || 0;
+            const cueToRestore = currentCue || findCueAtTime(prevTime);
+
+            activeVoice = nextVoice;
+            voiceBtns.forEach(function (b) {
+                const on = b === btn;
+                b.classList.toggle("is-active", on);
+                b.setAttribute("aria-pressed", on ? "true" : "false");
+            });
+
+            const nextRanges = getCueRanges();
+            let targetTime = 0;
+            if (cueToRestore && nextRanges[cueToRestore]) {
+                targetTime = nextRanges[cueToRestore][0];
+            } else if (prevDuration > 0 && audio.src) {
+                targetTime = prevTime;
+            }
+
+            audio.src = nextSrc;
+            audio.load();
+            audio.addEventListener("loadedmetadata", function () {
+                seekToTime(targetTime, wasPlaying);
+            }, { once: true });
+        });
+    });
+
+    rateBtns.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+            const r = parseFloat(btn.getAttribute("data-va-rate") || "1");
+            activeRate = Number.isFinite(r) ? r : 1.0;
+            audio.playbackRate = activeRate;
+            rateBtns.forEach(function (b) {
+                const on = b === btn;
+                b.classList.toggle("is-active", on);
+                b.setAttribute("aria-pressed", on ? "true" : "false");
+            });
+        });
+    });
+
+    if (followBtn) {
+        followBtn.addEventListener("click", function () {
+            autoFollow = !autoFollow;
+            followBtn.classList.toggle("is-active", autoFollow);
+            followBtn.setAttribute("aria-pressed", autoFollow ? "true" : "false");
+        });
+    }
+
+    cueNodes.forEach(function (el) {
+        el.addEventListener("click", function () {
+            const id = el.getAttribute("data-va-cue");
+            const ranges = getCueRanges();
+            if (id && ranges[id]) {
+                setActiveCue(id);
+                seekToTime(ranges[id][0], true);
+            }
+        });
+    });
+
+    audio.addEventListener("timeupdate", function () {
+        setActiveCue(findCueAtTime(audio.currentTime));
+    });
+
+    audio.addEventListener("ratechange", function () {
+        activeRate = audio.playbackRate;
+    });
+
+    audio.addEventListener("ended", function () {
+        setActiveCue(null);
+    });
+});
+</script>
+{{ end }}
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {

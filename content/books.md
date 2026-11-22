@@ -64,7 +64,7 @@ Beyond distributed systems and doctoral research, I steward <strong>Vietnamese W
 <img src="/images/books/vietnamese-folk-tales-treasury.jpg" alt="Front cover of The Complete Vietnamese Folk Tales and Witty Parables" class="book-cover" loading="lazy" />
 </div>
 <div class="book-details">
-<span class="book-badge book-badge-live">Published Live · #1 Amazon Best Seller</span>
+<span class="book-badge book-badge-live">Released · #1 Amazon Best Seller</span>
 <h3>The Complete Vietnamese Folk Tales &amp; Witty Parables</h3>
 <p class="book-subtitle">60 Classic Illustrated Stories — Bilingual English &amp; Vietnamese Treasury (Volume 1)</p>
 <p class="book-specs">60 Bilingual Stories · 64 Full-Color Illustrations · 6 × 9" Paperback &amp; Kindle eBook · Rated <strong>5.0 ⭐</strong> across US &amp; France</p>
@@ -82,16 +82,35 @@ Sixty timeless Vietnamese folktales, witty parables, and village humor tales pre
 <img src="/images/books/vietnamese-myths-and-legends.jpg" alt="Front cover of Vietnamese Myths and Sacred Legends" class="book-cover" loading="lazy" />
 </div>
 <div class="book-details">
-<span class="book-badge book-badge-live">Published Live · Volume II Companion</span>
+<span class="book-badge book-badge-live">Released Thanksgiving 2026 · Volume II</span>
 <h3>Vietnamese Myths &amp; Sacred Legends</h3>
 <p class="book-subtitle">36 Timeless Illustrated Stories of Creation, Heroes &amp; Magic — Bilingual Treasury (Volume 2)</p>
 <p class="book-specs">36 Bilingual Myths &amp; Epics · 41 Full-Color Plates · 6 × 9" Paperback &amp; Kindle eBook · Read-Aloud Glossary</p>
 <p class="book-desc">
-The grand mythic companion to Volume 1 — spanning Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh, Thánh Gióng, Hoàn Kiếm Lake, Tấm &amp; Cám, and Tết legends with <em>Heritage &amp; Mythic Soul Notes</em> and a read-aloud pronunciation glossary.
+Released for Thanksgiving 2026 as the grand mythic companion to Volume 1 — spanning Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh, Thánh Gióng, Hoàn Kiếm Lake, Tấm &amp; Cám, and Tết traditions with <em>Heritage &amp; Mythic Soul Notes</em> and a read-aloud pronunciation glossary.
 </p>
 <div class="book-links">
 <a href="https://www.amazon.com/dp/B0HSCX2G1J" rel="noopener noreferrer" target="_blank">Kindle Edition</a>
 <a href="https://www.amazon.com/dp/B0HSGS48CS" rel="noopener noreferrer" target="_blank">Paperback Edition</a>
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">Amazon Author Central</a>
+</div>
+</div>
+</article>
+<article class="book-card book-card-wide">
+<div class="book-cover-wrap">
+<img src="/images/books/learn-vietnamese-stories.jpg" alt="Front cover of Learn Vietnamese Through Timeless Stories" class="book-cover" loading="lazy" />
+</div>
+<div class="book-details">
+<span class="book-badge book-badge-upcoming">Releasing Christmas 2026 · Interactive Audio Edition</span>
+<h3>Learn Vietnamese Through Timeless Stories</h3>
+<p class="book-subtitle">30 Graded Bilingual Cultural Folktales with Core Vocabulary, Grammar Notes &amp; Native Audio Access</p>
+<p class="book-specs">30 Graded Lessons (A1–B1+) · 300 Core Vocabulary Terms · 34 Color Illustrations · Dual-Voice QR Audio (0.75× / 1.0×) · 6 × 9" Paperback &amp; Kindle</p>
+<p class="book-desc">
+Skip dry flashcards and learn real Vietnamese rhythm through thirty memorable stories. Each lesson pairs sentence-numbered parallel English–Vietnamese dialogue, 10 essential vocabulary notes, focused grammar lenses, quick exercises with an Answer Key, and direct QR codes / links to our live sentence-synced Dual-Voice audio player.
+</p>
+<div class="book-links">
+<a href="/va/01/" class="book-cta-primary">🎧 Try Lesson 1 Live Audio</a>
+<a href="https://forms.gle/HKEdDUc64eFhd3eHA" rel="noopener noreferrer" target="_blank">🎄 Notify Me for Christmas Release</a>
 <a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">Amazon Author Central</a>
 </div>
 </div>
@@ -162,7 +181,7 @@ Au-delà des systèmes distribués et de la recherche doctorale, je dirige <stro
 <img src="/images/books/vietnamese-folk-tales-treasury.jpg" alt="Couverture de The Complete Vietnamese Folk Tales and Witty Parables" class="book-cover" loading="lazy" />
 </div>
 <div class="book-details">
-<span class="book-badge book-badge-live">Publié · #1 Best-Seller Amazon</span>
+<span class="book-badge book-badge-live">Paru · #1 Best-Seller Amazon</span>
 <h3>The Complete Vietnamese Folk Tales &amp; Witty Parables</h3>
 <p class="book-subtitle">60 Contes Classiques Illustrés — Trésor Bilingue Anglais &amp; Vietnamien (Tome 1)</p>
 <p class="book-specs">60 Histoires Bilingues · 64 Illustrations Couleur · Format 6 × 9" Broché &amp; Kindle · Noté <strong>5,0 ⭐</strong> aux États-Unis &amp; en France</p>
@@ -180,16 +199,35 @@ Soixante contes populaires vietnamiens, paraboles malicieuses et récits humoris
 <img src="/images/books/vietnamese-myths-and-legends.jpg" alt="Couverture de Vietnamese Myths and Sacred Legends" class="book-cover" loading="lazy" />
 </div>
 <div class="book-details">
-<span class="book-badge book-badge-live">Publié · Tome II Compagnon</span>
+<span class="book-badge book-badge-live">Paru pour Thanksgiving 2026 · Tome II</span>
 <h3>Vietnamese Myths &amp; Sacred Legends</h3>
 <p class="book-subtitle">36 Mythes &amp; Légendes Sacrées Illustrés — Trésor Bilingue (Tome 2)</p>
 <p class="book-specs">36 Mythes &amp; Épopées Bilingues · 41 Planches Couleur · Format 6 × 9" Broché &amp; Kindle · Glossaire de Prononciation</p>
 <p class="book-desc">
-Le grand compagnon mythologique du Tome 1 — de Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh et Thánh Gióng au lac Hoàn Kiếm, Tấm &amp; Cám et aux traditions du Têt, enrichi de notes culturelles et d'un glossaire de lecture à voix haute.
+Paru pour Thanksgiving 2026 comme le grand compagnon mythologique du Tome 1 — de Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh et Thánh Gióng au lac Hoàn Kiếm, Tấm &amp; Cám et aux traditions du Têt, enrichi de notes culturelles et d'un glossaire de lecture à voix haute.
 </p>
 <div class="book-links">
 <a href="https://www.amazon.com/dp/B0HSCX2G1J" rel="noopener noreferrer" target="_blank">Édition Kindle</a>
 <a href="https://www.amazon.com/dp/B0HSGS48CS" rel="noopener noreferrer" target="_blank">Édition Brochée</a>
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">Page Auteur Amazon</a>
+</div>
+</div>
+</article>
+<article class="book-card book-card-wide">
+<div class="book-cover-wrap">
+<img src="/images/books/learn-vietnamese-stories.jpg" alt="Couverture de Learn Vietnamese Through Timeless Stories" class="book-cover" loading="lazy" />
+</div>
+<div class="book-details">
+<span class="book-badge book-badge-upcoming">Sortie Noël 2026 · Édition Audio Interactive</span>
+<h3>Learn Vietnamese Through Timeless Stories</h3>
+<p class="book-subtitle">30 Contes Bilingues Gradués, Vocabulaire Essentiel, Grammaire &amp; Audio Natif Synchronisé</p>
+<p class="book-specs">30 Leçons Graduées (A1–B1+) · 300 Mots Clés · 34 Planches Couleur · Audio Studio Double Voix par QR (0,75× / 1,0×) · Broché 6 × 9" &amp; Kindle</p>
+<p class="book-desc">
+Oubliez les listes de vocabulaire stériles : maîtrisez le rythme et les tons du vietnamien à travers trente récits inoubliables. Chaque leçon associe texte parallèle numéroté phrase par phrase, 10 mots essentiels, repères grammaticaux, exercices avec corrigés et codes QR vers notre lecteur audio synchronisé.
+</p>
+<div class="book-links">
+<a href="/va/01/" class="book-cta-primary">🎧 Écouter la Leçon 1 en Direct</a>
+<a href="https://forms.gle/HKEdDUc64eFhd3eHA" rel="noopener noreferrer" target="_blank">🎄 Alerte Sortie Noël</a>
 <a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">Page Auteur Amazon</a>
 </div>
 </div>
@@ -278,16 +316,35 @@ Sáu mươi tích cổ dân gian, ngụ ngôn thâm thúy và giai thoại hóm 
 <img src="/images/books/vietnamese-myths-and-legends.jpg" alt="Bìa sách Vietnamese Myths and Sacred Legends" class="book-cover" loading="lazy" />
 </div>
 <div class="book-details">
-<span class="book-badge book-badge-live">Đã Phát Hành · Tập II Sánh Đôi</span>
+<span class="book-badge book-badge-live">Phát Hành Dịp Lễ Tạ Ơn 2026 · Tập II</span>
 <h3>Vietnamese Myths &amp; Sacred Legends</h3>
 <p class="book-subtitle">36 Huyền Tích Lập Quốc, Anh Hùng &amp; Phép Màu — Hợp Tuyển Song Ngữ (Tập 2)</p>
 <p class="book-specs">36 Thần Thoại &amp; Sử Thi · 41 Bức Tranh Màu · Khổ In 6 × 9" Bìa Mềm &amp; Kindle · Từ Điển Đọc Vần</p>
 <p class="book-desc">
-Tập sách đồng hành quy mô lớn cùng Tập 1 — từ Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh, Thánh Gióng, Hồ Gươm tới Tấm Cám và sự tích Tết cổ truyền, kèm mục giải nghĩa văn hóa (<em>Heritage &amp; Mythic Soul Notes</em>) và bảng hướng dẫn phát âm.
+Chính thức ra mắt dịp Lễ Tạ Ơn (Thanksgiving 2026) đồng hành quy mô lớn cùng Tập 1 — từ Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh, Thánh Gióng, Hồ Gươm tới Tấm Cám và sự tích Tết cổ truyền, kèm mục giải nghĩa văn hóa (<em>Heritage &amp; Mythic Soul Notes</em>) và bảng hướng dẫn phát âm.
 </p>
 <div class="book-links">
 <a href="https://www.amazon.com/dp/B0HSCX2G1J" rel="noopener noreferrer" target="_blank">Bản Kindle eBook</a>
 <a href="https://www.amazon.com/dp/B0HSGS48CS" rel="noopener noreferrer" target="_blank">Bản Sách Giấy Paperback</a>
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">Trang Tác Giả Amazon</a>
+</div>
+</div>
+</article>
+<article class="book-card book-card-wide">
+<div class="book-cover-wrap">
+<img src="/images/books/learn-vietnamese-stories.jpg" alt="Bìa sách Learn Vietnamese Through Timeless Stories" class="book-cover" loading="lazy" />
+</div>
+<div class="book-details">
+<span class="book-badge book-badge-upcoming">Sắp Ra Mắt Dịp Giáng Sinh 2026 · Kèm Audio Tương Tác</span>
+<h3>Learn Vietnamese Through Timeless Stories</h3>
+<p class="book-subtitle">Giáo Trình Học Tiếng Việt Qua 30 Tích Cổ Song Ngữ Kèm Từ Vựng, Ngữ Pháp &amp; Audio Chuẩn Bắc</p>
+<p class="book-specs">30 Bài Học Phân Cấp (A1–B1+) · 300 Từ Vựng Cốt Lõi · 34 Tranh Màu · Audio Song Giọng QR Đồng Bộ (0.75× / 1.0×) · Khổ 6 × 9" &amp; Kindle</p>
+<p class="book-desc">
+Thay vì học vẹt thẻ từ rời rạc, người học nước ngoài và thế hệ kiều bào nắm bắt thanh điệu, ngữ điệu tự nhiên qua ba mươi câu chuyện giàu tiếng cười và hồn Việt. Mỗi bài tích hợp đối chiếu câu Anh–Việt đánh số, 10 từ cốt lõi, điểm ngữ pháp, bài tập có đáp án và mã QR dẫn thẳng tới trình phát Audio đồng bộ từng câu.
+</p>
+<div class="book-links">
+<a href="/va/01/" class="book-cta-primary">🎧 Nghe Thử Bài 1 Trực Tiếp</a>
+<a href="https://forms.gle/HKEdDUc64eFhd3eHA" rel="noopener noreferrer" target="_blank">🎄 Nhận Thông Báo Ra Mắt Noel</a>
 <a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">Trang Tác Giả Amazon</a>
 </div>
 </div>
