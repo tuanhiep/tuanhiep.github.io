@@ -70,7 +70,7 @@ Beyond distributed systems and doctoral research, I steward <strong>Vietnamese W
 <p class="book-subtitle">60 Classic Illustrated Stories — Bilingual English &amp; Vietnamese Treasury (Volume 1)</p>
 <p class="book-specs">60 Bilingual Stories · 64 Color Plates · 120-Track EN+VI Synced Audio QR · 6 × 9" Paperback &amp; Kindle · Rated <strong>5.0 ⭐</strong></p>
 <p class="book-desc">
-Sixty timeless Vietnamese folktales, witty parables, and village humor tales presented side-by-side in expressive English and clean modern Vietnamese — crowned <strong>#1 Best Seller</strong> in <em>Children's Asian Folk Tales</em> on Amazon, now upgraded with a <strong>120-track interactive EN+VI synced audio companion</strong> (<code>0.75× / 1.0× / 1.15×</code>).
+Sixty timeless Vietnamese folktales, witty parables, and village humor tales presented side-by-side in expressive English and clean modern Vietnamese — crowned <strong>#1 Best Seller</strong> in <em>Children's Asian Folk Tales</em> on Amazon, now upgraded with a <strong>120-track interactive EN+VI synced audio companion (0.75× / 1.0× / 1.15×)</strong>.
 </p>
 <div class="book-links">
 <a href="/demo/folk-tales/" class="book-cta-primary">🎧 Try Story 1 Live Audio</a>
@@ -89,7 +89,7 @@ Sixty timeless Vietnamese folktales, witty parables, and village humor tales pre
 <p class="book-subtitle">36 Timeless Illustrated Stories of Creation, Heroes &amp; Magic — Bilingual Treasury (Volume 2)</p>
 <p class="book-specs">36 Bilingual Myths · 41 Color Plates · 72-Track EN+VI Synced Audio QR · 6 × 9" Paperback &amp; Kindle · Read-Aloud Glossary</p>
 <p class="book-desc">
-Released for Thanksgiving 2026 as the grand mythic companion to Volume 1 — spanning Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh, Thánh Gióng, Hoàn Kiếm Lake, Tấm &amp; Cám, and Tết traditions with <em>Heritage &amp; Mythic Soul Notes</em>, a pronunciation key, and a <strong>72-track sentence-synced EN+VI audio companion</strong>.
+Released for Thanksgiving 2026 as the grand mythic companion to Volume 1 — spanning Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh, Thánh Gióng, Hoàn Kiếm Lake, Tấm &amp; Cám, and Tết traditions with <em>Heritage &amp; Mythic Soul Notes</em>, a pronunciation key, and a <strong>72-track sentence-synced EN+VI audio companion (0.75× / 1.0× / 1.15×)</strong>.
 </p>
 <div class="book-links">
 <a href="/demo/myths/" class="book-cta-primary">🎧 Try Myth 1 Live Audio</a>
@@ -207,7 +207,7 @@ Soixante contes populaires vietnamiens, paraboles malicieuses et récits humoris
 <p class="book-subtitle">36 Mythes &amp; Légendes Sacrées Illustrés — Trésor Bilingue (Tome 2)</p>
 <p class="book-specs">36 Mythes Bilingues · 41 Planches Couleur · 72 Pistes Audio EN+VI par QR · Broché 6 × 9" &amp; Kindle · Glossaire Phonétique</p>
 <p class="book-desc">
-Paru pour Thanksgiving 2026 comme le grand compagnon mythologique du Tome 1 — de Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh et Thánh Gióng au lac Hoàn Kiếm, Tấm &amp; Cám et aux traditions du Têt, avec notes culturelles, glossaire oral et <strong>compagnon audio EN+VI synchronisé phrase par phrase (72 pistes)</strong>.
+Paru pour Thanksgiving 2026 comme le grand compagnon mythologique du Tome 1 — de Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh et Thánh Gióng au lac Hoàn Kiếm, Tấm &amp; Cám et aux traditions du Têt, avec notes culturelles, glossaire oral et <strong>compagnon audio EN+VI synchronisé phrase par phrase (72 pistes · 0,75× / 1,0× / 1,15×)</strong>.
 </p>
 <div class="book-links">
 <a href="/demo/myths/" class="book-cta-primary">🎧 Écouter le Mythe 1</a>
@@ -325,7 +325,7 @@ Sáu mươi tích cổ dân gian, ngụ ngôn thâm thúy và giai thoại hóm 
 <p class="book-subtitle">36 Huyền Tích Lập Quốc, Anh Hùng &amp; Phép Màu — Hợp Tuyển Song Ngữ (Tập 2)</p>
 <p class="book-specs">36 Thần Thoại · 41 Tranh Màu · 72 Track Audio Anh–Việt Qua QR · Khổ 6 × 9" &amp; Kindle · Bảng Phiên Âm Đọc Vần</p>
 <p class="book-desc">
-Chính thức ra mắt dịp Lễ Tạ Ơn (Thanksgiving 2026) đồng hành quy mô lớn cùng Tập 1 — từ Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh, Thánh Gióng, Hồ Gươm tới Tấm Cám và sự tích Tết cổ truyền, kèm mục giải nghĩa văn hóa, bảng phát âm và <strong>trình Audio Song Ngữ EN+VI đồng bộ từng câu (72 tracks)</strong>.
+Chính thức ra mắt dịp Lễ Tạ Ơn (Thanksgiving 2026) đồng hành quy mô lớn cùng Tập 1 — từ Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh, Thánh Gióng, Hồ Gươm tới Tấm Cám và sự tích Tết cổ truyền, kèm mục giải nghĩa văn hóa, bảng phát âm và <strong>trình Audio Song Ngữ EN+VI đồng bộ từng câu (72 tracks · 0.75×–1.15×)</strong>.
 </p>
 <div class="book-links">
 <a href="/demo/myths/" class="book-cta-primary">🎧 Nghe Thử Thần Thoại 1</a>
