@@ -75,7 +75,7 @@ Sixty timeless Vietnamese folktales, witty parables, and village humor tales pre
 <div class="book-links">
 <a href="/demo/folk-tales/" class="book-cta-primary">🎧 Try Story 1 Live Audio</a>
 <a href="https://www.amazon.com/dp/B0HMSF6P9V" rel="noopener noreferrer" target="_blank">Kindle Edition</a>
-<a href="https://www.amazon.com/dp/B0HMSK9T2G" rel="noopener noreferrer" target="_blank">Paperback Edition</a>
+<a href="https://www.amazon.com/dp/B0HSLZ9F2L" rel="noopener noreferrer" target="_blank">Paperback Edition</a>
 </div>
 </div>
 </article>
@@ -193,7 +193,7 @@ Soixante contes populaires vietnamiens, paraboles malicieuses et récits humoris
 <div class="book-links">
 <a href="/demo/folk-tales/" class="book-cta-primary">🎧 Écouter le Conte 1</a>
 <a href="https://www.amazon.com/dp/B0HMSF6P9V" rel="noopener noreferrer" target="_blank">Édition Kindle</a>
-<a href="https://www.amazon.com/dp/B0HMSK9T2G" rel="noopener noreferrer" target="_blank">Édition Brochée</a>
+<a href="https://www.amazon.com/dp/B0HSLZ9F2L" rel="noopener noreferrer" target="_blank">Édition Brochée</a>
 </div>
 </div>
 </article>
@@ -311,7 +311,7 @@ Sáu mươi tích cổ dân gian, ngụ ngôn thâm thúy và giai thoại hóm 
 <div class="book-links">
 <a href="/demo/folk-tales/" class="book-cta-primary">🎧 Nghe Thử Truyện 1</a>
 <a href="https://www.amazon.com/dp/B0HMSF6P9V" rel="noopener noreferrer" target="_blank">Bản Kindle eBook</a>
-<a href="https://www.amazon.com/dp/B0HMSK9T2G" rel="noopener noreferrer" target="_blank">Bản Sách Giấy Paperback</a>
+<a href="https://www.amazon.com/dp/B0HSLZ9F2L" rel="noopener noreferrer" target="_blank">Bản Sách Giấy Paperback</a>
 </div>
 </div>
 </article>
