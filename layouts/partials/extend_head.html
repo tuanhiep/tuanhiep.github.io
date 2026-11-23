@@ -1179,6 +1179,148 @@
             align-items: flex-start;
         }
     }
+
+    /* Shared Dual-Track Buttondown Newsletter Cards (Technocrat Press & Vietnamese Waves) */
+    .va-newsletter {
+        margin: 1.85rem 0 0;
+        padding: 1.25rem 1.35rem;
+        border-radius: 14px;
+        border: 1px solid var(--border);
+        background: var(--entry);
+        display: grid;
+        grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+        gap: 1.1rem 1.4rem;
+        align-items: center;
+    }
+
+    .va-newsletter-tp {
+        border-top: 3px solid var(--primary);
+    }
+
+    .va-newsletter-vw {
+        border-top: 3px solid #c6972c;
+    }
+
+    .va-nl-kicker {
+        margin: 0 0 0.3rem;
+        font-family: var(--font-mono);
+        font-size: 0.76rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--secondary);
+    }
+
+    .va-nl-title {
+        margin: 0 0 0.35rem !important;
+        font-size: 1.15rem !important;
+        line-height: 1.28;
+        color: var(--primary);
+    }
+
+    .va-nl-desc {
+        margin: 0;
+        font-size: 0.91rem;
+        line-height: 1.55;
+        color: var(--secondary);
+    }
+
+    .va-nl-form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        min-width: 0;
+    }
+
+    .va-nl-label {
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--primary);
+    }
+
+    .va-nl-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        align-items: stretch;
+    }
+
+    .va-nl-input {
+        flex: 1 1 185px;
+        min-width: 0;
+        min-height: 44px;
+        padding: 0.55rem 0.85rem;
+        border-radius: 10px;
+        border: 1px solid var(--border);
+        background: var(--theme);
+        color: var(--primary);
+        font-family: inherit;
+        font-size: 0.94rem;
+        transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .va-nl-input:focus-visible {
+        outline: 2px solid var(--primary);
+        outline-offset: 2px;
+        border-color: var(--primary);
+    }
+
+    .va-nl-input:user-invalid {
+        border-color: #c0392b;
+    }
+
+    .va-nl-submit {
+        flex: 0 0 auto;
+        min-height: 44px;
+        padding: 0.55rem 1.1rem;
+        border-radius: 10px;
+        border: 1px solid var(--primary);
+        background: var(--primary);
+        color: var(--theme);
+        font-family: inherit;
+        font-size: 0.9rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: opacity 0.15s ease, transform 0.1s ease;
+    }
+
+    .va-newsletter-vw .va-nl-submit {
+        background: #9f7314;
+        border-color: #9f7314;
+        color: #ffffff;
+    }
+
+    .va-nl-submit:hover {
+        opacity: 0.9;
+    }
+
+    .va-nl-submit:focus-visible {
+        outline: 2px solid var(--primary);
+        outline-offset: 2px;
+    }
+
+    .va-nl-note {
+        margin: 0.1rem 0 0;
+        font-size: 0.78rem;
+        color: var(--secondary);
+    }
+
+    @media (max-width: 760px) {
+        .va-newsletter {
+            grid-template-columns: 1fr;
+            padding: 1.05rem 1.1rem;
+        }
+
+        .va-nl-row {
+            flex-direction: column;
+        }
+
+        .va-nl-input,
+        .va-nl-submit {
+            flex: 0 0 auto;
+            width: 100%;
+        }
+    }
 </style>
 
 {{ if in (slice "va" "vt" "vm" "demo" "lib") .Section }}
@@ -1612,6 +1754,36 @@
         color: var(--secondary);
     }
 
+    /* Active Recall text masking & Loop Drill affordances */
+    .va-shell.va-hide-en .va-en,
+    .va-shell.va-hide-en .va-vocab-en,
+    .va-shell.va-hide-en [data-va-track="en"]:not(.is-revealed) {
+        filter: blur(5.5px);
+        user-select: none;
+        transition: filter 0.16s ease;
+    }
+
+    .va-shell.va-hide-vi .va-vi,
+    .va-shell.va-hide-vi .va-vocab-vi,
+    .va-shell.va-hide-vi [data-va-track="vi"]:not(.is-revealed) {
+        filter: blur(5.5px);
+        user-select: none;
+        transition: filter 0.16s ease;
+    }
+
+    .va-shell.va-hide-en .va-row.is-revealed .va-en,
+    .va-shell.va-hide-en .va-vocab-card.is-revealed .va-vocab-en,
+    .va-shell.va-hide-vi .va-row.is-revealed .va-vi,
+    .va-shell.va-hide-vi .va-vocab-card.is-revealed .va-vocab-vi {
+        filter: none;
+        user-select: auto;
+    }
+
+    .va-shell.va-hide-en .va-sent[data-va-track="en"]:not(.is-revealed):hover,
+    .va-shell.va-hide-vi .va-sent[data-va-track="vi"]:not(.is-revealed):hover {
+        background: var(--code-bg);
+    }
+
     @media (prefers-reduced-motion: reduce) {
         .va-btn,
         .va-row,
@@ -1652,11 +1824,30 @@ document.addEventListener("DOMContentLoaded", function () {
     const followBtn = shell.querySelector("[data-va-follow]");
     const chainBtn = shell.querySelector("[data-va-chain]");
     const cueNodes = Array.from(shell.querySelectorAll("[data-va-cue]"));
+    const toolbar = shell.querySelector(".va-toolbar");
+
+    if (toolbar && cueNodes.length && !toolbar.querySelector("[data-va-loop]")) {
+        const drillGroup = document.createElement("div");
+        drillGroup.className = "va-group va-drill-group";
+        drillGroup.setAttribute("role", "group");
+        drillGroup.setAttribute("aria-label", "Study loop and active recall drills");
+        drillGroup.innerHTML =
+            '<button type="button" class="va-btn" data-va-loop aria-pressed="false" title="Repeat the active sentence continuously">🔁 Loop Line</button>' +
+            '<button type="button" class="va-btn" data-va-hide="en" aria-pressed="false" title="Blur English text to test recall (tap blurred line to reveal)">👁️ Hide EN</button>' +
+            '<button type="button" class="va-btn" data-va-hide="vi" aria-pressed="false" title="Blur Vietnamese text to test recall (tap blurred line to reveal)">👁️ Hide VI</button>';
+        toolbar.appendChild(drillGroup);
+    }
+
+    const loopBtn = shell.querySelector("[data-va-loop]");
+    const hideBtns = Array.from(shell.querySelectorAll("[data-va-hide]"));
 
     let activeVoice = (voiceBtns[0] && voiceBtns[0].getAttribute("data-va-voice")) || "female";
     let activeRate = 1.0;
     let autoFollow = true;
     let autoChain = Boolean(chainBtn && chainBtn.getAttribute("aria-pressed") === "true");
+    let loopLine = false;
+    let loopCueId = null;
+    let loopVoice = activeVoice;
     let currentCue = null;
 
     const prefersReduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -1723,6 +1914,15 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!nextSrc) return false;
 
         activeVoice = nextVoice;
+        if (loopLine) {
+            const nextRanges = getCueRanges(nextVoice);
+            if (loopCueId && nextRanges[loopCueId]) {
+                loopVoice = nextVoice;
+            } else {
+                loopCueId = null;
+                loopVoice = nextVoice;
+            }
+        }
         voiceBtns.forEach(function (b) {
             const on = b === btn;
             b.classList.toggle("is-active", on);
@@ -1788,13 +1988,61 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    if (loopBtn) {
+        loopBtn.addEventListener("click", function () {
+            loopLine = !loopLine;
+            loopBtn.classList.toggle("is-active", loopLine);
+            loopBtn.setAttribute("aria-pressed", loopLine ? "true" : "false");
+            if (loopLine) {
+                const ranges = getCueRanges();
+                const fallbackId = cueNodes[0] ? cueNodes[0].getAttribute("data-va-cue") : null;
+                loopCueId = currentCue || findCueAtTime(audio.currentTime) || (fallbackId && ranges[fallbackId] ? fallbackId : Object.keys(ranges)[0] || null);
+                loopVoice = activeVoice;
+                if (loopCueId && ranges[loopCueId]) {
+                    setActiveCue(loopCueId);
+                    if (audio.paused || audio.ended) {
+                        seekToTime(ranges[loopCueId][0], true);
+                    }
+                }
+            }
+        });
+    }
+
+    hideBtns.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+            const langKey = btn.getAttribute("data-va-hide");
+            if (!langKey) return;
+            const cls = "va-hide-" + langKey;
+            const nextOn = !shell.classList.contains(cls);
+            shell.classList.toggle(cls, nextOn);
+            btn.classList.toggle("is-active", nextOn);
+            btn.setAttribute("aria-pressed", nextOn ? "true" : "false");
+            shell.querySelectorAll(".is-revealed[data-va-track=\"" + langKey + "\"], .va-row.is-revealed, .va-vocab-card.is-revealed").forEach(function (node) {
+                node.classList.remove("is-revealed");
+            });
+        });
+    });
+
+    function revealMaskedElement(el) {
+        if (!el) return;
+        const track = el.getAttribute("data-va-track");
+        if (track && shell.classList.contains("va-hide-" + track)) {
+            el.classList.add("is-revealed");
+        } else if ((el.classList.contains("va-row") || el.classList.contains("va-vocab-card")) && (shell.classList.contains("va-hide-en") || shell.classList.contains("va-hide-vi"))) {
+            el.classList.add("is-revealed");
+        }
+    }
+
     function activateCueNode(el) {
         const id = el.getAttribute("data-va-cue");
         const trackVoice = el.getAttribute("data-va-track");
         if (!id) return;
+        revealMaskedElement(el);
         if (trackVoice && trackVoice !== activeVoice) {
             const targetRanges = getCueRanges(trackVoice);
             if (targetRanges[id]) {
+                loopCueId = id;
+                loopVoice = trackVoice;
                 setActiveCue(id);
                 switchVoice(trackVoice, targetRanges[id][0], true);
                 return;
@@ -1802,6 +2050,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         const ranges = getCueRanges();
         if (ranges[id]) {
+            loopCueId = id;
+            loopVoice = activeVoice;
             setActiveCue(id);
             seekToTime(ranges[id][0], true);
         }
@@ -1820,6 +2070,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     audio.addEventListener("timeupdate", function () {
+        if (loopLine && loopCueId && loopVoice === activeVoice && !audio.paused) {
+            const pair = getCueRanges()[loopCueId];
+            if (pair && pair.length === 2 && audio.currentTime >= pair[1] - 0.04 && audio.currentTime <= pair[1] + 0.65) {
+                audio.currentTime = Math.max(0, pair[0]);
+                return;
+            }
+        }
         setActiveCue(findCueAtTime(audio.currentTime));
     });
 
@@ -1828,6 +2085,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     audio.addEventListener("ended", function () {
+        if (loopLine && loopCueId && loopVoice === activeVoice) {
+            const pair = getCueRanges()[loopCueId];
+            if (pair && pair.length === 2) {
+                seekToTime(pair[0], true);
+                return;
+            }
+        }
         if (autoChain && activeVoice === "en") {
             const hasVi = voiceBtns.some(function (b) {
                 return b.getAttribute("data-va-voice") === "vi";

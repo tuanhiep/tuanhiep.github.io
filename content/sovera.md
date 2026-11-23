@@ -98,7 +98,10 @@ Architecture slide decks miss transitive failure modes and static spreadsheets b
 <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">🌐 LinkedIn</a>.
 </p>
 </div>
-<p class="books-intro" style="margin-top: 1rem;">
+
+{{< newsletter uid="sovera-en" tag="technocrat-press" variant="tp" kicker="🏛️ Technocrat Press & SOVERA Dispatch" title="Architecture Field Notes & Sovereign AI Updates" desc="Receive clean-room engineering essays, cloud-exit case patterns, and major SOVERA release notes." emailLabel="Work or personal email" placeholder="cto@company.com" button="Subscribe" note="Zero spam · Tag: technocrat-press · Unsubscribe anytime." >}}
+
+<p class="books-intro" style="margin-top: 1.15rem;">
 <em>Research, Academic &amp; IP Boundary Note: SOVERA is an independent practitioner design-science and engineering initiative developed on clean-room synthetic benchmarks, open industry standards, and public statutory/financial texts. It is wholly independent of current or former employer systems and proprietary data, and remains strictly separate from confidential Grenoble Ecole de Management (GEM) DBA coursework, IRB interview material, restricted academic datasets, or unpublished doctoral dissertation findings.</em>
 </p>
 </section>
@@ -190,7 +193,10 @@ Les présentations d'architecture laissent échapper les modes de défaillance t
 <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">🌐 LinkedIn</a>.
 </p>
 </div>
-<p class="books-intro" style="margin-top: 1rem;">
+
+{{< newsletter uid="sovera-fr" tag="technocrat-press" variant="tp" kicker="🏛️ Lettre Technocrat Press & SOVERA" title="Notes d'Architecture L7 & IA Souveraine" desc="Essais approfondis sur les invariants distribués, la réversibilité cloud (DORA / RGPD) et les évolutions du moteur SOVERA." emailLabel="Adresse e-mail" placeholder="vous@entreprise.com" button="S'abonner" note="Sans spam · Désinscription en 1 clic." >}}
+
+<p class="books-intro" style="margin-top: 1.15rem;">
 <em>Note de Frontière Académique &amp; Propriété Intellectuelle : SOVERA est une initiative indépendante d'ingénierie et de Design Science développée sur bancs de test synthétiques propres, normes industrielles ouvertes et textes législatifs/financiers publics. Elle est totalement indépendante des systèmes et données propriétaires d'employeurs actuels ou passés, et demeure strictement distincte des enseignements confidentiels du DBA de Grenoble Ecole de Management (GEM), des entretiens IRB ou de résultats doctoraux non publiés.</em>
 </p>
 </section>
@@ -282,7 +288,10 @@ Bản vẽ kiến trúc trên slide thường bỏ sót các dây chuyền sụp
 <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">🌐 LinkedIn</a>.
 </p>
 </div>
-<p class="books-intro" style="margin-top: 1rem;">
+
+{{< newsletter uid="sovera-vi" tag="technocrat-press" variant="tp" kicker="🏛️ Bản Tin Technocrat Press & SOVERA" title="Ghi Chép Kiến Trúc Hệ Thống & Chủ Quyền Số" desc="Nhận bài viết chuyên sâu về bất biến phân tán, chiến lược thoát đám mây (DORA / PDPL 91) và các phiên bản mới của SOVERA." emailLabel="Email công việc hoặc cá nhân" placeholder="ten@congty.com" button="Đăng Ký Nhận Tin" note="Tuyệt đối không spam · Hủy đăng ký 1 chạm." >}}
+
+<p class="books-intro" style="margin-top: 1.15rem;">
 <em>Lưu Ý Ranh Giới Học Thuật &amp; Sở Hữu Trí Tuệ: SOVERA là sáng kiến khoa học thiết kế và kỹ nghệ độc lập được phát triển trên tập dữ liệu giả lập sạch (clean-room benchmarks), chuẩn mực công nghiệp mở và văn bản pháp luật/tài chính công khai. Hệ thống hoàn toàn độc lập với hạ tầng hay dữ liệu độc quyền của các đơn vị từng công tác, đồng thời tách biệt tuyệt đối khỏi giáo trình nội bộ DBA của Grenoble Ecole de Management (GEM), tài liệu phỏng vấn IRB, bộ dữ liệu nghiên cứu bảo mật hay kết quả luận án Tiến sĩ chưa công bố.</em>
 </p>
 </section>

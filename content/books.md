@@ -59,6 +59,10 @@ Practitioner handbooks distilling distributed invariants, production autopsies, 
 <p class="books-intro">
 Beyond distributed systems and doctoral research, I steward <strong>Vietnamese Waves™</strong> — collector-grade bilingual English &amp; Vietnamese illustrated editions preserving folklore, mythology, and ancestral ethics for international families and global diaspora readers.
 </p>
+<div class="about-actions" aria-label="Vietnamese Waves Free Channels" style="margin-top: 0.35rem; margin-bottom: 1.35rem;">
+<a href="https://www.youtube.com/@VietnameseWaves" rel="noopener noreferrer" target="_blank">📺 @VietnameseWaves YouTube Channel</a>
+<a href="/demo/">🎧 12 Free Audio Stories &amp; Lessons</a>
+</div>
 <div class="books-featured-grid">
 <article class="book-card">
 <div class="book-cover-wrap">
@@ -73,7 +77,8 @@ Beyond distributed systems and doctoral research, I steward <strong>Vietnamese W
 Sixty timeless Vietnamese folktales, witty parables, and village humor tales presented side-by-side in expressive English and clean modern Vietnamese — crowned <strong>#1 Best Seller</strong> in <em>Children's Asian Folk Tales</em> on Amazon, now upgraded with a <strong>120-track interactive EN+VI synced audio companion (0.75× / 1.0× / 1.15×)</strong>.
 </p>
 <div class="book-links">
-<a href="/demo/folk-tales/" class="book-cta-primary">🎧 Try Story 1 Live Audio</a>
+<a href="/demo/folk-tales/" class="book-cta-primary">🎧 Try 4 Free Stories</a>
+<a href="https://www.youtube.com/playlist?list=PLbiJMqQoSja0" rel="noopener noreferrer" target="_blank">📺 Video Playlist</a>
 <a href="https://www.amazon.com/dp/B0HMSF6P9V" rel="noopener noreferrer" target="_blank">Kindle Edition</a>
 <a href="https://www.amazon.com/dp/B0HSLZ9F2L" rel="noopener noreferrer" target="_blank">Paperback Edition</a>
 </div>
@@ -92,7 +97,8 @@ Sixty timeless Vietnamese folktales, witty parables, and village humor tales pre
 Released for Thanksgiving 2026 as the grand mythic companion to Volume 1 — spanning Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh, Thánh Gióng, Hoàn Kiếm Lake, Tấm &amp; Cám, and Tết traditions with <em>Heritage &amp; Mythic Soul Notes</em>, a pronunciation key, and a <strong>72-track sentence-synced EN+VI audio companion (0.75× / 1.0× / 1.15×)</strong>.
 </p>
 <div class="book-links">
-<a href="/demo/myths/" class="book-cta-primary">🎧 Try Myth 1 Live Audio</a>
+<a href="/demo/myths/" class="book-cta-primary">🎧 Try 4 Free Myths</a>
+<a href="https://www.youtube.com/playlist?list=PLJhiyS5zNcm4" rel="noopener noreferrer" target="_blank">📺 Video Playlist</a>
 <a href="https://www.amazon.com/dp/B0HSCX2G1J" rel="noopener noreferrer" target="_blank">Kindle Edition</a>
 <a href="https://www.amazon.com/dp/B0HSGS48CS" rel="noopener noreferrer" target="_blank">Paperback Edition</a>
 </div>
@@ -111,12 +117,16 @@ Released for Thanksgiving 2026 as the grand mythic companion to Volume 1 — spa
 Skip dry flashcards and master real Vietnamese tones through thirty memorable stories. Every lesson pairs sentence-numbered parallel English–Vietnamese dialogue, 10 essential vocabulary cards, focused grammar lenses, exercises with an Answer Key, and per-lesson + master library QR codes launching our live sentence-synced Dual-Voice player.
 </p>
 <div class="book-links">
-<a href="/demo/learn-vietnamese/" class="book-cta-primary">🎧 Try Lesson 1 Live Audio</a>
+<a href="/demo/learn-vietnamese/" class="book-cta-primary">🎧 Try 4 Free Lessons</a>
+<a href="https://www.youtube.com/playlist?list=PLOR1tbt6SRuI" rel="noopener noreferrer" target="_blank">📺 Video Playlist</a>
 <a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">🔔 Follow Author on Amazon</a>
 </div>
 </div>
 </article>
 </div>
+
+{{< newsletter uid="books-en" tag="vietnamese-waves" variant="vw" kicker="🪷 Vietnamese Waves™ Reader Circle" title="Get Free Bilingual Audio Stories & New Release Alerts" desc="Receive new narrated folktales, seasonal Kindle free-promotion dates, and Book 3 Christmas launch updates." emailLabel="Your email address" placeholder="reader@example.com" button="Join Free Circle" note="No spam · Tag: vietnamese-waves · Unsubscribe anytime." >}}
+
 </section>
 
 <section class="about-crosslink" aria-label="Advisory and Speaking">
@@ -177,6 +187,10 @@ Manuels pratiques distillant invariants distribués, autopsies de production et 
 <p class="books-intro">
 Au-delà des systèmes distribués et de la recherche doctorale, je dirige <strong>Vietnamese Waves™</strong> — des éditions de collection bilingues anglais-vietnamien abondamment illustrées pour transmettre contes populaires, mythologie et sagesse ancestrale aux familles internationales et à la diaspora.
 </p>
+<div class="about-actions" aria-label="Chaîne YouTube et Audio Gratuit Vietnamese Waves" style="margin-top: 0.35rem; margin-bottom: 1.35rem;">
+<a href="https://www.youtube.com/@VietnameseWaves" rel="noopener noreferrer" target="_blank">📺 Chaîne YouTube @VietnameseWaves</a>
+<a href="/demo/">🎧 12 Contes &amp; Leçons Audio Gratuits</a>
+</div>
 <div class="books-featured-grid">
 <article class="book-card">
 <div class="book-cover-wrap">
@@ -191,7 +205,8 @@ Au-delà des systèmes distribués et de la recherche doctorale, je dirige <stro
 Soixante contes populaires vietnamiens, paraboles malicieuses et récits humoristiques présentés en parallèle en anglais littéraire et en vietnamien moderne — couronné <strong>#1 Best-Seller Amazon</strong> en <em>Children's Asian Folk Tales</em>, désormais doté d'un <strong>compagnon audio interactif EN+VI synchronisé (120 pistes · 0,75× / 1,0× / 1,15×)</strong>.
 </p>
 <div class="book-links">
-<a href="/demo/folk-tales/" class="book-cta-primary">🎧 Écouter le Conte 1</a>
+<a href="/demo/folk-tales/" class="book-cta-primary">🎧 4 Contes Gratuits</a>
+<a href="https://www.youtube.com/playlist?list=PLbiJMqQoSja0" rel="noopener noreferrer" target="_blank">📺 Playlist Vidéo</a>
 <a href="https://www.amazon.com/dp/B0HMSF6P9V" rel="noopener noreferrer" target="_blank">Édition Kindle</a>
 <a href="https://www.amazon.com/dp/B0HSLZ9F2L" rel="noopener noreferrer" target="_blank">Édition Brochée</a>
 </div>
@@ -210,7 +225,8 @@ Soixante contes populaires vietnamiens, paraboles malicieuses et récits humoris
 Paru pour Thanksgiving 2026 comme le grand compagnon mythologique du Tome 1 — de Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh et Thánh Gióng au lac Hoàn Kiếm, Tấm &amp; Cám et aux traditions du Têt, avec notes culturelles, glossaire oral et <strong>compagnon audio EN+VI synchronisé phrase par phrase (72 pistes · 0,75× / 1,0× / 1,15×)</strong>.
 </p>
 <div class="book-links">
-<a href="/demo/myths/" class="book-cta-primary">🎧 Écouter le Mythe 1</a>
+<a href="/demo/myths/" class="book-cta-primary">🎧 4 Mythes Gratuits</a>
+<a href="https://www.youtube.com/playlist?list=PLJhiyS5zNcm4" rel="noopener noreferrer" target="_blank">📺 Playlist Vidéo</a>
 <a href="https://www.amazon.com/dp/B0HSCX2G1J" rel="noopener noreferrer" target="_blank">Édition Kindle</a>
 <a href="https://www.amazon.com/dp/B0HSGS48CS" rel="noopener noreferrer" target="_blank">Édition Brochée</a>
 </div>
@@ -229,12 +245,16 @@ Paru pour Thanksgiving 2026 comme le grand compagnon mythologique du Tome 1 — 
 Oubliez les listes de vocabulaire stériles : maîtrisez les 6 tons du vietnamien à travers trente récits inoubliables. Chaque leçon associe texte parallèle numéroté phrase par phrase, 10 mots essentiels, repères grammaticaux, exercices avec corrigés et QR codes par leçon + bibliothèque complète vers notre lecteur audio double voix synchronisé.
 </p>
 <div class="book-links">
-<a href="/demo/learn-vietnamese/" class="book-cta-primary">🎧 Écouter la Leçon 1 en Direct</a>
+<a href="/demo/learn-vietnamese/" class="book-cta-primary">🎧 4 Leçons Gratuites</a>
+<a href="https://www.youtube.com/playlist?list=PLOR1tbt6SRuI" rel="noopener noreferrer" target="_blank">📺 Playlist Vidéo</a>
 <a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">🔔 Suivre sur Amazon (Sortie Noël)</a>
 </div>
 </div>
 </article>
 </div>
+
+{{< newsletter uid="books-fr" tag="vietnamese-waves" variant="vw" kicker="🪷 Cercle des Lecteurs Vietnamese Waves™" title="Recevez les Contes Audio Gratuits & Nouvelles Parutions" desc="Nouveaux récits illustrés narrés en anglais & vietnamien, promotions Kindle gratuites et sortie du Tome 3 à Noël." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="Rejoindre le Cercle" note="Sans spam · Désinscription en 1 clic." >}}
+
 </section>
 
 <section class="about-crosslink" aria-label="Conférences, Conseil et Presse">
@@ -295,6 +315,10 @@ Bộ cẩm nang thực hành kết tinh bất biến hệ thống phân tán, gi
 <p class="books-intro">
 Bên cạnh kỹ nghệ hệ thống và nghiên cứu Tiến sĩ, tôi sáng lập và biên soạn <strong>Vietnamese Waves™</strong> — dòng sách song ngữ Anh–Việt chuẩn sưu tầm có tranh minh họa màu nhằm giữ gìn truyện cổ, thần thoại và đạo lý Tổ Tiên cho các gia đình đa văn hóa và thế hệ Việt Nam toàn cầu.
 </p>
+<div class="about-actions" aria-label="Kênh YouTube & Kho Truyện Audio Miễn Phí Vietnamese Waves" style="margin-top: 0.35rem; margin-bottom: 1.35rem;">
+<a href="https://www.youtube.com/@VietnameseWaves" rel="noopener noreferrer" target="_blank">📺 Kênh YouTube @VietnameseWaves</a>
+<a href="/demo/">🎧 12 Truyện &amp; Bài Học Audio Miễn Phí</a>
+</div>
 <div class="books-featured-grid">
 <article class="book-card">
 <div class="book-cover-wrap">
@@ -309,7 +333,8 @@ Bên cạnh kỹ nghệ hệ thống và nghiên cứu Tiến sĩ, tôi sáng l�
 Sáu mươi tích cổ dân gian, ngụ ngôn thâm thúy và giai thoại hóm hỉnh trình bày đối chiếu giữa tiếng Anh truyền cảm và tiếng Việt hiện đại trong sáng — vươn lên <strong>#1 Best Seller</strong> bảng xếp hạng <em>Children's Asian Folk Tales</em> trên Amazon, kèm <strong>kho Audio Song Ngữ EN+VI đồng bộ từng câu (120 tracks · 0.75×–1.15×)</strong>.
 </p>
 <div class="book-links">
-<a href="/demo/folk-tales/" class="book-cta-primary">🎧 Nghe Thử Truyện 1</a>
+<a href="/demo/folk-tales/" class="book-cta-primary">🎧 Nghe Thử 4 Truyện</a>
+<a href="https://www.youtube.com/playlist?list=PLbiJMqQoSja0" rel="noopener noreferrer" target="_blank">📺 Danh Sách Video</a>
 <a href="https://www.amazon.com/dp/B0HMSF6P9V" rel="noopener noreferrer" target="_blank">Bản Kindle eBook</a>
 <a href="https://www.amazon.com/dp/B0HSLZ9F2L" rel="noopener noreferrer" target="_blank">Bản Sách Giấy Paperback</a>
 </div>
@@ -328,7 +353,8 @@ Sáu mươi tích cổ dân gian, ngụ ngôn thâm thúy và giai thoại hóm 
 Chính thức ra mắt dịp Lễ Tạ Ơn (Thanksgiving 2026) đồng hành quy mô lớn cùng Tập 1 — từ Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh, Thánh Gióng, Hồ Gươm tới Tấm Cám và sự tích Tết cổ truyền, kèm mục giải nghĩa văn hóa, bảng phát âm và <strong>trình Audio Song Ngữ EN+VI đồng bộ từng câu (72 tracks · 0.75×–1.15×)</strong>.
 </p>
 <div class="book-links">
-<a href="/demo/myths/" class="book-cta-primary">🎧 Nghe Thử Thần Thoại 1</a>
+<a href="/demo/myths/" class="book-cta-primary">🎧 Nghe Thử 4 Thần Thoại</a>
+<a href="https://www.youtube.com/playlist?list=PLJhiyS5zNcm4" rel="noopener noreferrer" target="_blank">📺 Danh Sách Video</a>
 <a href="https://www.amazon.com/dp/B0HSCX2G1J" rel="noopener noreferrer" target="_blank">Bản Kindle eBook</a>
 <a href="https://www.amazon.com/dp/B0HSGS48CS" rel="noopener noreferrer" target="_blank">Bản Sách Giấy Paperback</a>
 </div>
@@ -347,12 +373,16 @@ Chính thức ra mắt dịp Lễ Tạ Ơn (Thanksgiving 2026) đồng hành quy
 Thay vì học vẹt thẻ từ rời rạc, người học nước ngoài và thế hệ kiều bào nắm bắt thanh điệu, ngữ điệu tự nhiên qua ba mươi câu chuyện giàu tiếng cười và hồn Việt. Mỗi bài tích hợp đối chiếu câu Anh–Việt đánh số, 10 từ cốt lõi, điểm ngữ pháp, bài tập có đáp án, mã QR từng bài và QR tổng thư viện Audio song giọng đồng bộ.
 </p>
 <div class="book-links">
-<a href="/demo/learn-vietnamese/" class="book-cta-primary">🎧 Nghe Thử Bài 1 Trực Tiếp</a>
+<a href="/demo/learn-vietnamese/" class="book-cta-primary">🎧 Nghe Thử 4 Bài Học</a>
+<a href="https://www.youtube.com/playlist?list=PLOR1tbt6SRuI" rel="noopener noreferrer" target="_blank">📺 Danh Sách Video</a>
 <a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">🔔 Theo Dõi Amazon (Nhận Tin Noel)</a>
 </div>
 </div>
 </article>
 </div>
+
+{{< newsletter uid="books-vi" tag="vietnamese-waves" variant="vw" kicker="🪷 Gia Đình Độc Giả Vietnamese Waves™" title="Nhận Truyện Song Ngữ Audio Miễn Phí & Lịch Tải Sách 0 Đồng" desc="Cập nhật truyện cổ kể song ngữ mới trên YouTube, lịch tặng sách Kindle miễn phí dịp Lễ và tin phát hành Tập 3 Giáng Sinh." emailLabel="Email của bạn" placeholder="ten@example.com" button="Đăng Ký Miễn Phí" note="Không spam · Hủy đăng ký bất kỳ lúc nào." >}}
+
 </section>
 
 <section class="about-crosslink" aria-label="Diễn Giả, Cố Vấn &amp; Bản Đọc Thử">

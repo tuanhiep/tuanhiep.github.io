@@ -1,0 +1,12 @@
+{{- partial "newsletter_card.html" (dict
+    "uid" (.Get "uid" | default (printf "sc-%d" .Ordinal))
+    "tag" (.Get "tag" | default "technocrat-press")
+    "variant" (.Get "variant" | default "tp")
+    "kicker" (.Get "kicker")
+    "title" (.Get "title")
+    "desc" (.Get "desc")
+    "emailLabel" (.Get "emailLabel" | default "Email address")
+    "placeholder" (.Get "placeholder" | default "you@example.com")
+    "button" (.Get "button" | default "Subscribe")
+    "note" (.Get "note" | default "")
+) -}}
