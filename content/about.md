@@ -111,6 +111,9 @@ Alongside publishing here, I am the creator and lead architect of <a href="/sove
 I write here to test my own thinking and share practical engineering trade-offs rather than slogans. If an article sparks a question, a counter-example, or a better design, I am always glad to connect on <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">LinkedIn</a> or <a href="https://github.com/tuanhiep" rel="noopener noreferrer" target="_blank">GitHub</a>.
 </p>
 </section>
+
+{{< newsletter uid="about-en" tag="technocrat-press" variant="tp" kicker="🏛️ Technocrat Press Dispatch" title="Architecture Essays, SOVERA & 2027 Book Updates" desc="Occasional deep dives on L7 distributed architecture, sovereign AI governance (EU DORA / GDPR / PDPL), and upcoming technical books." emailLabel="Work or personal email" placeholder="architect@company.com" button="Join Dispatch" note="Looking for bilingual children's audio books? Visit Books & Vietnamese Waves™." >}}
+
 </div>
 
 <div class="lang-panel" data-lang-panel="fr" lang="fr" hidden>
@@ -215,6 +218,9 @@ En parallèle de ces publications, je suis le créateur et l'architecte principa
 J'écris ici pour éprouver mes convictions techniques par le réel plutôt que par des slogans. Si un article suscite une question, un contre-exemple ou une piste d'architecture, échangeons volontiers sur <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">LinkedIn</a> ou <a href="https://github.com/tuanhiep" rel="noopener noreferrer" target="_blank">GitHub</a>.
 </p>
 </section>
+
+{{< newsletter uid="about-fr" tag="technocrat-press" variant="tp" kicker="🏛️ Lettre Technocrat Press" title="Notes d'Architecture L7, SOVERA & Livres 2027" desc="Essais occasionnels sur les systèmes distribués, la souveraineté numérique (DORA / RGPD) et nos prochains ouvrages techniques." emailLabel="Adresse e-mail" placeholder="vous@entreprise.com" button="S'abonner" note="Pour les contes audio bilingues pour enfants, consultez la page Books." >}}
+
 </div>
 
 <div class="lang-panel" data-lang-panel="vi" lang="vi" hidden>
@@ -319,4 +325,7 @@ Song song với các bài viết chuyên sâu, tôi là tác giả và kiến tr
 Tôi viết blog này để tự rèn giũa tư duy và chia sẻ thẳng thắn những bài toán đánh đổi khi làm hệ thống thật. Nếu một bài viết khơi gợi cho bạn câu hỏi, góc nhìn phản biện hay một cách thiết kế hay hơn, rất vui được kết nối cùng bạn qua <a href="https://www.linkedin.com/in/tuan-hiep-tran/" rel="noopener noreferrer" target="_blank">LinkedIn</a> hoặc <a href="https://github.com/tuanhiep" rel="noopener noreferrer" target="_blank">GitHub</a>.
 </p>
 </section>
+
+{{< newsletter uid="about-vi" tag="technocrat-press" variant="tp" kicker="🏛️ Bản Tin Technocrat Press" title="Ghi Chép Kiến Trúc L7, SOVERA & Tủ Sách 2027" desc="Nhận các bài viết chuyên sâu về hệ thống phân tán, chủ quyền số (EU DORA / PDPL 91) và tiến độ ra mắt 3 đầu sách kỹ thuật." emailLabel="Email công việc hoặc cá nhân" placeholder="ten@congty.com" button="Đăng Ký Nhận Tin" note="Tìm sách song ngữ & truyện audio cho thiếu nhi? Mời ghé trang Books." >}}
+
 </div>

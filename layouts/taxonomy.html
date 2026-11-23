@@ -24,4 +24,6 @@
     {{- end }}
 </ul>
 
+{{- partial "newsletter_card.html" (dict "uid" (printf "tax-%s" (.Data.Plural | default "index")) "tag" "technocrat-press" "variant" "tp") -}}
+
 {{- end }}{{/* end main */ -}}

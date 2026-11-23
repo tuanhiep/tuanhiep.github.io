@@ -143,6 +143,10 @@
 </footer>
 {{- end }}
 
+{{- if and (not .IsHome) (not .Params.cleanHub) }}
+{{- partial "newsletter_card.html" (dict "uid" (printf "list-%s" (.RelPermalink | md5)) "tag" "technocrat-press" "variant" "tp") -}}
+{{- end }}
+
 {{- end }}{{/* end profileMode */}}
 {{- end }}{{/* end cleanHub */}}
 

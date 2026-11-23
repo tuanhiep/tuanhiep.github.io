@@ -2,11 +2,18 @@
 {{- $tag := .tag | default "technocrat-press" -}}
 {{- $variant := .variant | default "tp" -}}
 {{- $handle := .handle | default (cond (eq $variant "vw") "vietnamesewaves" "technocratpress") -}}
+{{- $kicker := .kicker | default "🏛️ Technocrat Press Dispatch" -}}
+{{- $title := .title | default "Systems Invariants & Sovereign AI Notes" -}}
+{{- $desc := .desc | default "Occasional deep-dive essays on L7 distributed architecture, sovereign AI governance (EU DORA / GDPR / PDPL), and SOVERA clean-room engineering." -}}
+{{- $emailLabel := .emailLabel | default "Work or personal email" -}}
+{{- $placeholder := .placeholder | default "architect@company.com" -}}
+{{- $button := .button | default "Join Dispatch" -}}
+{{- $note := .note | default "Zero spam · Double opt-in via Buttondown · Unsubscribe anytime." -}}
 <section class="va-newsletter va-newsletter-{{ $variant }}" aria-labelledby="nl-title-{{ $uid }}">
     <div class="va-nl-copy">
-        {{- with .kicker }}<p class="va-nl-kicker">{{ . }}</p>{{ end -}}
-        <h3 id="nl-title-{{ $uid }}" class="va-nl-title">{{ .title }}</h3>
-        {{- with .desc }}<p class="va-nl-desc">{{ . }}</p>{{ end -}}
+        {{- with $kicker }}<p class="va-nl-kicker">{{ . }}</p>{{ end -}}
+        <h3 id="nl-title-{{ $uid }}" class="va-nl-title">{{ $title }}</h3>
+        {{- with $desc }}<p class="va-nl-desc">{{ . }}</p>{{ end -}}
     </div>
     <form
         class="va-nl-form"
@@ -17,7 +24,7 @@
     >
         <input type="hidden" name="embed" value="1" />
         <input type="hidden" name="tag" value="{{ $tag }}" />
-        <label for="nl-email-{{ $uid }}" class="va-nl-label">{{ .emailLabel | default "Email address" }}</label>
+        <label for="nl-email-{{ $uid }}" class="va-nl-label">{{ $emailLabel }}</label>
         <div class="va-nl-row">
             <input
                 id="nl-email-{{ $uid }}"
@@ -26,11 +33,11 @@
                 name="email"
                 autocomplete="email"
                 inputmode="email"
-                placeholder="{{ .placeholder | default "you@example.com" }}"
+                placeholder="{{ $placeholder }}"
                 required
             />
-            <button type="submit" class="va-nl-submit">{{ .button | default "Subscribe" }}</button>
+            <button type="submit" class="va-nl-submit">{{ $button }}</button>
         </div>
-        {{- with .note }}<p class="va-nl-note">{{ . }}</p>{{ end -}}
+        {{- with $note }}<p class="va-nl-note">{{ . }}</p>{{ end -}}
     </form>
 </section>
