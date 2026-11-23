@@ -1,6 +1,7 @@
 {{- $uid := .uid | default "newsletter" -}}
 {{- $tag := .tag | default "technocrat-press" -}}
 {{- $variant := .variant | default "tp" -}}
+{{- $handle := .handle | default (cond (eq $variant "vw") "vietnamesewaves" "technocratpress") -}}
 <section class="va-newsletter va-newsletter-{{ $variant }}" aria-labelledby="nl-title-{{ $uid }}">
     <div class="va-nl-copy">
         {{- with .kicker }}<p class="va-nl-kicker">{{ . }}</p>{{ end -}}
@@ -9,7 +10,7 @@
     </div>
     <form
         class="va-nl-form"
-        action="https://buttondown.com/api/emails/embed-subscribe/tuanhiep"
+        action="https://buttondown.com/api/emails/embed-subscribe/{{ $handle }}"
         method="post"
         target="_blank"
         aria-labelledby="nl-title-{{ $uid }}"
