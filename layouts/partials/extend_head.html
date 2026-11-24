@@ -1321,6 +1321,178 @@
             width: 100%;
         }
     }
+
+    /* Dedicated Book Showcase Pages (/books/<slug>/) */
+    .book-showcase-hero {
+        display: grid;
+        grid-template-columns: 240px minmax(0, 1fr);
+        gap: 1.75rem;
+        align-items: start;
+        padding: 2.25rem 0 1.85rem;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .book-showcase-cover {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        border: 1px solid var(--border);
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.16);
+        display: block;
+    }
+
+    .book-showcase-hero h1 {
+        margin: 0.15rem 0 0.45rem !important;
+        font-size: clamp(1.9rem, 1.35rem + 1.5vw, 2.55rem);
+        line-height: 1.14;
+    }
+
+    .book-gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+        margin: 1.1rem 0 0;
+    }
+
+    .book-gallery-card {
+        margin: 0;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        overflow: hidden;
+        background: var(--entry);
+    }
+
+    .book-gallery-card img {
+        width: 100%;
+        aspect-ratio: 3 / 2;
+        object-fit: cover;
+        display: block;
+        margin: 0 !important;
+    }
+
+    .book-gallery-card figcaption {
+        padding: 0.7rem 0.85rem;
+        font-size: 0.84rem;
+        line-height: 1.45;
+        color: var(--secondary);
+    }
+
+    .book-gallery-card figcaption strong {
+        color: var(--primary);
+        display: block;
+        margin-bottom: 0.15rem;
+    }
+
+    .book-video-wrap {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid var(--border);
+        background: #0f1115;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    }
+
+    .book-video-wrap iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        display: block;
+    }
+
+    .book-demo-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.85rem;
+        margin: 1rem 0 0;
+    }
+
+    .book-demo-card {
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+        padding: 0.95rem 1.05rem;
+        border: 1px solid var(--border);
+        border-left: 3px solid #c6972c;
+        border-radius: 10px;
+        background: var(--entry);
+        text-decoration: none;
+        color: var(--primary);
+        transition: border-color 0.15s ease, transform 0.12s ease;
+    }
+
+    .book-demo-card:hover {
+        border-color: var(--primary);
+        transform: translateY(-1px);
+    }
+
+    .book-demo-tag {
+        font-family: var(--font-mono);
+        font-size: 0.74rem;
+        font-weight: 700;
+        color: #9f7314;
+    }
+
+    :root[data-theme="dark"] .book-demo-tag {
+        color: #eab308;
+    }
+
+    .book-demo-title {
+        font-size: 0.98rem;
+        font-weight: 600;
+        line-height: 1.35;
+    }
+
+    .book-demo-vi {
+        font-size: 0.86rem;
+        color: var(--secondary);
+    }
+
+    .book-faq-list {
+        display: grid;
+        gap: 0.65rem;
+        margin-top: 1rem;
+    }
+
+    .book-faq-item {
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        background: var(--entry);
+        padding: 0.85rem 1.05rem;
+    }
+
+    .book-faq-item summary {
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.98rem;
+        color: var(--primary);
+        list-style: none;
+    }
+
+    .book-faq-item p {
+        margin: 0.6rem 0 0;
+        font-size: 0.92rem;
+        line-height: 1.6;
+        color: var(--secondary);
+    }
+
+    @media (max-width: 760px) {
+        .book-showcase-hero {
+            grid-template-columns: 1fr;
+            gap: 1.1rem;
+            padding-top: 1.5rem;
+        }
+
+        .book-showcase-cover {
+            max-width: 210px;
+        }
+
+        .book-gallery-grid,
+        .book-demo-grid {
+            grid-template-columns: 1fr;
+        }
+    }
 </style>
 
 {{ if in (slice "va" "vt" "vm" "demo" "lib") .Section }}

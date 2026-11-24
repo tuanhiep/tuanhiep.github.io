@@ -1,0 +1,145 @@
+{{- if .IsHome -}}
+{{- $sameAs := slice
+    "https://www.linkedin.com/in/tuan-hiep-tran/"
+    "https://github.com/tuanhiep"
+    "https://www.amazon.com/author/tuanhieptran"
+    "https://www.youtube.com/@VietnameseWaves"
+-}}
+{{- $homeSchema := dict
+    "@context" "https://schema.org"
+    "@type" "Person"
+    "name" (site.Params.author | default "Tuan Hiep TRAN")
+    "url" site.Home.Permalink
+    "description" (site.Params.homeInfoParams.Content | default site.Title | plainify)
+    "sameAs" $sameAs
+    "knowsAbout" (slice "Distributed Systems" "System Design" "Digital Sovereignty" "Vietnamese Folklore" "Bilingual Storytelling")
+-}}
+<script type="application/ld+json">{{ $homeSchema | jsonify | safeJS }}</script>
+{{- else if (or .IsPage .IsSection) -}}
+
+{{- /* 1. BreadcrumbList */ -}}
+{{- $url := replace .Parent.Permalink (printf "%s" site.Home.Permalink) "" -}}
+{{- $lang_url := strings.TrimPrefix (printf "%s/" .Lang) $url -}}
+{{- $bc_list := split $lang_url "/" -}}
+{{- $scratch := newScratch -}}
+{{- $crumbs := slice -}}
+{{- range $index, $element := $bc_list -}}
+  {{- $scratch.Add "path" (printf "%s/" $element) -}}
+  {{- $bc_pg := site.GetPage ($scratch.Get "path") -}}
+  {{- if and $bc_pg (gt (len .) 0) -}}
+    {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" (add 1 $index) "name" $bc_pg.Name "item" $bc_pg.Permalink) -}}
+  {{- end -}}
+{{- end -}}
+{{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" (len $bc_list) "name" .Name "item" .Permalink) -}}
+{{- $bcSchema := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $crumbs -}}
+<script type="application/ld+json">{{ $bcSchema | jsonify | safeJS }}</script>
+
+{{- /* 2. Dedicated Book Showcase Schema (@type: Book + optional FAQPage & VideoObject) */ -}}
+{{- if .Params.bookSchema -}}
+{{- $authorObj := dict "@type" "Person" "name" "Tuan-Hiep TRAN" "url" "https://www.amazon.com/author/tuanhieptran" -}}
+{{- $pubObj := dict "@type" "Organization" "name" "Technocrat Press · Vietnamese Waves™" "url" site.Home.Permalink -}}
+{{- $bookDict := dict
+    "@context" "https://schema.org"
+    "@type" "Book"
+    "name" .Title
+    "alternateName" (.Params.bookSubtitle | default "")
+    "description" (.Description | plainify)
+    "url" .Permalink
+    "inLanguage" (slice "en" "vi")
+    "bookFormat" (slice "https://schema.org/Paperback" "https://schema.org/EBook")
+    "author" $authorObj
+    "publisher" $pubObj
+-}}
+{{- with .Params.images -}}
+  {{- $bookDict = merge $bookDict (dict "image" ((index . 0) | absURL)) -}}
+{{- end -}}
+{{- with .Params.sameAsUrls -}}
+  {{- $bookDict = merge $bookDict (dict "sameAs" .) -}}
+{{- end -}}
+{{- with .Params.demoPreviewUrl -}}
+  {{- $bookDict = merge $bookDict (dict "workExample" (dict "@type" "AudioObject" "name" "Interactive Bilingual Audio Companion Preview" "url" (. | absURL) "inLanguage" (slice "en" "vi"))) -}}
+{{- end -}}
+<script type="application/ld+json">{{ $bookDict | jsonify | safeJS }}</script>
+
+{{- with .Params.faqItems -}}
+{{- $qaList := slice -}}
+{{- range . -}}
+  {{- $qaList = $qaList | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) -}}
+{{- end -}}
+{{- $faqDict := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $qaList -}}
+<script type="application/ld+json">{{ $faqDict | jsonify | safeJS }}</script>
+{{- end -}}
+
+{{- with .Params.videoEmbedId -}}
+{{- $vidDict := dict
+    "@context" "https://schema.org"
+    "@type" "VideoObject"
+    "name" (printf "%s — Bilingual Read-Along Video Preview" $.Title)
+    "description" ($.Description | plainify)
+    "thumbnailUrl" (printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" .)
+    "embedUrl" (printf "https://www.youtube-nocookie.com/embed/%s" .)
+    "contentUrl" (printf "https://www.youtube.com/watch?v=%s" .)
+    "uploadDate" ($.PublishDate.Format "2006-01-02")
+-}}
+<script type="application/ld+json">{{ $vidDict | jsonify | safeJS }}</script>
+{{- end -}}
+
+{{- /* 3. Interactive Bilingual Audio Demo Page Schema (LearningResource + AudioObject) */ -}}
+{{- else if .Params.audioDemoSrc -}}
+{{- $lrDict := dict
+    "@context" "https://schema.org"
+    "@type" "LearningResource"
+    "name" .Title
+    "description" (.Description | plainify)
+    "url" .Permalink
+    "inLanguage" (slice "en" "vi")
+    "learningResourceType" "Bilingual Audio Story"
+    "isAccessibleForFree" true
+    "author" (dict "@type" "Person" "name" "Tuan-Hiep TRAN")
+    "associatedMedia" (dict "@type" "AudioObject" "contentUrl" (.Params.audioDemoSrc | absURL) "encodingFormat" "audio/mpeg" "inLanguage" (slice "en" "vi"))
+-}}
+{{- with .Params.bookShowcaseUrl -}}
+  {{- $lrDict = merge $lrDict (dict "isPartOf" (dict "@type" "Book" "url" (. | absURL))) -}}
+{{- end -}}
+<script type="application/ld+json">{{ $lrDict | jsonify | safeJS }}</script>
+
+{{- /* 4. Book Catalog & Collection Hubs (/books/, /demo/, /vt/, /vm/, /va/) */ -}}
+{{- else if or .Params.bookShelf .Params.cleanHub -}}
+{{- $colDict := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" .Title
+    "description" (.Description | default .Summary | plainify | truncate 200)
+    "url" .Permalink
+    "author" (dict "@type" "Person" "name" "Tuan-Hiep TRAN")
+-}}
+<script type="application/ld+json">{{ $colDict | jsonify | safeJS }}</script>
+
+{{- /* 5. Standard Blog Articles & Essays (System Design, Production Engineering, Sovereign Gov, About, Sovera) */ -}}
+{{- else if and .IsPage (ne .Params.robotsNoIndex true) -}}
+{{- $authorName := .Params.author | default site.Params.author | default "Tuan Hiep TRAN" -}}
+{{- $blogDict := dict
+    "@context" "https://schema.org"
+    "@type" "BlogPosting"
+    "headline" (.Title | plainify)
+    "name" (.Title | plainify)
+    "description" ((.Description | default .Summary) | plainify | truncate 240)
+    "url" .Permalink
+    "wordCount" (printf "%d" .WordCount)
+    "inLanguage" (.Language.Lang | default "en-us")
+    "datePublished" (.PublishDate.Format "2006-01-02T15:04:05Z07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+    "author" (dict "@type" "Person" "name" $authorName)
+    "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+    "publisher" (dict "@type" "Organization" "name" site.Title "logo" (dict "@type" "ImageObject" "url" (site.Params.assets.favicon | default "favicon.ico" | absURL)))
+-}}
+{{- with (.Params.keywords | default .Params.tags) -}}
+  {{- $blogDict = merge $blogDict (dict "keywords" .) -}}
+{{- end -}}
+{{- with .Params.images -}}
+  {{- $blogDict = merge $blogDict (dict "image" ((index . 0) | absURL)) -}}
+{{- end -}}
+<script type="application/ld+json">{{ $blogDict | jsonify | safeJS }}</script>
+{{- end -}}
+
+{{- end -}}
