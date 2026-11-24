@@ -211,7 +211,7 @@ Au-delà des systèmes distribués et de la recherche doctorale, je dirige <stro
 Soixante contes populaires vietnamiens, paraboles malicieuses et récits humoristiques présentés en parallèle en anglais littéraire et en vietnamien moderne — couronné <strong>#1 Best-Seller Amazon</strong> en <em>Children's Asian Folk Tales</em>, désormais doté d'un <strong>compagnon audio interactif EN+VI synchronisé (120 pistes · 0,75× / 1,0× / 1,15×)</strong>.
 </p>
 <div class="book-links">
-<a href="/books/vietnamese-folk-tales/" class="book-cta-primary">📖 Fiche &amp; Extraits</a>
+<a href="/fr/books/vietnamese-folk-tales/" class="book-cta-primary">📖 Fiche &amp; Extraits</a>
 <a href="/demo/folk-tales/">🎧 4 Contes Gratuits</a>
 <a href="https://www.youtube.com/playlist?list=PLbiJMqQoSja0" rel="noopener noreferrer" target="_blank">📺 Playlist Vidéo</a>
 <a href="https://www.amazon.com/dp/B0HMSF6P9V" rel="noopener noreferrer" target="_blank">Édition Kindle</a>
@@ -232,7 +232,7 @@ Soixante contes populaires vietnamiens, paraboles malicieuses et récits humoris
 Paru pour Thanksgiving 2026 comme le grand compagnon mythologique du Tome 1 — de Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh et Thánh Gióng au lac Hoàn Kiếm, Tấm &amp; Cám et aux traditions du Têt, avec notes culturelles, glossaire oral et <strong>compagnon audio EN+VI synchronisé phrase par phrase (72 pistes · 0,75× / 1,0× / 1,15×)</strong>.
 </p>
 <div class="book-links">
-<a href="/books/vietnamese-myths/" class="book-cta-primary">📖 Fiche &amp; Extraits</a>
+<a href="/fr/books/vietnamese-myths/" class="book-cta-primary">📖 Fiche &amp; Extraits</a>
 <a href="/demo/myths/">🎧 4 Mythes Gratuits</a>
 <a href="https://www.youtube.com/playlist?list=PLJhiyS5zNcm4" rel="noopener noreferrer" target="_blank">📺 Playlist Vidéo</a>
 <a href="https://www.amazon.com/dp/B0HSCX2G1J" rel="noopener noreferrer" target="_blank">Édition Kindle</a>
@@ -253,7 +253,7 @@ Paru pour Thanksgiving 2026 comme le grand compagnon mythologique du Tome 1 — 
 Oubliez les listes de vocabulaire stériles : maîtrisez les 6 tons du vietnamien à travers trente récits inoubliables. Chaque leçon associe texte parallèle numéroté phrase par phrase, 10 mots essentiels, repères grammaticaux, exercices avec corrigés et QR codes par leçon + bibliothèque complète vers notre lecteur audio double voix synchronisé.
 </p>
 <div class="book-links">
-<a href="/books/learn-vietnamese/" class="book-cta-primary">📖 Fiche &amp; Extraits</a>
+<a href="/fr/books/learn-vietnamese/" class="book-cta-primary">📖 Fiche &amp; Extraits</a>
 <a href="/demo/learn-vietnamese/">🎧 4 Leçons Gratuites</a>
 <a href="https://www.youtube.com/playlist?list=PLOR1tbt6SRuI" rel="noopener noreferrer" target="_blank">📺 Playlist Vidéo</a>
 <a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">🔔 Suivre sur Amazon (Sortie Noël)</a>
@@ -342,7 +342,7 @@ Bên cạnh kỹ nghệ hệ thống và nghiên cứu Tiến sĩ, tôi sáng l�
 Sáu mươi tích cổ dân gian, ngụ ngôn thâm thúy và giai thoại hóm hỉnh trình bày đối chiếu giữa tiếng Anh truyền cảm và tiếng Việt hiện đại trong sáng — vươn lên <strong>#1 Best Seller</strong> bảng xếp hạng <em>Children's Asian Folk Tales</em> trên Amazon, kèm <strong>kho Audio Song Ngữ EN+VI đồng bộ từng câu (120 tracks · 0.75×–1.15×)</strong>.
 </p>
 <div class="book-links">
-<a href="/books/vietnamese-folk-tales/" class="book-cta-primary">📖 Xem Trang Sách</a>
+<a href="/vi/books/vietnamese-folk-tales/" class="book-cta-primary">📖 Xem Trang Sách</a>
 <a href="/demo/folk-tales/">🎧 Nghe Thử 4 Truyện</a>
 <a href="https://www.youtube.com/playlist?list=PLbiJMqQoSja0" rel="noopener noreferrer" target="_blank">📺 Danh Sách Video</a>
 <a href="https://www.amazon.com/dp/B0HMSF6P9V" rel="noopener noreferrer" target="_blank">Bản Kindle eBook</a>
@@ -363,7 +363,7 @@ Sáu mươi tích cổ dân gian, ngụ ngôn thâm thúy và giai thoại hóm 
 Chính thức ra mắt dịp Lễ Tạ Ơn (Thanksgiving 2026) đồng hành quy mô lớn cùng Tập 1 — từ Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh, Thánh Gióng, Hồ Gươm tới Tấm Cám và sự tích Tết cổ truyền, kèm mục giải nghĩa văn hóa, bảng phát âm và <strong>trình Audio Song Ngữ EN+VI đồng bộ từng câu (72 tracks · 0.75×–1.15×)</strong>.
 </p>
 <div class="book-links">
-<a href="/books/vietnamese-myths/" class="book-cta-primary">📖 Xem Trang Sách</a>
+<a href="/vi/books/vietnamese-myths/" class="book-cta-primary">📖 Xem Trang Sách</a>
 <a href="/demo/myths/">🎧 Nghe Thử 4 Thần Thoại</a>
 <a href="https://www.youtube.com/playlist?list=PLJhiyS5zNcm4" rel="noopener noreferrer" target="_blank">📺 Danh Sách Video</a>
 <a href="https://www.amazon.com/dp/B0HSCX2G1J" rel="noopener noreferrer" target="_blank">Bản Kindle eBook</a>
@@ -384,7 +384,7 @@ Chính thức ra mắt dịp Lễ Tạ Ơn (Thanksgiving 2026) đồng hành quy
 Thay vì học vẹt thẻ từ rời rạc, người học nước ngoài và thế hệ kiều bào nắm bắt thanh điệu, ngữ điệu tự nhiên qua ba mươi câu chuyện giàu tiếng cười và hồn Việt. Mỗi bài tích hợp đối chiếu câu Anh–Việt đánh số, 10 từ cốt lõi, điểm ngữ pháp, bài tập có đáp án, mã QR từng bài và QR tổng thư viện Audio song giọng đồng bộ.
 </p>
 <div class="book-links">
-<a href="/books/learn-vietnamese/" class="book-cta-primary">📖 Xem Trang Sách</a>
+<a href="/vi/books/learn-vietnamese/" class="book-cta-primary">📖 Xem Trang Sách</a>
 <a href="/demo/learn-vietnamese/">🎧 Nghe Thử 4 Bài Học</a>
 <a href="https://www.youtube.com/playlist?list=PLOR1tbt6SRuI" rel="noopener noreferrer" target="_blank">📺 Danh Sách Video</a>
 <a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">🔔 Theo Dõi Amazon (Nhận Tin Noel)</a>

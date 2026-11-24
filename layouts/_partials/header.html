@@ -33,7 +33,8 @@
             {{- end }}
 
             {{- $isSov := or (strings.Contains .RelPermalink "/sovereignty-gov") (strings.Contains .RelPermalink "/sovereign-governance") (strings.Contains .RelPermalink "/governance") (in .Params.categories "Sovereign Governance") (in .Params.categories "Governance") (in .Params.categories "Sovereignty & Governance") -}}
-            {{- $isTrilingual := or $isSov (eq .RelPermalink "/about/") (eq .RelPermalink "/sovera/") (eq .RelPermalink "/sovera-engine/") (eq .RelPermalink "/books/") -}}
+            {{- $hasAlts := .Params.seoAlternates -}}
+            {{- $isTrilingual := or $isSov $hasAlts (eq .RelPermalink "/about/") (eq .RelPermalink "/sovera/") (eq .RelPermalink "/sovera-engine/") (eq .RelPermalink "/books/") -}}
             {{- $lsenabled := or (not site.Params.disableThemeToggle) $isTrilingual -}}
             {{- if $lsenabled }}
             <div class="logo-switches">
@@ -60,7 +61,17 @@
                 </button>
                 {{- end }}
 
-                {{- if $isTrilingual }}
+                {{- if $hasAlts }}
+                {{- $activeLang := .Params.pageLang | default "en" }}
+                <span class="nav-sep" aria-hidden="true">|</span>
+                <div class="lang-switch-pill" role="navigation" aria-label="Language versions">
+                    <a class="lang-btn{{ if eq $activeLang "en" }} active{{ end }}" href="{{ $hasAlts.en }}" data-lang-link="en" hreflang="en" title="English"{{ if eq $activeLang "en" }} aria-current="page"{{ end }}>EN</a>
+                    <span class="lang-sep" aria-hidden="true">/</span>
+                    <a class="lang-btn{{ if eq $activeLang "fr" }} active{{ end }}" href="{{ $hasAlts.fr }}" data-lang-link="fr" hreflang="fr" title="Français"{{ if eq $activeLang "fr" }} aria-current="page"{{ end }}>FR</a>
+                    <span class="lang-sep" aria-hidden="true">/</span>
+                    <a class="lang-btn{{ if eq $activeLang "vi" }} active{{ end }}" href="{{ $hasAlts.vi }}" data-lang-link="vi" hreflang="vi" title="Tiếng Việt"{{ if eq $activeLang "vi" }} aria-current="page"{{ end }}>VI</a>
+                </div>
+                {{- else if $isTrilingual }}
                 <span class="nav-sep" aria-hidden="true">|</span>
                 <div class="lang-switch-pill" role="group" aria-label="Language switcher">
                     <button type="button" class="lang-btn active" data-lang-switch="en" aria-pressed="true" aria-label="EN — English" title="English">EN</button>

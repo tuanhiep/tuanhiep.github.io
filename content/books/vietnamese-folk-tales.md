@@ -15,6 +15,12 @@ layout: "about"
 hideMeta: true
 ShowToc: false
 bookSchema: true
+pageLang: "en"
+seoAlternates:
+  en: "/books/vietnamese-folk-tales/"
+  fr: "/fr/books/vietnamese-folk-tales/"
+  vi: "/vi/books/vietnamese-folk-tales/"
+  xdefault: "/books/vietnamese-folk-tales/"
 bookSubtitle: "60 Classic Illustrated Stories — Bilingual English & Vietnamese Treasury (Volume 1)"
 demoPreviewUrl: "/demo/folk-tales/"
 videoEmbedId: "QpkdWH_TGgk"

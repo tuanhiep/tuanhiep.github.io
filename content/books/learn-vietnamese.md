@@ -14,6 +14,12 @@ layout: "about"
 hideMeta: true
 ShowToc: false
 bookSchema: true
+pageLang: "en"
+seoAlternates:
+  en: "/books/learn-vietnamese/"
+  fr: "/fr/books/learn-vietnamese/"
+  vi: "/vi/books/learn-vietnamese/"
+  xdefault: "/books/learn-vietnamese/"
 bookSubtitle: "30 Graded Bilingual Cultural Folktales with Core Vocabulary, Grammar Notes & Dual-Voice Native Audio"
 demoPreviewUrl: "/demo/learn-vietnamese/"
 videoEmbedId: "qmi7-19kDfA"

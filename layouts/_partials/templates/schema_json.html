@@ -66,7 +66,7 @@
 {{- range . -}}
   {{- $qaList = $qaList | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) -}}
 {{- end -}}
-{{- $faqDict := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $qaList -}}
+{{- $faqDict := dict "@context" "https://schema.org" "@type" "FAQPage" "inLanguage" ($.Params.pageLang | default "en") "mainEntity" $qaList -}}
 <script type="application/ld+json">{{ $faqDict | jsonify | safeJS }}</script>
 {{- end -}}
 
@@ -76,6 +76,7 @@
     "@type" "VideoObject"
     "name" (printf "%s — Bilingual Read-Along Video Preview" $.Title)
     "description" ($.Description | plainify)
+    "inLanguage" (slice ($.Params.pageLang | default "en") "vi")
     "thumbnailUrl" (printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" .)
     "embedUrl" (printf "https://www.youtube-nocookie.com/embed/%s" .)
     "contentUrl" (printf "https://www.youtube.com/watch?v=%s" .)

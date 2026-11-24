@@ -15,6 +15,12 @@ layout: "about"
 hideMeta: true
 ShowToc: false
 bookSchema: true
+pageLang: "en"
+seoAlternates:
+  en: "/books/vietnamese-myths/"
+  fr: "/fr/books/vietnamese-myths/"
+  vi: "/vi/books/vietnamese-myths/"
+  xdefault: "/books/vietnamese-myths/"
 bookSubtitle: "36 Timeless Illustrated Stories of Creation, Heroes & Magic — Bilingual Treasury (Volume 2)"
 demoPreviewUrl: "/demo/myths/"
 videoEmbedId: "AZU9LK8_wIM"

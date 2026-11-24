@@ -594,6 +594,8 @@
         font-size: 0.72rem;
         font-weight: 700;
         letter-spacing: 0.03em;
+        text-decoration: none;
+        box-shadow: none !important;
         transition: all 0.14s ease;
     }
 
@@ -2324,10 +2326,22 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // 2. Trilingual EN / FR / VI Switcher (Top Header Pill)
-    const langButtons = document.querySelectorAll(".lang-switch-pill .lang-btn");
+    const langButtons = document.querySelectorAll(".lang-switch-pill .lang-btn[data-lang-switch]");
+    const langLinks = document.querySelectorAll(".lang-switch-pill .lang-btn[data-lang-link]");
     const langPanels = document.querySelectorAll("[data-lang-panel]");
     const i18nNodes = document.querySelectorAll("[data-i18n-en]");
     const supportedLangs = ["en", "fr", "vi"];
+
+    langLinks.forEach(function (lnk) {
+        lnk.addEventListener("click", function () {
+            const targetLang = lnk.getAttribute("data-lang-link");
+            if (targetLang && supportedLangs.includes(targetLang)) {
+                try {
+                    sessionStorage.setItem("tp_session_lang", targetLang);
+                } catch (e) {}
+            }
+        });
+    });
 
     function hasLanguageOnPage(lang) {
         if (lang === "en") return true;
