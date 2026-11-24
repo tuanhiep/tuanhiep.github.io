@@ -1958,6 +1958,103 @@
         background: var(--code-bg);
     }
 
+    /* Warm Midnight Bedtime Reading Mode */
+    body.va-bedtime {
+        background: #0a0f1a !important;
+        color: #eadbc0 !important;
+        --theme: #0a0f1a;
+        --entry: #111929;
+        --primary: #efe1c6;
+        --secondary: #b9ab8f;
+        --border: rgba(217, 176, 91, 0.24);
+        --code-bg: #152033;
+    }
+
+    body.va-bedtime .va-sent.is-active,
+    body.va-bedtime .va-row.is-active {
+        background: rgba(217, 176, 91, 0.14);
+        border-color: rgba(217, 176, 91, 0.45);
+    }
+
+    /* Heritage Explorer Certificate Card */
+    .va-cert-card {
+        margin-top: 1.5rem;
+        padding: 1.2rem 1.3rem;
+        border-radius: 14px;
+        border: 1px solid rgba(217, 176, 91, 0.45);
+        background: linear-gradient(135deg, rgba(8, 23, 46, 0.06), rgba(217, 176, 91, 0.08));
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1.08fr);
+        gap: 1.1rem 1.35rem;
+        align-items: center;
+    }
+
+    .va-cert-copy h3 {
+        margin: 0.25rem 0 0.4rem !important;
+        font-size: 1.1rem;
+    }
+
+    .va-cert-fields {
+        display: flex;
+        flex-direction: column;
+        gap: 0.55rem;
+        margin: 0.75rem 0;
+    }
+
+    .va-cert-input,
+    .va-cert-select {
+        width: 100%;
+        min-height: 40px;
+        padding: 0.45rem 0.75rem;
+        border-radius: 8px;
+        border: 1px solid var(--border);
+        background: var(--theme);
+        color: var(--primary);
+        font-family: inherit;
+        font-size: 0.9rem;
+    }
+
+    .va-cert-preview {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+        border: 1px solid rgba(217, 176, 91, 0.55);
+        box-shadow: 0 10px 26px rgba(8, 23, 46, 0.18);
+    }
+
+    #va-print-cert-wrap {
+        display: none;
+    }
+
+    @media print {
+        @page {
+            size: landscape;
+            margin: 0.2in;
+        }
+        body.va-printing-cert > *:not(#va-print-cert-wrap) {
+            display: none !important;
+        }
+        body.va-printing-cert #va-print-cert-wrap {
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            min-height: 95vh;
+        }
+        body.va-printing-cert #va-print-cert-wrap img {
+            max-width: 100%;
+            max-height: 92vh;
+            object-fit: contain;
+        }
+    }
+
+    @media (max-width: 760px) {
+        .va-cert-card {
+            grid-template-columns: 1fr;
+        }
+    }
+
     @media (prefers-reduced-motion: reduce) {
         .va-btn,
         .va-row,
@@ -2008,12 +2105,67 @@ document.addEventListener("DOMContentLoaded", function () {
         drillGroup.innerHTML =
             '<button type="button" class="va-btn" data-va-loop aria-pressed="false" title="Repeat the active sentence continuously">🔁 Loop Line</button>' +
             '<button type="button" class="va-btn" data-va-hide="en" aria-pressed="false" title="Blur English text to test recall (tap blurred line to reveal)">👁️ Hide EN</button>' +
-            '<button type="button" class="va-btn" data-va-hide="vi" aria-pressed="false" title="Blur Vietnamese text to test recall (tap blurred line to reveal)">👁️ Hide VI</button>';
+            '<button type="button" class="va-btn" data-va-hide="vi" aria-pressed="false" title="Blur Vietnamese text to test recall (tap blurred line to reveal)">👁️ Hide VI</button>' +
+            '<button type="button" class="va-btn" data-va-bedtime aria-pressed="false" title="Warm amber night reading mode + 15-minute gentle sleep timer">🌙 Bedtime 15m</button>';
         toolbar.appendChild(drillGroup);
     }
 
     const loopBtn = shell.querySelector("[data-va-loop]");
     const hideBtns = Array.from(shell.querySelectorAll("[data-va-hide]"));
+    const bedtimeBtn = shell.querySelector("[data-va-bedtime]");
+    let bedtimeTimerId = null;
+    let bedtimeRemaining = 0;
+
+    function stopBedtime() {
+        if (bedtimeTimerId) {
+            clearInterval(bedtimeTimerId);
+            bedtimeTimerId = null;
+        }
+        bedtimeRemaining = 0;
+        document.body.classList.remove("va-bedtime");
+        audio.volume = 1.0;
+        if (bedtimeBtn) {
+            bedtimeBtn.classList.remove("is-active");
+            bedtimeBtn.setAttribute("aria-pressed", "false");
+            bedtimeBtn.textContent = "🌙 Bedtime 15m";
+        }
+    }
+
+    if (bedtimeBtn) {
+        bedtimeBtn.addEventListener("click", function () {
+            if (bedtimeTimerId) {
+                stopBedtime();
+                return;
+            }
+            bedtimeRemaining = 900;
+            document.body.classList.add("va-bedtime");
+            bedtimeBtn.classList.add("is-active");
+            bedtimeBtn.setAttribute("aria-pressed", "true");
+            audio.volume = 1.0;
+            if (audio.paused) {
+                const p = audio.play();
+                if (p && typeof p.catch === "function") p.catch(function () {});
+            }
+            const fmt = function (s) {
+                const m = Math.floor(s / 60);
+                const r = s % 60;
+                return "🌙 " + String(m).padStart(2, "0") + ":" + String(r).padStart(2, "0");
+            };
+            bedtimeBtn.textContent = fmt(bedtimeRemaining);
+            bedtimeTimerId = setInterval(function () {
+                bedtimeRemaining -= 1;
+                if (bedtimeRemaining <= 12 && bedtimeRemaining > 0) {
+                    audio.volume = Math.max(0.05, bedtimeRemaining / 12);
+                }
+                if (bedtimeRemaining <= 0) {
+                    audio.pause();
+                    stopBedtime();
+                    return;
+                }
+                bedtimeBtn.textContent = fmt(bedtimeRemaining);
+            }, 1000);
+        });
+    }
 
     let activeVoice = (voiceBtns[0] && voiceBtns[0].getAttribute("data-va-voice")) || "female";
     let activeRate = 1.0;
@@ -2277,6 +2429,167 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
         setActiveCue(null);
+    });
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const hubShell = document.querySelector(".va-shell");
+    const isDemoHub = hubShell && !document.getElementById("va-audio") && /^\/demo\/?$/i.test(window.location.pathname);
+    const anchorTarget = hubShell ? hubShell.querySelector(".va-newsletter") : null;
+    if (!isDemoHub || !anchorTarget || document.getElementById("va-cert-widget")) return;
+
+    const curDate = new Date().toLocaleDateString("en-US", { month: "long", year: "numeric" });
+    const certSec = document.createElement("section");
+    certSec.id = "va-cert-widget";
+    certSec.className = "va-cert-card";
+    certSec.setAttribute("aria-label", "Heritage Explorer Certificate Generator");
+    certSec.innerHTML =
+        '<div class="va-cert-copy">' +
+        '<p class="va-nl-kicker">🎓 Family Reading Milestone · Free Keepsake</p>' +
+        '<h3>Create Your Heritage Explorer Certificate</h3>' +
+        '<p class="va-nl-desc">Personalize a printable Vietnamese Waves™ keepsake certificate for your child or family—rendered locally on your device with zero account or personal data uploaded.</p>' +
+        '<div class="va-cert-fields">' +
+        '<input id="va-cert-name" class="va-cert-input" type="text" maxlength="44" placeholder="Child or Family Name (e.g., Minh Anh)">' +
+        '<select id="va-cert-book" class="va-cert-select" aria-label="Book collection">' +
+        '<option value="The Complete Vietnamese Folk Tales & Witty Parables">Vol. I · The Complete Vietnamese Folk Tales & Witty Parables</option>' +
+        '<option value="Vietnamese Myths & Sacred Legends">Vol. II · Vietnamese Myths & Sacred Legends</option>' +
+        '<option value="Vietnamese Heroes & Historical Epics">Vol. III · Vietnamese Heroes & Historical Epics</option>' +
+        '<option value="Learn Vietnamese Through Timeless Stories">Companion · Learn Vietnamese Through Timeless Stories</option>' +
+        '</select>' +
+        '<input id="va-cert-date" class="va-cert-input" type="text" maxlength="32" value="' + curDate.replace(/"/g, "&quot;") + '" aria-label="Certificate date">' +
+        '</div>' +
+        '<div class="va-group">' +
+        '<button type="button" class="va-btn is-active" id="va-cert-dl">🖼️ Save PNG Keepsake</button>' +
+        '<button type="button" class="va-btn" id="va-cert-print">📄 Print / Save PDF</button>' +
+        '</div>' +
+        '</div>' +
+        '<canvas id="va-cert-canvas" class="va-cert-preview" width="1600" height="1131"></canvas>';
+    anchorTarget.parentNode.insertBefore(certSec, anchorTarget);
+
+    const printWrap = document.createElement("div");
+    printWrap.id = "va-print-cert-wrap";
+    document.body.appendChild(printWrap);
+
+    const canvas = document.getElementById("va-cert-canvas");
+    const nameInput = document.getElementById("va-cert-name");
+    const bookSelect = document.getElementById("va-cert-book");
+    const dateInput = document.getElementById("va-cert-date");
+
+    function drawCertificate() {
+        if (!canvas || !canvas.getContext) return;
+        const ctx = canvas.getContext("2d");
+        const W = 1600, H = 1131;
+        const recName = (nameInput.value || "").trim() || "Young Heritage Explorer";
+        const bookTitle = bookSelect.value || "Vietnamese Waves™ Collection";
+        const dtStr = (dateInput.value || "").trim() || curDate;
+
+        const grad = ctx.createLinearGradient(0, 0, 0, H);
+        grad.addColorStop(0, "#08172e");
+        grad.addColorStop(1, "#0f274a");
+        ctx.fillStyle = grad;
+        ctx.fillRect(0, 0, W, H);
+
+        ctx.strokeStyle = "#d9b05b";
+        ctx.lineWidth = 6;
+        ctx.strokeRect(42, 42, W - 84, H - 84);
+        ctx.strokeStyle = "#9e7a35";
+        ctx.lineWidth = 2;
+        ctx.strokeRect(58, 58, W - 116, H - 116);
+
+        ctx.textAlign = "center";
+        ctx.fillStyle = "#ead196";
+        ctx.font = "600 26px Georgia, 'Times New Roman', serif";
+        ctx.fillText("VIETNAMESE WAVES™ · BILINGUAL HERITAGE ARCHIVE", W / 2, 155);
+
+        ctx.fillStyle = "#f6dfa2";
+        ctx.font = "bold 66px Georgia, 'Times New Roman', serif";
+        ctx.fillText("Certificate of Cultural Heritage", W / 2, 265);
+
+        ctx.strokeStyle = "#c9a04d";
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.moveTo(W / 2 - 220, 305);
+        ctx.lineTo(W / 2 + 220, 305);
+        ctx.stroke();
+
+        ctx.fillStyle = "#cbd5e1";
+        ctx.font = "italic 28px Georgia, 'Times New Roman', serif";
+        ctx.fillText("PROUDLY PRESENTED TO", W / 2, 395);
+
+        let nameSize = 78;
+        ctx.font = "bold " + nameSize + "px Georgia, 'Times New Roman', serif";
+        while (ctx.measureText(recName).width > W - 280 && nameSize > 42) {
+            nameSize -= 4;
+            ctx.font = "bold " + nameSize + "px Georgia, 'Times New Roman', serif";
+        }
+        ctx.fillStyle = "#fff8e7";
+        ctx.fillText(recName, W / 2, 505);
+
+        ctx.strokeStyle = "rgba(217, 176, 91, 0.55)";
+        ctx.beginPath();
+        ctx.moveTo(320, 540);
+        ctx.lineTo(W - 320, 540);
+        ctx.stroke();
+
+        ctx.fillStyle = "#e2e8f0";
+        ctx.font = "29px Georgia, 'Times New Roman', serif";
+        ctx.fillText("in honor of exploring Vietnamese stories, ancestral wisdom, and bilingual reading & listening mastery in", W / 2, 625);
+
+        let titleSize = 40;
+        ctx.font = "bold italic " + titleSize + "px Georgia, 'Times New Roman', serif";
+        while (ctx.measureText(bookTitle).width > W - 260 && titleSize > 26) {
+            titleSize -= 2;
+            ctx.font = "bold italic " + titleSize + "px Georgia, 'Times New Roman', serif";
+        }
+        ctx.fillStyle = "#f6dfa2";
+        ctx.fillText("« " + bookTitle + " »", W / 2, 705);
+
+        ctx.textAlign = "left";
+        ctx.fillStyle = "#ead196";
+        ctx.font = "bold 28px Georgia, 'Times New Roman', serif";
+        ctx.fillText("Tuan-Hiep TRAN", 160, 910);
+        ctx.fillStyle = "#94a3b8";
+        ctx.font = "italic 22px Georgia, 'Times New Roman', serif";
+        ctx.fillText("Author & Founder · Vietnamese Waves™", 160, 948);
+        ctx.fillText("Completed: " + dtStr, 160, 986);
+
+        ctx.fillStyle = "#9e2a2b";
+        ctx.fillRect(W - 295, 835, 130, 130);
+        ctx.strokeStyle = "#d9b05b";
+        ctx.lineWidth = 3;
+        ctx.strokeRect(W - 295, 835, 130, 130);
+        ctx.fillStyle = "#f6dfa2";
+        ctx.textAlign = "center";
+        ctx.font = "bold 76px Georgia, 'Times New Roman', serif";
+        ctx.fillText("陳", W - 230, 926);
+
+        ctx.fillStyle = "#94a3b8";
+        ctx.font = "20px -apple-system, BlinkMacSystemFont, sans-serif";
+        ctx.fillText("tuanhiep.github.io/books/", W / 2, 1048);
+    }
+
+    drawCertificate();
+    nameInput.addEventListener("input", drawCertificate);
+    bookSelect.addEventListener("change", drawCertificate);
+    dateInput.addEventListener("input", drawCertificate);
+
+    document.getElementById("va-cert-dl").addEventListener("click", function () {
+        drawCertificate();
+        const link = document.createElement("a");
+        link.download = "vietnamese-waves-certificate.png";
+        link.href = canvas.toDataURL("image/png");
+        link.click();
+    });
+
+    document.getElementById("va-cert-print").addEventListener("click", function () {
+        drawCertificate();
+        printWrap.innerHTML = '<img src="' + canvas.toDataURL("image/png") + '" alt="Heritage Explorer Certificate">';
+        document.body.classList.add("va-printing-cert");
+        window.print();
+        setTimeout(function () {
+            document.body.classList.remove("va-printing-cert");
+        }, 800);
     });
 });
 </script>

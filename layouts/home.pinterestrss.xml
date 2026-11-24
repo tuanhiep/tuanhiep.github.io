@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Vietnamese Waves™ &amp; Technocrat Press — Bilingual Books, Audio Demos &amp; Engineering Visuals</title>
+    <link>{{ .Permalink }}</link>
+    <description>Collector-grade bilingual English-Vietnamese folklore, sacred myths, historical epics, interactive audio companions, and system design blueprints by Tuan-Hiep TRAN.</description>
+    <language>en-us</language>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    <atom:link href="{{ "pinterest.xml" | absURL }}" rel="self" type="application/rss+xml" />
+    {{- $allPages := where .Site.RegularPages "Params.robotsNoIndex" "ne" true -}}
+    {{- range $allPages -}}
+      {{- $isBook := eq .Section "books" -}}
+      {{- $isDemo := eq .Section "demo" -}}
+      {{- $hasImg := isset .Params "images" -}}
+      {{- if or $isBook $isDemo $hasImg -}}
+        {{- $img := "" -}}
+        {{- if $hasImg -}}
+          {{- $img = index .Params.images 0 -}}
+        {{- else if $isDemo -}}
+          {{- $rp := .RelPermalink -}}
+          {{- if in $rp "folk-tales" -}}
+            {{- $img = "/images/books/vietnamese-folk-tales-treasury.jpg" -}}
+          {{- else if in $rp "myths" -}}
+            {{- $img = "/images/books/vietnamese-myths-and-legends.jpg" -}}
+          {{- else if in $rp "learn-vietnamese" -}}
+            {{- $img = "/images/books/learn-vietnamese-stories.jpg" -}}
+          {{- else if in $rp "heroes" -}}
+            {{- $img = "/images/books/vietnamese-heroes-epics.jpg" -}}
+          {{- end -}}
+        {{- end -}}
+        {{- if $img -}}
+          {{- $absImg := $img | absURL -}}
+          {{- $rawDesc := .Description | default .Summary | default .Title -}}
+          {{- $cleanDesc := replace ($rawDesc | plainify | htmlUnescape) "]]>" "" -}}
+          {{- $cleanTitle := .Title | htmlUnescape | htmlEscape -}}
+          {{- $pub := .Date -}}
+          {{- if $pub.IsZero -}}{{- $pub = now -}}{{- end -}}
+          {{- $mime := "image/jpeg" -}}
+          {{- if hasSuffix (lower $img) ".png" -}}{{- $mime = "image/png" -}}{{- end }}
+    <item>
+      <title>{{ $cleanTitle }}</title>
+      <link>{{ .Permalink }}</link>
+      <guid isPermaLink="true">{{ .Permalink }}</guid>
+      <pubDate>{{ $pub.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      <description><![CDATA[{{ $cleanDesc }}]]></description>
+      <enclosure url="{{ $absImg }}" length="0" type="{{ $mime }}" />
+      <media:content url="{{ $absImg }}" medium="image" />
+    </item>
+        {{- end -}}
+      {{- end -}}
+    {{- end }}
+  </channel>
+</rss>

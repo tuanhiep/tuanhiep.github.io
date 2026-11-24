@@ -14,6 +14,19 @@ pagination:
 enableRobotsTXT: true
 enableGitInfo: true
 
+outputFormats:
+  PinterestRSS:
+    mediaType: "application/rss+xml"
+    baseName: "pinterest"
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - PinterestRSS
+
 frontmatter:
   date:
     - date
