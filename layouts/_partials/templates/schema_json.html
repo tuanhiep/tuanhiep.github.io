@@ -104,7 +104,7 @@
 {{- end -}}
 <script type="application/ld+json">{{ $lrDict | jsonify | safeJS }}</script>
 
-{{- /* 4. Book Catalog & Collection Hubs (/books/, /demo/, /vt/, /vm/, /va/) */ -}}
+{{- /* 4. Book Catalog & Public Demo Hubs (/books/, /demo/) */ -}}
 {{- else if or .Params.bookShelf .Params.cleanHub -}}
 {{- $colDict := dict
     "@context" "https://schema.org"

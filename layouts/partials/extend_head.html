@@ -1497,7 +1497,7 @@
     }
 </style>
 
-{{ if in (slice "va" "vt" "vm" "demo" "lib") .Section }}
+{{ if eq .Section "demo" }}
 <style>
     .va-shell {
         max-width: 820px;
