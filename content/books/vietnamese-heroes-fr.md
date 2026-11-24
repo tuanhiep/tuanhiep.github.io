@@ -33,7 +33,7 @@ faqItems:
   - q: "Ce livre propose-t-il un compagnon audio bilingue ?"
     a: "Oui : chaque chronique est reliée au lecteur audio interactif privé anglais-vietnamien synchronisé phrase par phrase (60 pistes), et quatre épopées majeures sont accessibles gratuitement en ligne."
   - q: "Quand paraîtra le Tome 3 sur Amazon.fr et Amazon.com ?"
-    a: "La parution mondiale est prévue pour le 1er trimestre 2027, après les lancements de Thanksgiving (Tome 2) et de Noël (Learn Vietnamese). Rejoignez le Cercle ci-dessous pour être averti dès la sortie."
+    a: "La parution est prévue pour le Nouvel An Lunaire 2027 (Tết · 6 février 2027), avec mise en vente dès la mi-janvier pour les cadeaux familiaux du Têt. Rejoignez le Cercle ci-dessous pour être averti le jour J."
 ---
 
 <section class="book-showcase-hero">
@@ -41,13 +41,14 @@ faqItems:
 <img src="/images/books/vietnamese-heroes-epics.jpg" alt="Couverture de Vietnamese Heroes and Historical Epics" class="book-showcase-cover" />
 </div>
 <div>
-<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Tome 3 · Parution T1 2027</p>
+<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Tome 3 · Parution Nouvel An Lunaire 2027 (Tết)</p>
 <h1>Vietnamese Heroes &amp; Historical Epics</h1>
 <p class="about-lede">Trente chroniques humaines vibrantes de reines guerrières, d'amiraux stratèges, de maîtres intègres et de penseurs visionnaires — unissant prose anglaise littéraire, vietnamien authentique (<em>Bản Kể Song Ngữ</em>) et 60 pistes audio synchronisées.</p>
 <p class="book-specs" style="margin-top: 0.75rem;">30 Épopées Historiques · Notes Stratégiques · 60 Pistes Audio EN+VI par QR · Chronologie Dynastique · Format Collector 6 × 9"</p>
 <div class="about-actions" aria-label="Liens du livre">
 <a href="/demo/heroes/" class="book-cta-primary">🎧 Écouter 4 Épopées Gratuites</a>
-<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">🔔 Suivre l'Auteur sur Amazon</a>
+<a href="#book-vol3-waitlist">🔔 Alerte Sortie Têt 2027</a>
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">📖 Suivre sur Amazon</a>
 <a href="https://www.youtube.com/@VietnameseWaves" rel="noopener noreferrer" target="_blank">📺 Chaîne @VietnameseWaves</a>
 </div>
 </div>
@@ -130,4 +131,6 @@ faqItems:
 </div>
 </section>
 
-{{< newsletter uid="book-vol3-fr" tag="vietnamese-waves" variant="vw" kicker="🪷 Cercle des Lecteurs Vietnamese Waves™" title="Soyez Informé dès la Sortie du Tome 3" desc="Recevez l'alerte de lancement officiel de Vietnamese Heroes & Historical Epics ainsi que de nouveaux chapitres audio gratuits." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="M'avertir à la sortie" note="Sans spam · Désinscription en 1 clic." >}}
+<div id="book-vol3-waitlist">
+{{< newsletter uid="book-vol3-fr" tag="vietnamese-waves" variant="vw" kicker="🪷 Liste d'Attente · Nouvel An Lunaire 2027 (Tết)" title="Soyez Informé dès l'Ouverture du Tome 3 pour le Têt" desc="Recevez l'alerte de mise en ligne (mi-janvier 2027 avant le Nouvel An Lunaire) ainsi que de nouveaux chapitres audio gratuits." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="M'avertir pour le Têt 2027" note="Sans spam · Désinscription en 1 clic." >}}
+</div>

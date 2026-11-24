@@ -134,23 +134,26 @@ Skip dry flashcards and master real Vietnamese tones through thirty memorable st
 <img src="/images/books/vietnamese-heroes-epics.jpg" alt="Front cover of Vietnamese Heroes and Historical Epics" class="book-cover" loading="lazy" />
 </div>
 <div class="book-details">
-<span class="book-badge book-badge-upcoming">Q1 2027 Collector Capstone · 60 Audio Tracks Ready</span>
+<span class="book-badge book-badge-upcoming">Releasing Lunar New Year 2027 (Tết) · 60 Audio Tracks Live</span>
 <h3>Vietnamese Heroes &amp; Historical Epics</h3>
 <p class="book-subtitle">30 Illustrated Stories of Warrior Queens, Strategists &amp; Timeless Dynasties — Bilingual Treasury (Volume 3)</p>
 <p class="book-specs">30 True Historical Epics · Strategic Genius Notes · 60-Track EN+VI Synced Audio QR · Dynasty Timeline · 6 × 9" Print &amp; Kindle</p>
 <p class="book-desc">
-Crowns the Collector Trilogy with thirty vivid true chronicles from Cổ Loa (257 BCE), the Trưng Queens, and Ngô Quyền’s tidal stakes at Bạch Đằng to Trần Hưng Đạo’s Diên Hồng assembly, Nguyễn Trãi, Emperor Quang Trung, and early twentieth-century reformers—complete with Strategic Genius notes and a <strong>60-track synced audio companion</strong>.
+Crowns the Collector Trilogy for <strong>Lunar New Year 2027 (Tết Đinh Mùi)</strong> gifting with thirty vivid true chronicles from Cổ Loa (257 BCE), the Trưng Queens, and Ngô Quyền’s tidal stakes at Bạch Đằng to Trần Hưng Đạo’s Diên Hồng assembly, Nguyễn Trãi, Emperor Quang Trung’s Tết victory, and early twentieth-century reformers—complete with a <strong>60-track synced audio companion</strong>.
 </p>
 <div class="book-links">
-<a href="/books/vietnamese-heroes/" class="book-cta-primary">📖 Explore Book &amp; Waitlist</a>
+<a href="/books/vietnamese-heroes/" class="book-cta-primary">📖 Explore Book &amp; Previews</a>
 <a href="/demo/heroes/">🎧 Try 4 Epics Free</a>
-<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">🔔 Follow Author on Amazon</a>
+<a href="#books-en-waitlist">🔔 Join Tết Release Waitlist</a>
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">📖 Follow on Amazon</a>
 </div>
 </div>
 </article>
 </div>
 
-{{< newsletter uid="books-en" tag="vietnamese-waves" variant="vw" kicker="🪷 Vietnamese Waves™ Reader Circle" title="Get Free Bilingual Audio Stories & New Release Alerts" desc="Receive new narrated folktales, seasonal Kindle free-promotion dates, and Book 3 Christmas launch updates." emailLabel="Your email address" placeholder="reader@example.com" button="Join Free Circle" note="No spam · Tag: vietnamese-waves · Unsubscribe anytime." >}}
+<div id="books-en-waitlist">
+{{< newsletter uid="books-en" tag="vietnamese-waves" variant="vw" kicker="🪷 Vietnamese Waves™ Reader Circle" title="Get Free Bilingual Audio Stories & New Release Alerts" desc="Receive new narrated chapters, Thanksgiving/Christmas Kindle free-promo alerts, Learn Vietnamese (Dec 2026), and Vol. 3 Lunar New Year 2027 (Tết) launch notification." emailLabel="Your email address" placeholder="reader@example.com" button="Join Free Circle" note="No spam · Unsubscribe anytime." >}}
+</div>
 
 </section>
 
@@ -284,23 +287,26 @@ Oubliez les listes de vocabulaire stériles : maîtrisez les 6 tons du vietnamie
 <img src="/images/books/vietnamese-heroes-epics.jpg" alt="Couverture de Vietnamese Heroes and Historical Epics" class="book-cover" loading="lazy" />
 </div>
 <div class="book-details">
-<span class="book-badge book-badge-upcoming">Parution T1 2027 · 60 Pistes Audio Prêtes</span>
+<span class="book-badge book-badge-upcoming">Sortie Nouvel An Lunaire 2027 (Tết) · 60 Pistes Audio</span>
 <h3>Vietnamese Heroes &amp; Historical Epics</h3>
 <p class="book-subtitle">30 Épopées de Reines Guerrières, Stratèges &amp; Dynasties Millénaires — Trésor Bilingue (Tome 3)</p>
 <p class="book-specs">30 Chroniques Historiques · Notes Stratégiques · 60 Pistes Audio EN+VI par QR · Chronologie Dynastique · Format 6 × 9"</p>
 <p class="book-desc">
-Couronne la trilogie collector avec trente chroniques authentiques, de la citadelle de Cổ Loa et des Sœurs Trưng jusqu'à Ngô Quyền, Trần Hưng Đạo, Nguyễn Trãi, Quang Trung et les réformateurs du XXe siècle — accompagnées de notes de stratégie asymétrique et d'un <strong>compagnon audio synchronisé en 60 pistes</strong>.
+Couronne la trilogie collector pour le <strong>Nouvel An Lunaire 2027 (Tết)</strong> avec trente chroniques authentiques, de Cổ Loa et des Sœurs Trưng à Ngô Quyền, Trần Hưng Đạo, Nguyễn Trãi, l'empereur Quang Trung et les réformateurs du XXe siècle — accompagnées de notes stratégiques et d'un <strong>compagnon audio synchronisé en 60 pistes</strong>.
 </p>
 <div class="book-links">
 <a href="/fr/books/vietnamese-heroes/" class="book-cta-primary">📖 Fiche &amp; Extraits</a>
 <a href="/demo/heroes/">🎧 4 Épopées Gratuites</a>
-<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">🔔 Suivre sur Amazon</a>
+<a href="#books-fr-waitlist">🔔 Liste d'Attente Tết 2027</a>
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">📖 Suivre sur Amazon</a>
 </div>
 </div>
 </article>
 </div>
 
-{{< newsletter uid="books-fr" tag="vietnamese-waves" variant="vw" kicker="🪷 Cercle des Lecteurs Vietnamese Waves™" title="Recevez les Contes Audio Gratuits & Nouvelles Parutions" desc="Nouveaux récits illustrés narrés en anglais & vietnamien, promotions Kindle gratuites et sortie du Tome 3 à Noël." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="Rejoindre le Cercle" note="Sans spam · Désinscription en 1 clic." >}}
+<div id="books-fr-waitlist">
+{{< newsletter uid="books-fr" tag="vietnamese-waves" variant="vw" kicker="🪷 Cercle des Lecteurs Vietnamese Waves™" title="Recevez les Contes Audio Gratuits & Nouvelles Parutions" desc="Nouveaux récits illustrés bilingues, promotions Kindle gratuites, sortie Noël (Learn Vietnamese) et parution du Tome 3 pour le Nouvel An Lunaire 2027 (Tết)." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="Rejoindre le Cercle" note="Sans spam · Désinscription en 1 clic." >}}
+</div>
 
 </section>
 
@@ -434,23 +440,26 @@ Thay vì học vẹt thẻ từ rời rạc, người học nước ngoài và t
 <img src="/images/books/vietnamese-heroes-epics.jpg" alt="Bìa sách Vietnamese Heroes and Historical Epics" class="book-cover" loading="lazy" />
 </div>
 <div class="book-details">
-<span class="book-badge book-badge-upcoming">Dự Kiến Q1/2027 · Kho 60 Track Audio Sẵn Sàng</span>
+<span class="book-badge book-badge-upcoming">Phát Hành Dịp Tết Nguyên Đán 2027 · 60 Track Audio</span>
 <h3>Vietnamese Heroes &amp; Historical Epics</h3>
 <p class="book-subtitle">30 Anh Hùng Dân Tộc, Danh Tướng &amp; Triều Đại Bất Diệt — Hợp Tuyển Song Ngữ (Tập 3)</p>
 <p class="book-specs">30 Thiên Sử Thi · Khung Chiến Lược · 60 Track Audio EN+VI Qua QR · Niên Biểu Triều Đại · Khổ 6 × 9"</p>
 <p class="book-desc">
-Tập kết nối hoàn chỉnh Tam Bộ Thư Di Sản với ba mươi trang sử thật từ Cổ Loa, Hai Bà Trưng, Ngô Quyền trên sông Bạch Đằng tới Trần Hưng Đạo, Nguyễn Trãi, Vua Quang Trung và phong trào Đông Du — đi kèm bình giải chiến lược bất đối xứng và <strong>kho 60 track Audio đồng bộ Anh–Việt</strong>.
+Tập kết tinh hoàn chỉnh Tam Bộ Thư Di Sản cho mùa quà tặng <strong>Tết Nguyên Đán 2027 (Tết Đinh Mùi)</strong> với ba mươi trang sử thật từ Cổ Loa, Hai Bà Trưng, Ngô Quyền đến Trần Hưng Đạo, Nguyễn Trãi, Vua Quang Trung đại phá Ngọc Hồi sáng Mùng 5 Tết và phong trào Đông Du — kèm <strong>kho 60 track Audio đồng bộ Anh–Việt</strong>.
 </p>
 <div class="book-links">
 <a href="/vi/books/vietnamese-heroes/" class="book-cta-primary">📖 Xem Trang Sách</a>
 <a href="/demo/heroes/">🎧 Nghe Thử 4 Chương Sử</a>
-<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">🔔 Theo Dõi Amazon</a>
+<a href="#books-vi-waitlist">🔔 Đăng Ký Chờ Mua Dịp Tết</a>
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">📖 Theo Dõi Amazon</a>
 </div>
 </div>
 </article>
 </div>
 
-{{< newsletter uid="books-vi" tag="vietnamese-waves" variant="vw" kicker="🪷 Gia Đình Độc Giả Vietnamese Waves™" title="Nhận Truyện Song Ngữ Audio Miễn Phí & Lịch Tải Sách 0 Đồng" desc="Cập nhật truyện cổ kể song ngữ mới trên YouTube, lịch tặng sách Kindle miễn phí dịp Lễ và tin phát hành Tập 3 Giáng Sinh." emailLabel="Email của bạn" placeholder="ten@example.com" button="Đăng Ký Miễn Phí" note="Không spam · Hủy đăng ký bất kỳ lúc nào." >}}
+<div id="books-vi-waitlist">
+{{< newsletter uid="books-vi" tag="vietnamese-waves" variant="vw" kicker="🪷 Gia Đình Độc Giả Vietnamese Waves™" title="Nhận Truyện Song Ngữ Audio Miễn Phí & Lịch Tải Sách 0 Đồng" desc="Cập nhật truyện audio mới, lịch tải sách Kindle miễn phí dịp Lễ, bản Giáng Sinh (Learn Vietnamese) và thông báo mở bán Tập 3 dịp Tết Nguyên Đán 2027." emailLabel="Email của bạn" placeholder="ten@example.com" button="Đăng Ký Miễn Phí" note="Không spam · Hủy đăng ký bất kỳ lúc nào." >}}
+</div>
 
 </section>
 

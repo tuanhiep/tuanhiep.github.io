@@ -35,7 +35,7 @@ faqItems:
   - q: "Does Volume 3 include interactive English and Vietnamese audio?"
     a: "Yes. Every chapter pairs with sentence-synced English and Northern Vietnamese narration inside the private reader audio vault, plus 4 complete historical chronicles available to test free right here."
   - q: "When will Volume 3 launch on Amazon?"
-    a: "Scheduled for Q1 2027 following the Thanksgiving Vol. 2 and Christmas Learn Vietnamese launches. Join the Vietnamese Waves™ Reader Circle below for launch-day notification and early audio previews."
+    a: "Releasing for Lunar New Year 2027 (Tết Đinh Mùi · Feb 6, 2027), with Amazon print and Kindle editions opening mid-January 2027 in time for Tết family gifting. Join the Vietnamese Waves™ Reader Circle below for launch-day notification and early audio previews."
 ---
 
 <div class="lang-panel" data-lang-panel="en" lang="en">
@@ -44,13 +44,14 @@ faqItems:
 <img src="/images/books/vietnamese-heroes-epics.jpg" alt="Cover of Vietnamese Heroes and Historical Epics" class="book-showcase-cover" />
 </div>
 <div>
-<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Volume 3 · Upcoming Q1 2027</p>
+<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Volume 3 · Releasing Lunar New Year 2027 (Tết)</p>
 <h1>Vietnamese Heroes &amp; Historical Epics</h1>
 <p class="about-lede">Thirty vivid human chronicles of warrior queens, tide-reading admirals, incorruptible teachers, and scholar-reformers — uniting literary English, authentic Vietnamese (<em>Bản Kể Song Ngữ</em>), and 60 synced audio tracks.</p>
 <p class="book-specs" style="margin-top: 0.75rem;">30 Historical Epics · Strategic Genius Notes · 60-Track EN+VI Synced Audio QR · Dynasty Timeline · 6 × 9" Collector Edition</p>
 <div class="about-actions" aria-label="Book Actions">
 <a href="/demo/heroes/" class="book-cta-primary">🎧 Try 4 Epics Free Live</a>
-<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">🔔 Follow Author on Amazon</a>
+<a href="#book-vol3-waitlist">🔔 Join Tết 2027 Waitlist</a>
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">📖 Follow Author on Amazon</a>
 <a href="https://www.youtube.com/@VietnameseWaves" rel="noopener noreferrer" target="_blank">📺 @VietnameseWaves YouTube</a>
 </div>
 </div>
@@ -147,6 +148,8 @@ faqItems:
 </div>
 </section>
 
-{{< newsletter uid="book-vol3-en" tag="vietnamese-waves" variant="vw" kicker="🪷 Vietnamese Waves™ Reader Circle" title="Get Notified When Volume 3 Releases & Hear Early Audio" desc="Receive launch-day pricing alerts for Vietnamese Heroes & Historical Epics plus free narrated bilingual chapters." emailLabel="Your email address" placeholder="reader@example.com" button="Notify Me & Join Circle" note="Zero spam · Unsubscribe anytime." >}}
+<div id="book-vol3-waitlist">
+{{< newsletter uid="book-vol3-en" tag="vietnamese-waves" variant="vw" kicker="🪷 Lunar New Year 2027 (Tết) Release Waitlist" title="Get Notified When Volume 3 Opens for Tết Gifting" desc="Join the Vietnamese Waves™ Reader Circle for launch-day alerts (mid-January 2027 ahead of Tết) plus free narrated bilingual chapters." emailLabel="Your email address" placeholder="reader@example.com" button="Notify Me for Tết Release" note="Zero spam · Unsubscribe anytime." >}}
+</div>
 
 </div>

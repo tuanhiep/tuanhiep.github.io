@@ -32,7 +32,7 @@ faqItems:
   - q: "Sách có kho Audio đọc song ngữ Anh–Việt giống Tập 1 và Tập 2 không?"
     a: "Có. Toàn bộ 30 thiên sử thi đều có kho Audio Song Ngữ EN + VI đồng bộ từng câu (60 tracks · 0.75×–1.15×) truy cập qua mã QR cuối sách, và 4 chương tiêu biểu đã mở nghe thử miễn phí ngay trên trang này."
   - q: "Khi nào Tập 3 phát hành chính thức trên Amazon?"
-    a: "Dự kiến phát hành Quý 1/2027, nối tiếp sóng Lễ Tạ Ơn (Tập 2) và Giáng Sinh 2026 (Learn Vietnamese). Đăng ký danh sách chờ bên dưới để nhận thông báo sớm nhất và nghe các chương demo miễn phí."
+    a: "Sách dự kiến mở bán từ giữa tháng 01/2027 để kịp quà tặng & lì xì văn hóa dịp Tết Nguyên Đán Đinh Mùi (06/02/2027), nối tiếp sóng Lễ Tạ Ơn (Tập 2) và Giáng Sinh 2026 (Learn Vietnamese). Đăng ký danh sách chờ bên dưới để nhận thông báo ngày mở bán."
 ---
 
 <section class="book-showcase-hero">
@@ -40,13 +40,14 @@ faqItems:
 <img src="/images/books/vietnamese-heroes-epics.jpg" alt="Bìa sách Vietnamese Heroes and Historical Epics" class="book-showcase-cover" />
 </div>
 <div>
-<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Tập 3 · Dự Kiến Q1/2027</p>
+<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Tập 3 · Phát Hành Dịp Tết Nguyên Đán 2027</p>
 <h1>Vietnamese Heroes &amp; Historical Epics (Song Ngữ Anh–Việt)</h1>
 <p class="about-lede">Ba mươi thiên sử thi sống động về những bậc nữ kiệt, danh tướng đọc thủy triều, danh sĩ giữ khí tiết và nhà cải cách mở đường — kết hợp văn chương tiếng Anh giàu nhạc điệu, bản kể tiếng Việt trang trọng cùng 60 track audio đồng bộ.</p>
 <p class="book-specs" style="margin-top: 0.75rem;">30 Anh Hùng Lịch Sử · Khung Bình Giải Chiến Lược · 60 Track Audio EN+VI · Niên Biểu Triều Đại · Khổ 6 × 9"</p>
 <div class="about-actions" aria-label="Thao tác sách">
 <a href="/demo/heroes/" class="book-cta-primary">🎧 Nghe Thử 4 Chương Sử Miễn Phí</a>
-<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">🔔 Theo Dõi Tác Giả Trên Amazon</a>
+<a href="#book-vol3-waitlist">🔔 Đăng Ký Chờ Mua Dịp Tết</a>
+<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">📖 Theo Dõi Amazon</a>
 <a href="https://www.youtube.com/@VietnameseWaves" rel="noopener noreferrer" target="_blank">📺 Kênh @VietnameseWaves</a>
 </div>
 </div>
@@ -129,4 +130,6 @@ faqItems:
 </div>
 </section>
 
-{{< newsletter uid="book-vol3-vi" tag="vietnamese-waves" variant="vw" kicker="🪷 Gia Đình Độc Giả Vietnamese Waves™" title="Nhận Tin Ngày Phát Hành Tập 3 & Kho Truyện Audio Miễn Phí" desc="Đăng ký để nhận thông báo ngay khi Vietnamese Heroes & Historical Epics mở bán trên Amazon kèm các chương audio demo mới nhất." emailLabel="Email của bạn" placeholder="ten@example.com" button="Đăng Ký Chờ Phát Hành" note="Không spam · Hủy đăng ký bất kỳ lúc nào." >}}
+<div id="book-vol3-waitlist">
+{{< newsletter uid="book-vol3-vi" tag="vietnamese-waves" variant="vw" kicker="🪷 Danh Sách Chờ · Phát Hành Tết Nguyên Đán 2027" title="Nhận Thông Báo Mở Bán Tập 3 Kịp Mùa Quà Tết 2027" desc="Đăng ký để nhận email ngay khi mở bán giữa tháng 01/2027 (trước Mùng 1 Tết 06/02/2027) cùng các chương audio demo mới nhất." emailLabel="Email của bạn" placeholder="ten@example.com" button="Đăng Ký Chờ Mua Dịp Tết" note="Không spam · Hủy đăng ký bất kỳ lúc nào." >}}
+</div>
