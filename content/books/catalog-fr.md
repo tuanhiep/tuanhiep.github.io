@@ -36,7 +36,7 @@ Retrouvez nos éditions bilingues illustrées <strong>Français &amp; Vietnamien
 
 <div class="vw-visual-shelf" aria-label="Aperçu visuel de la collection">
 <div class="vw-shelf-header">
-<strong><span aria-hidden="true">📚</span> 8 Éditions Illustrées (FR+VI &amp; EN+VI) — Accès Visuel Direct</strong>
+<strong><span aria-hidden="true">📚</span> 11 Éditions Bilingues (FR+VI &amp; EN+VI) — Accès Visuel Direct</strong>
 <span>Cliquez sur une couverture pour explorer l'ouvrage &amp; écouter ses pistes audio gratuites</span>
 </div>
 <div class="vw-cover-ribbon">
@@ -47,6 +47,10 @@ Retrouvez nos éditions bilingues illustrées <strong>Français &amp; Vietnamien
 <a class="vw-cover-tile" href="/fr/books/vietnamese-myths/">
 <img src="/images/books/vietnamese-myths-and-legends-fr.jpg" alt="Mythes et Légendes Sacrées du Vietnam" />
 <span class="vw-cover-cap"><b>Vol. 2 · FR+VI</b><em>🎄 Noël 2026</em></span>
+</a>
+<a class="vw-cover-tile" href="/fr/books/vietnamese-folklore-omnibus/">
+<img src="/images/books/vietnamese-folklore-omnibus-fr.jpg" alt="L'Intégrale des Contes et Mythes Sacrés du Vietnam" />
+<span class="vw-cover-cap"><b>Intégrale · FR+VI</b><em>🎄 Noël 2026</em></span>
 </a>
 <a class="vw-cover-tile" href="/fr/books/learn-vietnamese/">
 <img src="/images/books/learn-vietnamese-stories-fr.jpg" alt="Apprendre le Vietnamien par les Contes" />
@@ -64,6 +68,10 @@ Retrouvez nos éditions bilingues illustrées <strong>Français &amp; Vietnamien
 <img src="/images/books/vietnamese-myths-and-legends.jpg" alt="Vietnamese Myths Vol. 2 EN" />
 <span class="vw-cover-cap"><b>Vol. 2 · EN+VI</b><em>✨ Paru Nov 26</em></span>
 </a>
+<a class="vw-cover-tile" href="/books/vietnamese-folklore-omnibus/">
+<img src="/images/books/vietnamese-folklore-omnibus.jpg" alt="Vietnamese Folklore Omnibus EN" />
+<span class="vw-cover-cap"><b>Omnibus · EN+VI</b><em>👑 Vol. 1+2</em></span>
+</a>
 <a class="vw-cover-tile" href="/books/learn-vietnamese/">
 <img src="/images/books/learn-vietnamese-stories.jpg" alt="Learn Vietnamese Stories EN" />
 <span class="vw-cover-cap"><b>Learn VI · EN+VI</b><em>🎄 Noël 2026</em></span>
@@ -72,13 +80,17 @@ Retrouvez nos éditions bilingues illustrées <strong>Français &amp; Vietnamien
 <img src="/images/books/vietnamese-heroes-epics.jpg" alt="Vietnamese Heroes Vol. 3 EN" />
 <span class="vw-cover-cap"><b>Vol. 3 · EN+VI</b><em>🧧 Tết 2027</em></span>
 </a>
+<a class="vw-cover-tile" href="/books/vietnamese-kitchen-stories/">
+<img src="/images/books/vietnamese-kitchen-stories.jpg" alt="Vietnamese Kitchen Stories" />
+<span class="vw-cover-cap"><b>Cuisine · EN+VI</b><em>🍲 25 Plats</em></span>
+</a>
 </div>
 </div>
 
 <div class="vw-shelf-tabs" role="group" aria-label="Filtrer les collections">
-<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toute la Collection (11)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Éditions Françaises FR+VI (4)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Éditions Anglaises EN+VI (4)</button>
+<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toute la Collection (14)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Éditions Françaises FR+VI (5)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Éditions Anglaises EN+VI (6)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="tp" aria-pressed="false">🏛️ Technocrat Press · 2027 (3)</button>
 </div>
 
@@ -174,8 +186,31 @@ Couronne la trilogie collector franco-vietnamienne pour le <strong>Nouvel An Lun
 </p>
 <div class="book-links">
 <a href="/fr/books/vietnamese-heroes/" class="book-cta-primary">📖 Page Française &amp; Programme</a>
-<a href="/demo/heroes/">🎧 4 Épopées (Avant-Première)</a>
+<a href="/demo/heros-vietnamiens/">🎧 4 Épopées FR+VI Gratuites</a>
 <a href="#books-fr-catalog-waitlist">🔔 Liste d'Attente Têt 2027</a>
+</div>
+</div>
+</article>
+
+<article class="book-card">
+<div class="book-cover-wrap">
+<img src="/images/books/vietnamese-folklore-omnibus-fr.jpg" alt="Couverture L'Intégrale des Contes et Mythes Sacrés du Vietnam" class="book-cover" loading="lazy" />
+</div>
+<div class="book-details">
+<div class="book-badge-row">
+<span class="book-badge book-badge-xmas">🎄 Sortie Noël 2026 · Intégrale Collector</span>
+<span class="book-lang-tag">🇫🇷 Français &amp; Tiếng Việt</span>
+</div>
+<h3>L'Intégrale des Contes &amp; Mythes Sacrés du Vietnam</h3>
+<p class="book-subtitle">96 Récits Illustrés (Volumes 1 &amp; 2 Réunis) — Édition Collector Franco-Vietnamienne</p>
+<p class="book-specs">96 Récits Bilingues · 105 Planches Couleur · 192 Pistes Audio FR+VI QR · 312 Pages · Kindle 9,99 € · Broché 24,99 € · Relié 32,99 €</p>
+<p class="book-desc">
+Rassemble intégralement les Volumes 1 et 2 sous un dos collector unique idéal pour les cadeaux de Noël sur Amazon.fr.
+</p>
+<div class="book-links">
+<a href="/fr/books/vietnamese-folklore-omnibus/" class="book-cta-primary">📖 Page Intégrale (FR)</a>
+<a href="/demo/contes-vietnamiens/">🎧 4 Contes FR+VI</a>
+<a href="/demo/mythes-vietnamiens/">🎧 4 Mythes FR+VI</a>
 </div>
 </div>
 </article>
@@ -266,6 +301,44 @@ La série originale <strong>English &amp; Vietnamese</strong> — dont le Volume
 <a href="/books/vietnamese-heroes/" class="book-cta-primary">📖 Fiche EN &amp; Extraits</a>
 <a href="/demo/heroes/">🎧 4 Épopées Gratuites</a>
 <a href="#books-fr-catalog-waitlist">🔔 Liste d'Attente Tết 2027</a>
+</div>
+</div>
+</article>
+
+<article class="book-card">
+<div class="book-cover-wrap">
+<img src="/images/books/vietnamese-folklore-omnibus.jpg" alt="Couverture The Complete Vietnamese Folklore and Myths Omnibus" class="book-cover" loading="lazy" />
+</div>
+<div class="book-details">
+<div class="book-badge-row">
+<span class="book-badge book-badge-live">👑 Omnibus Collector · Parution Immédiate</span>
+<span class="book-lang-tag">🇬🇧 English &amp; Tiếng Việt</span>
+</div>
+<h3>The Complete Vietnamese Folklore &amp; Myths Omnibus</h3>
+<p class="book-subtitle">96 Récits (Volumes 1 + 2 Intégraux) — Trésor Bilingue Anglais &amp; Vietnamien</p>
+<p class="book-specs">96 Histoires · 105 Planches Couleur · 192 Pistes Audio QR · 302 Pages · Format 6 × 9"</p>
+<div class="book-links">
+<a href="/books/vietnamese-folklore-omnibus/" class="book-cta-primary">📖 Page Omnibus (EN)</a>
+<a href="/demo/folk-tales/">🎧 4 Contes EN+VI</a>
+</div>
+</div>
+</article>
+
+<article class="book-card">
+<div class="book-cover-wrap">
+<img src="/images/books/vietnamese-kitchen-stories.jpg" alt="Couverture Vietnamese Kitchen Stories" class="book-cover" loading="lazy" />
+</div>
+<div class="book-details">
+<div class="book-badge-row">
+<span class="book-badge book-badge-tet">🍲 Édition Culinaire · 50 Pistes Audio</span>
+<span class="book-lang-tag">🇬🇧 English &amp; Tiếng Việt</span>
+</div>
+<h3>Vietnamese Kitchen Stories</h3>
+<p class="book-subtitle">25 Recettes Familiales Authentiques (Nord, Centre, Sud) &amp; Lexique Audio de Table</p>
+<p class="book-specs">25 Plats · Mesures Métriques &amp; US · 101 Phrases Audio de Marché · 50 Pistes Audio EN+VI</p>
+<div class="book-links">
+<a href="/books/vietnamese-kitchen-stories/" class="book-cta-primary">📖 Page &amp; Recettes (EN)</a>
+<a href="/demo/kitchen-stories/">🎧 4 Extraits Cuisine</a>
 </div>
 </div>
 </article>

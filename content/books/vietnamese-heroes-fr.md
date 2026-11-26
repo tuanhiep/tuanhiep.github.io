@@ -24,7 +24,7 @@ seoAlternates:
   vi: "/vi/books/vietnamese-heroes/"
   xdefault: "/books/vietnamese-heroes/"
 bookSubtitle: "30 Récits Illustrés de Reines Guerrières, Stratèges & Dynasties — Édition Bilingue Français & Vietnamien (Volume 3)"
-demoPreviewUrl: "/demo/heroes/"
+demoPreviewUrl: "/demo/heros-vietnamiens/"
 images:
   - "/images/books/vietnamese-heroes-epics-fr.jpg"
 sameAsUrls:
@@ -35,9 +35,9 @@ faqItems:
   - q: "Quels grands personnages historiques figurent dans ce Volume 3 ?"
     a: "Trente tournants historiques vérifiés couvrant plus de 2 200 ans en trois actes : Livre I (Cổ Loa, Sœurs Trưng, Dame Triệu, Khúc Hạo, Ngô Quyền à Bạch Đằng, Lý Thường Kiệt) ; Livre II (Impératrice Ỷ Lan, Tô Hiến Thành, Trần Hưng Đạo à Diên Hồng, Trần Nhân Tông, Chu Văn An, Hồ Quý Ly) ; Livre III (Lê Lợi & Lê Lai, Nguyễn Trãi, Lê Thánh Tông, Quang Trung 1789, l'amirale Bùi Thị Xuân, Phan Bội Châu & Phan Châu Trinh)."
   - q: "Quand paraîtra l'édition française Héros & Épopées Historiques du Vietnam sur Amazon.fr ?"
-    a: "La parution des éditions anglaise et française est programmée pour le Nouvel An Lunaire 2027 (Tết Nguyên Đán · 6 février 2027), avec lancement mi-janvier pour les cadeaux familiaux du Têt (Kindle 5,49 €, Broché 15,99 €, Relié Collector 22,99 €)."
-  - q: "Un compagnon audio et des extraits sont-ils déjà disponibles ?"
-    a: "Les 60 pistes audio de l'édition originale (anglais + vietnamien du Nord) sont déjà finalisées et quatre chroniques complètes sont en écoute libre dès aujourd'hui ; l'adaptation studio en français et vietnamien accompagnera la sortie Têt 2027 sur Amazon.fr."
+    a: "Le manuscrit complet (142 pages, 34 planches couleur 300 DPI) et les 60 pistes audio natives FR+VI sont désormais achevés. La parution mondiale est programmée pour le Nouvel An Lunaire 2027 (Tết Nguyên Đán · 6 février 2027), avec ouverture des commandes mi-janvier (Kindle 5,49 €, Broché 15,99 €, Relié Collector 22,99 €)."
+  - q: "Les pistes audio en français et vietnamien sont-elles déjà écoutables ?"
+    a: "Oui. Les 60 pistes audio bilingues (français littéraire Vivienne + vietnamien du Nord Hoài My) sont finalisées et quatre chroniques complètes sont ouvertes gratuitement dès aujourd'hui en écoute interactive synchronisée."
 ---
 
 <section class="book-showcase-hero">
@@ -47,15 +47,15 @@ faqItems:
 <div>
 <p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Volume 3 (Édition Française · Amazon.fr)</p>
 <div class="book-badge-row">
-<span class="book-badge book-badge-tet">🧧 Sortie Nouvel An Lunaire 2027 (Tết Nguyên Đán)</span>
+<span class="book-badge book-badge-tet">🧧 Sortie Têt 2027 · 60 Pistes Audio FR+VI Prêtes</span>
 <span class="book-lang-tag">🇫🇷 Français &amp; Tiếng Việt</span>
 </div>
 <h1>Héros &amp; Épopées Historiques du Vietnam</h1>
-<p class="about-lede">Trente chroniques humaines vibrantes de reines guerrières, d'amiraux lisant les marées, de maîtres intègres et de penseurs visionnaires — adaptées en <strong>français littéraire</strong> et accompagnées du texte vietnamien original (<em>Bản Kể Song Ngữ</em>), de notes stratégiques et d'une chronologie dynastique.</p>
-<p class="book-specs" style="margin-top: 0.75rem;">30 Épopées Historiques · Notes Stratégiques · Chronologie Dynastique · Amazon.fr Têt 2027 (Kindle 5,49 € · Broché 15,99 € · Relié 22,99 €)</p>
+<p class="about-lede">Trente chroniques humaines vibrantes de reines guerrières, d'amiraux lisant les marées, de maîtres intègres et de penseurs visionnaires — adaptées en <strong>français littéraire</strong> et accompagnées du texte vietnamien original (<em>Bản Kể Song Ngữ</em>), de notes stratégiques, d'une chronologie dynastique et de <strong>60 pistes audio bilingues FR+VI</strong>.</p>
+<p class="book-specs" style="margin-top: 0.75rem;">30 Épopées Historiques · 34 Planches Couleur · 60 Pistes Audio FR+VI QR · Amazon.fr Têt 2027 (Kindle 5,49 € · Broché 15,99 € · Relié 22,99 €)</p>
 <div class="about-actions" aria-label="Liens du livre">
-<a href="#book-vol3-fr-waitlist" class="book-cta-primary">🔔 Rejoindre la Liste d'Attente Têt 2027</a>
-<a href="/demo/heroes/">🎧 Écouter 4 Épopées (Avant-Première EN+VI)</a>
+<a href="/demo/heros-vietnamiens/" class="book-cta-primary">🎧 Écouter 4 Épopées FR+VI Gratuits</a>
+<a href="#book-vol3-fr-waitlist">🔔 Rejoindre la Liste d'Attente Têt 2027</a>
 <a href="/books/vietnamese-heroes/">🇬🇧 Édition Anglaise (EN+VI) →</a>
 <a href="https://www.youtube.com/@VietnameseWaves" rel="noopener noreferrer" target="_blank">📺 @VietnameseWaves</a>
 </div>
@@ -103,28 +103,28 @@ faqItems:
 </section>
 
 <section class="about-section">
-<h2><span aria-hidden="true">🎧</span> Avant-Première Audio (4 Chroniques Ouvertes EN+VI)</h2>
-<p class="books-intro">Découvrez dès maintenant 4 chroniques historiques complètes sur notre lecteur synchronisé (en anglais et vietnamien, avant la sortie de la piste française au Têt 2027) :</p>
+<h2><span aria-hidden="true">🎧</span> Écoutez 4 Chroniques Gratuites en Français &amp; Vietnamien</h2>
+<p class="books-intro">Testez dès maintenant quatre chapitres complets du lecteur audio bilingue officiel (voix française + vietnamien du Nord, vitesse 0,75× / 1,0× / 1,15×) :</p>
 <div class="book-demo-grid">
-<a class="book-demo-card" href="/demo/heroes/">
-<span class="book-demo-tag">▶ AVANT-PREMIÈRE · RÉCIT 01</span>
-<span class="book-demo-title">The Spiral Citadel of Cổ Loa</span>
-<span class="book-demo-vi">Thành Cổ Loa · Audio EN + VI</span>
+<a class="book-demo-card" href="/demo/heros-vietnamiens/">
+<span class="book-demo-tag">▶ EXTRAIT GRATUIT · RÉCIT 01</span>
+<span class="book-demo-title">La Citadelle en Spirale de Cổ Loa</span>
+<span class="book-demo-vi">Thành Cổ Loa · Audio FR + VI</span>
 </a>
-<a class="book-demo-card" href="/demo/heroes-07/">
-<span class="book-demo-tag">▶ AVANT-PREMIÈRE · RÉCIT 07</span>
-<span class="book-demo-title">Iron Stakes Beneath the Tide</span>
-<span class="book-demo-vi">Ngô Quyền &amp; Bạch Đằng · Audio EN + VI</span>
+<a class="book-demo-card" href="/demo/heros-vietnamiens-07/">
+<span class="book-demo-tag">▶ EXTRAIT GRATUIT · RÉCIT 07</span>
+<span class="book-demo-title">Les Pieux Ferrés sur la Marée du Bạch Đằng</span>
+<span class="book-demo-vi">Ngô Quyền &amp; Bạch Đằng · Audio FR + VI</span>
 </a>
-<a class="book-demo-card" href="/demo/heroes-14/">
-<span class="book-demo-tag">▶ AVANT-PREMIÈRE · RÉCIT 14</span>
-<span class="book-demo-title">The Sage Commander &amp; Diên Hồng</span>
-<span class="book-demo-vi">Trần Hưng Đạo · Audio EN + VI</span>
+<a class="book-demo-card" href="/demo/heros-vietnamiens-14/">
+<span class="book-demo-tag">▶ EXTRAIT GRATUIT · RÉCIT 14</span>
+<span class="book-demo-title">Le Commandeur Sage &amp; Diên Hồng</span>
+<span class="book-demo-vi">Trần Hưng Đạo · Audio FR + VI</span>
 </a>
-<a class="book-demo-card" href="/demo/heroes-26/">
-<span class="book-demo-tag">▶ AVANT-PREMIÈRE · RÉCIT 26</span>
-<span class="book-demo-title">Red Tunics &amp; Lightning Dawn</span>
-<span class="book-demo-vi">Quang Trung 1789 · Audio EN + VI</span>
+<a class="book-demo-card" href="/demo/heros-vietnamiens-26/">
+<span class="book-demo-tag">▶ EXTRAIT GRATUIT · RÉCIT 26</span>
+<span class="book-demo-title">Tuniques Rouges &amp; L'Aube Éclair</span>
+<span class="book-demo-vi">Quang Trung 1789 · Audio FR + VI</span>
 </a>
 </div>
 </section>
