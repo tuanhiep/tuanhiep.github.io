@@ -30,7 +30,7 @@ Collector-grade illustrated bilingual editions (<strong>English &amp; Vietnamese
 
 <div class="vw-visual-shelf" aria-label="Vietnamese Waves Visual Bookshelf">
 <div class="vw-shelf-header">
-<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 11 Bilingual Collector Editions (EN+VI &amp; FR+VI)</strong>
+<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 10 Bilingual Collector Editions (EN+VI &amp; FR+VI)</strong>
 <span>Click any cover to open its full intro page, artwork previews &amp; live audio demo</span>
 </div>
 <div class="vw-cover-ribbon">
@@ -53,10 +53,6 @@ Collector-grade illustrated bilingual editions (<strong>English &amp; Vietnamese
 <a class="vw-cover-tile" href="/books/vietnamese-heroes/">
 <img src="/images/books/vietnamese-heroes-epics.jpg" alt="Vietnamese Heroes and Historical Epics" />
 <span class="vw-cover-cap"><b>Vol. 3 · Heroes</b><em>🧧 Tết 2027</em></span>
-</a>
-<a class="vw-cover-tile" href="/books/vietnamese-kitchen-stories/">
-<img src="/images/books/vietnamese-kitchen-stories.jpg" alt="Vietnamese Kitchen Stories" />
-<span class="vw-cover-cap"><b>Kitchen · EN+VI</b><em>🍲 25 Dishes</em></span>
 </a>
 <a class="vw-cover-tile" href="/fr/books/vietnamese-folk-tales/">
 <img src="/images/books/vietnamese-folk-tales-treasury-fr.jpg" alt="Trésor des Contes Populaires du Vietnam" />
@@ -82,8 +78,8 @@ Collector-grade illustrated bilingual editions (<strong>English &amp; Vietnamese
 </div>
 
 <div class="vw-shelf-tabs" role="group" aria-label="Filter books by imprint and language">
-<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 All Books (14)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Vietnamese Waves™ EN+VI (6)</button>
+<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 All Books (13)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Vietnamese Waves™ EN+VI (5)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Éditions Françaises FR+VI (5)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="tp" aria-pressed="false">🏛️ Technocrat Press · 2027 (3)</button>
 </div>
@@ -207,29 +203,6 @@ Saves 20–30% versus separate print volumes while uniting every folktale, witty
 <a href="/books/vietnamese-folklore-omnibus/" class="book-cta-primary">📖 Omnibus Page</a>
 <a href="/demo/folk-tales/">🎧 Try Vol. 1 Demos</a>
 <a href="/demo/myths/">🎧 Try Vol. 2 Demos</a>
-</div>
-</div>
-</article>
-
-<article class="book-card">
-<div class="book-cover-wrap">
-<img src="/images/books/vietnamese-kitchen-stories.jpg" alt="Cover of Vietnamese Kitchen Stories" class="book-cover" loading="lazy" />
-</div>
-<div class="book-details">
-<div class="book-badge-row">
-<span class="book-badge book-badge-tet">🍲 Authentic Culinary Edition · 50 Audio Tracks</span>
-<span class="book-lang-tag">🇬🇧 English &amp; Tiếng Việt</span>
-</div>
-<h3>Vietnamese Kitchen Stories</h3>
-<p class="book-subtitle">25 Classic Dishes, Ancestral Folklore &amp; Authentic Family Recipes — With Bilingual Phrasebook</p>
-<p class="book-specs">25 Classic Dishes (North · Central · South) · Metric &amp; US Measurements · 101 Table Phrases · 50 Synced Audio Tracks</p>
-<p class="book-desc">
-Clear-broth <em>Phở Bò</em>, charcoal <em>Bún Chả</em>, <em>Bún Bò Huế</em>, <em>Cao Lầu</em>, crackling <em>Bánh Mì</em>, foil-pan <em>Bánh Chưng</em>, and the <em>1:1:1:4 Nước Chấm</em> Matrix paired with Western grocery swaps and spoken Vietnamese ordering audio.
-</p>
-<div class="book-links">
-<a href="/books/vietnamese-kitchen-stories/" class="book-cta-primary">📖 Book Page &amp; Recipes</a>
-<a href="/demo/kitchen-stories/">🎧 Try 4 Kitchen Demos</a>
-<a href="/books/vietnamese-kitchen-stories/#book-kitchen-waitlist">🔔 Notify on Print Drop</a>
 </div>
 </div>
 </article>
@@ -417,7 +390,7 @@ for enterprise architecture advisory, GEM DBA collaboration, or media/review inq
 
 <div class="vw-visual-shelf" aria-label="Aperçu visuel Vietnamese Waves">
 <div class="vw-shelf-header">
-<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 11 Éditions Collector Bilingues (FR+VI &amp; EN+VI)</strong>
+<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 10 Éditions Collector Bilingues (FR+VI &amp; EN+VI)</strong>
 <span>Cliquez sur une couverture pour accéder à sa page dédiée et à ses pistes audio</span>
 </div>
 <div class="vw-cover-ribbon">
@@ -461,17 +434,13 @@ for enterprise architecture advisory, GEM DBA collaboration, or media/review inq
 <img src="/images/books/vietnamese-heroes-epics.jpg" alt="Vietnamese Heroes Vol. 3" />
 <span class="vw-cover-cap"><b>Vol. 3 · EN+VI</b><em>🧧 Tết 2027</em></span>
 </a>
-<a class="vw-cover-tile" href="/books/vietnamese-kitchen-stories/">
-<img src="/images/books/vietnamese-kitchen-stories.jpg" alt="Vietnamese Kitchen Stories" />
-<span class="vw-cover-cap"><b>Cuisine · EN+VI</b><em>🍲 25 Plats</em></span>
-</a>
 </div>
 </div>
 
 <div class="vw-shelf-tabs" role="group" aria-label="Filtrer par collection">
-<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toute la Collection (14)</button>
+<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toute la Collection (13)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Éditions Françaises FR+VI (5)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Éditions Anglaises EN+VI (6)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Éditions Anglaises EN+VI (5)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="tp" aria-pressed="false">🏛️ Technocrat Press · 2027 (3)</button>
 </div>
 
@@ -700,25 +669,6 @@ La trilogie et méthode originale en anglais et vietnamien publiées mondialemen
 </div>
 </div>
 </article>
-
-<article class="book-card">
-<div class="book-cover-wrap">
-<img src="/images/books/vietnamese-kitchen-stories.jpg" alt="Couverture de Vietnamese Kitchen Stories" class="book-cover" loading="lazy" />
-</div>
-<div class="book-details">
-<div class="book-badge-row">
-<span class="book-badge book-badge-tet">🍲 Édition Culinaire · 50 Pistes Audio</span>
-<span class="book-lang-tag">🇬🇧 English &amp; Tiếng Việt</span>
-</div>
-<h3>Vietnamese Kitchen Stories</h3>
-<p class="book-subtitle">25 Recettes Familiales Authentiques &amp; Guide Audio des Tables Vietnamiennes</p>
-<p class="book-specs">25 Plats (Nord · Centre · Sud) · Mesures Métriques &amp; US · 50 Pistes Audio EN+VI</p>
-<div class="book-links">
-<a href="/books/vietnamese-kitchen-stories/" class="book-cta-primary">📖 Page &amp; Recettes</a>
-<a href="/demo/kitchen-stories/">🎧 4 Extraits Cuisine</a>
-</div>
-</div>
-</article>
 </div>
 </section>
 
@@ -779,7 +729,7 @@ Bộ ấn phẩm di sản văn hóa Việt song ngữ minh họa màu (<strong>A
 
 <div class="vw-visual-shelf" aria-label="Bày bìa sách trực quan Vietnamese Waves">
 <div class="vw-shelf-header">
-<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 11 Đầu Sách Song Ngữ Collector (6 Anh–Việt &amp; 5 Pháp–Việt)</strong>
+<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 10 Đầu Sách Song Ngữ Collector (5 Anh–Việt &amp; 5 Pháp–Việt)</strong>
 <span>Bấm trực tiếp vào bất kỳ bìa sách nào để xem trang giới thiệu và nghe thử audio</span>
 </div>
 <div class="vw-cover-ribbon">
@@ -802,10 +752,6 @@ Bộ ấn phẩm di sản văn hóa Việt song ngữ minh họa màu (<strong>A
 <a class="vw-cover-tile" href="/vi/books/vietnamese-heroes/">
 <img src="/images/books/vietnamese-heroes-epics.jpg" alt="30 Anh Hùng Lịch Sử Việt Nam (Tập 3)" />
 <span class="vw-cover-cap"><b>Tập 3 · Anh Hùng</b><em>🧧 Tết 2027</em></span>
-</a>
-<a class="vw-cover-tile" href="/books/vietnamese-kitchen-stories/">
-<img src="/images/books/vietnamese-kitchen-stories.jpg" alt="Vietnamese Kitchen Stories" />
-<span class="vw-cover-cap"><b>Ẩm Thực · Anh–Việt</b><em>🍲 25 Món</em></span>
 </a>
 <a class="vw-cover-tile" href="/fr/books/vietnamese-folk-tales/">
 <img src="/images/books/vietnamese-folk-tales-treasury-fr.jpg" alt="Trésor des Contes Populaires du Vietnam" />
@@ -831,8 +777,8 @@ Bộ ấn phẩm di sản văn hóa Việt song ngữ minh họa màu (<strong>A
 </div>
 
 <div class="vw-shelf-tabs" role="group" aria-label="Lọc theo dòng sách">
-<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toàn Bộ Tủ Sách (14)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Bộ Anh–Việt (6)</button>
+<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toàn Bộ Tủ Sách (13)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Bộ Anh–Việt (5)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Bộ Pháp–Việt (5)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="tp" aria-pressed="false">🏛️ Sách Kỹ Trị · 2027 (3)</button>
 </div>
@@ -940,25 +886,6 @@ Dòng sách sưu tầm khổ 6 × 9 inch in màu chuẩn 300 DPI kết hợp vă
 <div class="book-links">
 <a href="/books/vietnamese-folklore-omnibus/" class="book-cta-primary">📖 Xem Trang Omnibus</a>
 <a href="/demo/folk-tales/">🎧 Nghe Thử Tập 1</a>
-</div>
-</div>
-</article>
-
-<article class="book-card">
-<div class="book-cover-wrap">
-<img src="/images/books/vietnamese-kitchen-stories.jpg" alt="Bìa Vietnamese Kitchen Stories" class="book-cover" loading="lazy" />
-</div>
-<div class="book-details">
-<div class="book-badge-row">
-<span class="book-badge book-badge-tet">🍲 Ấn Bản Ẩm Thực 3 Miền · 50 Track Audio</span>
-<span class="book-lang-tag">🇬🇧 Anh &amp; Việt</span>
-</div>
-<h3>Vietnamese Kitchen Stories</h3>
-<p class="book-subtitle">25 Món Kinh Điển Bắc–Trung–Nam, Công Thức Chuẩn Cân Lạng &amp; Audio Gọi Món Tiếng Việt</p>
-<p class="book-specs">25 Món Truyền Thống · 101 Câu Gọi Món Có Thanh Điệu · 50 Track Audio EN+VI</p>
-<div class="book-links">
-<a href="/books/vietnamese-kitchen-stories/" class="book-cta-primary">📖 Xem Trang Sách Bếp</a>
-<a href="/demo/kitchen-stories/">🎧 Nghe Thử 4 Món Ăn</a>
 </div>
 </div>
 </article>

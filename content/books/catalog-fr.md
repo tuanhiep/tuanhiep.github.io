@@ -36,7 +36,7 @@ Retrouvez nos éditions bilingues illustrées <strong>Français &amp; Vietnamien
 
 <div class="vw-visual-shelf" aria-label="Aperçu visuel de la collection">
 <div class="vw-shelf-header">
-<strong><span aria-hidden="true">📚</span> 11 Éditions Bilingues (FR+VI &amp; EN+VI) — Accès Visuel Direct</strong>
+<strong><span aria-hidden="true">📚</span> 10 Éditions Bilingues (FR+VI &amp; EN+VI) — Accès Visuel Direct</strong>
 <span>Cliquez sur une couverture pour explorer l'ouvrage &amp; écouter ses pistes audio gratuites</span>
 </div>
 <div class="vw-cover-ribbon">
@@ -80,17 +80,13 @@ Retrouvez nos éditions bilingues illustrées <strong>Français &amp; Vietnamien
 <img src="/images/books/vietnamese-heroes-epics.jpg" alt="Vietnamese Heroes Vol. 3 EN" />
 <span class="vw-cover-cap"><b>Vol. 3 · EN+VI</b><em>🧧 Tết 2027</em></span>
 </a>
-<a class="vw-cover-tile" href="/books/vietnamese-kitchen-stories/">
-<img src="/images/books/vietnamese-kitchen-stories.jpg" alt="Vietnamese Kitchen Stories" />
-<span class="vw-cover-cap"><b>Cuisine · EN+VI</b><em>🍲 25 Plats</em></span>
-</a>
 </div>
 </div>
 
 <div class="vw-shelf-tabs" role="group" aria-label="Filtrer les collections">
-<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toute la Collection (14)</button>
+<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toute la Collection (13)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Éditions Françaises FR+VI (5)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Éditions Anglaises EN+VI (6)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Éditions Anglaises EN+VI (5)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="tp" aria-pressed="false">🏛️ Technocrat Press · 2027 (3)</button>
 </div>
 
@@ -320,25 +316,6 @@ La série originale <strong>English &amp; Vietnamese</strong> — dont le Volume
 <div class="book-links">
 <a href="/books/vietnamese-folklore-omnibus/" class="book-cta-primary">📖 Page Omnibus (EN)</a>
 <a href="/demo/folk-tales/">🎧 4 Contes EN+VI</a>
-</div>
-</div>
-</article>
-
-<article class="book-card">
-<div class="book-cover-wrap">
-<img src="/images/books/vietnamese-kitchen-stories.jpg" alt="Couverture Vietnamese Kitchen Stories" class="book-cover" loading="lazy" />
-</div>
-<div class="book-details">
-<div class="book-badge-row">
-<span class="book-badge book-badge-tet">🍲 Édition Culinaire · 50 Pistes Audio</span>
-<span class="book-lang-tag">🇬🇧 English &amp; Tiếng Việt</span>
-</div>
-<h3>Vietnamese Kitchen Stories</h3>
-<p class="book-subtitle">25 Recettes Familiales Authentiques (Nord, Centre, Sud) &amp; Lexique Audio de Table</p>
-<p class="book-specs">25 Plats · Mesures Métriques &amp; US · 101 Phrases Audio de Marché · 50 Pistes Audio EN+VI</p>
-<div class="book-links">
-<a href="/books/vietnamese-kitchen-stories/" class="book-cta-primary">📖 Page &amp; Recettes (EN)</a>
-<a href="/demo/kitchen-stories/">🎧 4 Extraits Cuisine</a>
 </div>
 </div>
 </article>
