@@ -139,8 +139,8 @@ faqItems:
 <section class="about-section">
 <h2><span aria-hidden="true">📚</span> Compléter Votre Bibliothèque Francophone</h2>
 <div class="about-actions">
-<a href="/fr/books/vietnamese-folk-tales/">🌾 Tome 1 : Trésor des Contes Populaires →</a>
-<a href="/fr/books/vietnamese-myths/">🐉 Tome 2 : Mythes &amp; Légendes Sacrées →</a>
+<a href="/fr/books/vietnamese-folk-tales/">🌾 Volume 1 : Trésor des Contes Populaires →</a>
+<a href="/fr/books/vietnamese-myths/">🐉 Volume 2 : Mythes &amp; Légendes Sacrées →</a>
 <a href="/fr/books/">🪷 Catalogue Français Complet</a>
 <a href="/books/">🌍 Toutes les Éditions (EN / FR / VI)</a>
 </div>

@@ -42,11 +42,11 @@ Retrouvez nos éditions bilingues illustrées <strong>Français &amp; Vietnamien
 <div class="vw-cover-ribbon">
 <a class="vw-cover-tile" href="/fr/books/vietnamese-folk-tales/">
 <img src="/images/books/vietnamese-folk-tales-treasury-fr.jpg" alt="Trésor des Contes Populaires du Vietnam" />
-<span class="vw-cover-cap"><b>Tome 1 · FR+VI</b><em>🎄 Noël 2026</em></span>
+<span class="vw-cover-cap"><b>Vol. 1 · FR+VI</b><em>🎄 Noël 2026</em></span>
 </a>
 <a class="vw-cover-tile" href="/fr/books/vietnamese-myths/">
 <img src="/images/books/vietnamese-myths-and-legends-fr.jpg" alt="Mythes et Légendes Sacrées du Vietnam" />
-<span class="vw-cover-cap"><b>Tome 2 · FR+VI</b><em>🎄 Noël 2026</em></span>
+<span class="vw-cover-cap"><b>Vol. 2 · FR+VI</b><em>🎄 Noël 2026</em></span>
 </a>
 <a class="vw-cover-tile" href="/fr/books/learn-vietnamese/">
 <img src="/images/books/learn-vietnamese-stories-fr.jpg" alt="Apprendre le Vietnamien par les Contes" />
@@ -54,7 +54,7 @@ Retrouvez nos éditions bilingues illustrées <strong>Français &amp; Vietnamien
 </a>
 <a class="vw-cover-tile" href="/fr/books/vietnamese-heroes/">
 <img src="/images/books/vietnamese-heroes-epics-fr.jpg" alt="Héros et Épopées Historiques du Vietnam" />
-<span class="vw-cover-cap"><b>Tome 3 · FR+VI</b><em>🧧 Tết 2027</em></span>
+<span class="vw-cover-cap"><b>Vol. 3 · FR+VI</b><em>🧧 Tết 2027</em></span>
 </a>
 <a class="vw-cover-tile" href="/books/vietnamese-folk-tales/">
 <img src="/images/books/vietnamese-folk-tales-treasury.jpg" alt="Vietnamese Folk Tales Vol. 1 EN" />
@@ -85,7 +85,7 @@ Retrouvez nos éditions bilingues illustrées <strong>Français &amp; Vietnamien
 <section class="books-section books-heritage" data-shelf-group="vw-fr" id="editions-francaises">
 <h2><span aria-hidden="true">🇫🇷</span> Éditions Françaises Amazon.fr (Français &amp; Vietnamien)</h2>
 <p class="books-intro">
-Quatre éditions conçues spécifiquement pour les lecteurs francophones — Tomes 1, 2 &amp; Méthode prêts pour Noël 2026, couronnés par le Tome 3 historique prévu pour le Nouvel An Lunaire 2027 (Tết).
+Quatre éditions conçues spécifiquement pour les lecteurs francophones — Volumes 1, 2 &amp; Méthode prêts pour Noël 2026, couronnés par le Volume 3 historique prévu pour le Nouvel An Lunaire 2027 (Tết).
 </p>
 <div class="books-featured-grid">
 <article class="book-card">
@@ -98,7 +98,7 @@ Quatre éditions conçues spécifiquement pour les lecteurs francophones — Tom
 <span class="book-lang-tag">🇫🇷 Français &amp; Tiếng Việt</span>
 </div>
 <h3>Trésor des Contes Populaires du Vietnam</h3>
-<p class="book-subtitle">60 Contes Classiques Illustrés — Édition Bilingue Français &amp; Vietnamien (Tome 1)</p>
+<p class="book-subtitle">60 Contes Classiques Illustrés — Édition Bilingue Français &amp; Vietnamien (Volume 1)</p>
 <p class="book-specs">60 Contes · 64 Planches Couleur · 120 Pistes Audio FR+VI par QR · Kindle 4,99 € · Broché 14,99 € · Relié 22,99 €</p>
 <p class="book-desc">
 Soixante fables villageoises, paraboles malicieuses et satires paysannes en français littéraire et vietnamien authentique, avec glossaire phonétique francophone et lecteur audio interactif synchronisé phrase par phrase.
@@ -121,7 +121,7 @@ Soixante fables villageoises, paraboles malicieuses et satires paysannes en fran
 <span class="book-lang-tag">🇫🇷 Français &amp; Tiếng Việt</span>
 </div>
 <h3>Mythes &amp; Légendes Sacrées du Vietnam</h3>
-<p class="book-subtitle">36 Récits Illustrés de Création, Héros &amp; Magie — Édition Bilingue Français &amp; Vietnamien (Tome 2)</p>
+<p class="book-subtitle">36 Récits Illustrés de Création, Héros &amp; Magie — Édition Bilingue Français &amp; Vietnamien (Volume 2)</p>
 <p class="book-specs">36 Mythes · 41 Planches Couleur · 72 Pistes Audio FR+VI par QR · Kindle 5,49 € · Broché 15,99 € · Relié 22,99 €</p>
 <p class="book-desc">
 De Lạc Long Quân &amp; Âu Cơ, Sơn Tinh &amp; Thủy Tinh et Thánh Gióng au lac Hoàn Kiếm et à Tấm Cám — enrichi d'encadrés « Patrimoine &amp; Âme Mythique » et d'un lecteur audio bilingue 0,75×–1,15×.
@@ -167,7 +167,7 @@ Maîtrisez les 6 tons sans listes abstraites : chaque leçon réunit récit num�
 <span class="book-lang-tag">🇫🇷 Français &amp; Tiếng Việt</span>
 </div>
 <h3>Héros &amp; Épopées Historiques du Vietnam</h3>
-<p class="book-subtitle">30 Récits Illustrés de Reines Guerrières, Stratèges &amp; Dynasties — Édition Bilingue (Tome 3)</p>
+<p class="book-subtitle">30 Récits Illustrés de Reines Guerrières, Stratèges &amp; Dynasties — Édition Bilingue (Volume 3)</p>
 <p class="book-specs">30 Chroniques Historiques · Notes Stratégiques · Chronologie Dynastique · Prévu Amazon.fr (5,49 € / 15,99 € / 22,99 €)</p>
 <p class="book-desc">
 Couronne la trilogie collector franco-vietnamienne pour le <strong>Nouvel An Lunaire 2027 (Tết)</strong> : de Cổ Loa et des Sœurs Trưng à Ngô Quyền à Bạch Đằng, Trần Hưng Đạo et Quang Trung.
@@ -185,7 +185,7 @@ Couronne la trilogie collector franco-vietnamienne pour le <strong>Nouvel An Lun
 <section class="books-section books-heritage" data-shelf-group="vw-en" id="editions-anglaises">
 <h2><span aria-hidden="true">🪷</span> Éditions Anglaises Collector (Anglais &amp; Vietnamien)</h2>
 <p class="books-intro">
-La série originale <strong>English &amp; Vietnamese</strong> — dont le Tome 1 couronné #1 Amazon Best-Seller et le Tome 2 paru pour Thanksgiving 2026, prolongés par le lecteur gradué de Noël et le Tome 3 historique prévu pour le Têt 2027.
+La série originale <strong>English &amp; Vietnamese</strong> — dont le Volume 1 couronné #1 Amazon Best-Seller et le Volume 2 paru pour Thanksgiving 2026, prolongés par le lecteur gradué de Noël et le Volume 3 historique prévu pour le Têt 2027.
 </p>
 <div class="books-featured-grid">
 <article class="book-card">
@@ -198,7 +198,7 @@ La série originale <strong>English &amp; Vietnamese</strong> — dont le Tome 1
 <span class="book-lang-tag">🇬🇧 English &amp; Tiếng Việt</span>
 </div>
 <h3>The Complete Vietnamese Folk Tales &amp; Witty Parables</h3>
-<p class="book-subtitle">60 Contes Classiques Illustrés — Édition Bilingue EN+VI (Tome 1)</p>
+<p class="book-subtitle">60 Contes Classiques Illustrés — Édition Bilingue EN+VI (Volume 1)</p>
 <p class="book-specs">60 Histoires · 64 Planches Couleur · 120 Pistes Audio EN+VI · Format 6 × 9" Broché &amp; Kindle · Noté 5,0 ⭐</p>
 <div class="book-links">
 <a href="/books/vietnamese-folk-tales/" class="book-cta-primary">📖 Fiche Complète</a>
@@ -219,7 +219,7 @@ La série originale <strong>English &amp; Vietnamese</strong> — dont le Tome 1
 <span class="book-lang-tag">🇬🇧 English &amp; Tiếng Việt</span>
 </div>
 <h3>Vietnamese Myths &amp; Sacred Legends</h3>
-<p class="book-subtitle">36 Mythes &amp; Légendes Sacrées — Édition Bilingue EN+VI (Tome 2)</p>
+<p class="book-subtitle">36 Mythes &amp; Légendes Sacrées — Édition Bilingue EN+VI (Volume 2)</p>
 <p class="book-specs">36 Mythes · 41 Planches Couleur · 72 Pistes Audio EN+VI · Format 6 × 9" Broché &amp; Kindle</p>
 <div class="book-links">
 <a href="/books/vietnamese-myths/" class="book-cta-primary">📖 Fiche Complète</a>
@@ -260,7 +260,7 @@ La série originale <strong>English &amp; Vietnamese</strong> — dont le Tome 1
 <span class="book-lang-tag">🇬🇧 English &amp; Tiếng Việt</span>
 </div>
 <h3>Vietnamese Heroes &amp; Historical Epics</h3>
-<p class="book-subtitle">30 Épopées Historiques Vraies &amp; Stratégie — Trésor Bilingue (Tome 3)</p>
+<p class="book-subtitle">30 Épopées Historiques Vraies &amp; Stratégie — Trésor Bilingue (Volume 3)</p>
 <p class="book-specs">30 Chroniques Historiques · Notes Stratégiques · 60 Pistes Audio EN+VI Live · Chronologie Dynastique · Format 6 × 9"</p>
 <div class="book-links">
 <a href="/books/vietnamese-heroes/" class="book-cta-primary">📖 Fiche EN &amp; Extraits</a>
@@ -273,7 +273,7 @@ La série originale <strong>English &amp; Vietnamese</strong> — dont le Tome 1
 </section>
 
 <div id="books-fr-catalog-waitlist">
-{{< newsletter uid="books-fr-catalog" tag="vietnamese-waves" variant="vw" kicker="🪷 Cercle des Lecteurs Vietnamese Waves™" title="Alertes Sorties Noël 2026 (Amazon.fr) &amp; Tết 2027" desc="Recevez les liens d'ouverture Amazon.fr à Noël pour les 3 éditions françaises, l'alerte Tết du Tome 3 Héros et nos nouveaux contes audio gratuits." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="Rejoindre le Cercle" note="Sans spam · Désinscription en 1 clic." >}}
+{{< newsletter uid="books-fr-catalog" tag="vietnamese-waves" variant="vw" kicker="🪷 Cercle des Lecteurs Vietnamese Waves™" title="Alertes Sorties Noël 2026 (Amazon.fr) &amp; Tết 2027" desc="Recevez les liens d'ouverture Amazon.fr à Noël pour les 3 éditions françaises, l'alerte Tết du Volume 3 Héros et nos nouveaux contes audio gratuits." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="Rejoindre le Cercle" note="Sans spam · Désinscription en 1 clic." >}}
 </div>
 
 <section class="books-section books-tp-reserve" data-shelf-group="tp" id="technocrat-press-fr">

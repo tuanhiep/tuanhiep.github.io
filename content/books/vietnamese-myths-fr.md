@@ -1,5 +1,5 @@
 ---
-title: "Mythes & Légendes Sacrées du Vietnam (Édition Française · Tome 2)"
+title: "Mythes & Légendes Sacrées du Vietnam (Édition Française · Volume 2)"
 url: "/fr/books/vietnamese-myths/"
 aliases:
   - "/books/mythes-vietnamiens-fr/"
@@ -23,7 +23,7 @@ seoAlternates:
   fr: "/fr/books/vietnamese-myths/"
   vi: "/vi/books/vietnamese-myths/"
   xdefault: "/books/vietnamese-myths/"
-bookSubtitle: "36 Récits Illustrés de Création, Héros & Magie — Édition Bilingue Français & Vietnamien (Tome 2)"
+bookSubtitle: "36 Récits Illustrés de Création, Héros & Magie — Édition Bilingue Français & Vietnamien (Volume 2)"
 demoPreviewUrl: "/demo/mythes-vietnamiens/"
 videoEmbedId: "AZU9LK8_wIM"
 images:
@@ -35,7 +35,7 @@ sameAsUrls:
 faqItems:
   - q: "Quand paraît l'édition française sur Amazon.fr ?"
     a: "Parution programmée pour Noël 2026 (Releasing Christmas 2026) sur Amazon.fr en Kindle eBook (5,49 €), Broché Couleur 6 × 9 po (15,99 €) et Relié Collector (22,99 €). La version originale anglo-vietnamienne est déjà parue pour Thanksgiving 2026."
-  - q: "Quels grands récits mythologiques figurent dans ce Tome 2 ?"
+  - q: "Quels grands récits mythologiques figurent dans ce Volume 2 ?"
     a: "Trente-six récits majeurs répartis en trois cycles : Livre I (Thần Trụ Trời, Lạc Long Quân & Âu Cơ, Sơn Tinh & Thủy Tinh, Thánh Gióng, gâteaux de riz Bánh Chưng, Lac Hoàn Kiếm), Livre II (Pastèque rouge, Bétel et Noix d'arec, bambou du Têt Cây Nêu, Zodiaque) et Livre III (Tấm Cám, Thạch Sanh, Le Carambolier d'Or, L'Âme de Trương Ba, Quan Âm Thị Kính)."
   - q: "L'audio et les repères de prononciation sont-ils adaptés aux francophones ?"
     a: "Oui : glossaire du panthéon avec prononciation calibrée pour le français et QR code privé ouvrant 72 pistes audio en français littéraire et vietnamien du Nord. Quatre mythes complets sont ouverts gratuitement ici."
@@ -46,7 +46,7 @@ faqItems:
 <img src="/images/books/vietnamese-myths-and-legends-fr.jpg" alt="Couverture de Mythes &amp; Légendes Sacrées du Vietnam (Édition Bilingue Français &amp; Vietnamien)" class="book-showcase-cover" />
 </div>
 <div>
-<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Tome 2 (Édition Française · Amazon.fr)</p>
+<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Volume 2 (Édition Française · Amazon.fr)</p>
 <div class="book-badge-row">
 <span class="book-badge book-badge-xmas">🎄 Releasing Christmas 2026 · Sortie Noël 2026</span>
 <span class="book-lang-tag">🇫🇷 Français &amp; Tiếng Việt</span>
@@ -138,7 +138,7 @@ faqItems:
 <section class="about-section">
 <h2><span aria-hidden="true">📚</span> Poursuivre la Collection Francophone (Noël 2026)</h2>
 <div class="about-actions">
-<a href="/fr/books/vietnamese-folk-tales/">🌾 Tome 1 : Trésor des Contes Populaires →</a>
+<a href="/fr/books/vietnamese-folk-tales/">🌾 Volume 1 : Trésor des Contes Populaires →</a>
 <a href="/fr/books/learn-vietnamese/">🎓 Méthode : Apprendre le Vietnamien par les Contes →</a>
 <a href="/fr/books/">🪷 Catalogue Français Complet</a>
 <a href="/books/">🌍 Toutes les Éditions (EN / FR / VI)</a>
@@ -146,5 +146,5 @@ faqItems:
 </section>
 
 <div id="book-vmf-waitlist">
-{{< newsletter uid="book-vmf-fr" tag="vietnamese-waves" variant="vw" kicker="🎄 Sortie Noël 2026 · Amazon.fr" title="Soyez Prévenu dès la Sortie de Noël du Tome 2 Français" desc="Recevez le lien direct Amazon.fr à l'ouverture des ventes de Noël ainsi que nos prochains mythes audio." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="M'alerter à Noël 2026" note="Sans spam · Désinscription en 1 clic." >}}
+{{< newsletter uid="book-vmf-fr" tag="vietnamese-waves" variant="vw" kicker="🎄 Sortie Noël 2026 · Amazon.fr" title="Soyez Prévenu dès la Sortie de Noël du Volume 2 Français" desc="Recevez le lien direct Amazon.fr à l'ouverture des ventes de Noël ainsi que nos prochains mythes audio." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="M'alerter à Noël 2026" note="Sans spam · Désinscription en 1 clic." >}}
 </div>

@@ -1,12 +1,12 @@
 ---
-title: "Héros & Épopées Historiques du Vietnam (Édition Française · Tome 3)"
+title: "Héros & Épopées Historiques du Vietnam (Édition Française · Volume 3)"
 url: "/fr/books/vietnamese-heroes/"
 aliases:
   - "/books/heros-vietnamiens-fr/"
   - "/fr/books/heros-du-vietnam/"
 date: 2026-11-26
 summary: "Trente épopées historiques vraies du Vietnam — reines guerrières, amiraux stratèges et dynasties millénaires — en édition bilingue français et vietnamien. Sortie prévue pour le Nouvel An Lunaire 2027 (Tết) sur Amazon.fr."
-description: "Découvrez Héros & Épopées Historiques du Vietnam (Tome 3, édition française bilingue FR+VI) : Sœurs Trưng, Ngô Quyền à Bạch Đằng, Trần Hưng Đạo, Quang Trung. Sortie Têt 2027."
+description: "Découvrez Héros & Épopées Historiques du Vietnam (Volume 3, édition française bilingue FR+VI) : Sœurs Trưng, Ngô Quyền à Bạch Đằng, Trần Hưng Đạo, Quang Trung. Sortie Têt 2027."
 keywords:
   - "histoire du Vietnam livre français"
   - "Héros et Épopées Historiques du Vietnam"
@@ -23,7 +23,7 @@ seoAlternates:
   fr: "/fr/books/vietnamese-heroes/"
   vi: "/vi/books/vietnamese-heroes/"
   xdefault: "/books/vietnamese-heroes/"
-bookSubtitle: "30 Récits Illustrés de Reines Guerrières, Stratèges & Dynasties — Édition Bilingue Français & Vietnamien (Tome 3)"
+bookSubtitle: "30 Récits Illustrés de Reines Guerrières, Stratèges & Dynasties — Édition Bilingue Français & Vietnamien (Volume 3)"
 demoPreviewUrl: "/demo/heroes/"
 images:
   - "/images/books/vietnamese-heroes-epics-fr.jpg"
@@ -32,7 +32,7 @@ sameAsUrls:
   - "https://www.amazon.com/author/tuanhieptran"
   - "https://www.youtube.com/@VietnameseWaves"
 faqItems:
-  - q: "Quels grands personnages historiques figurent dans ce Tome 3 ?"
+  - q: "Quels grands personnages historiques figurent dans ce Volume 3 ?"
     a: "Trente tournants historiques vérifiés couvrant plus de 2 200 ans en trois actes : Livre I (Cổ Loa, Sœurs Trưng, Dame Triệu, Khúc Hạo, Ngô Quyền à Bạch Đằng, Lý Thường Kiệt) ; Livre II (Impératrice Ỷ Lan, Tô Hiến Thành, Trần Hưng Đạo à Diên Hồng, Trần Nhân Tông, Chu Văn An, Hồ Quý Ly) ; Livre III (Lê Lợi & Lê Lai, Nguyễn Trãi, Lê Thánh Tông, Quang Trung 1789, l'amirale Bùi Thị Xuân, Phan Bội Châu & Phan Châu Trinh)."
   - q: "Quand paraîtra l'édition française Héros & Épopées Historiques du Vietnam sur Amazon.fr ?"
     a: "La parution des éditions anglaise et française est programmée pour le Nouvel An Lunaire 2027 (Tết Nguyên Đán · 6 février 2027), avec lancement mi-janvier pour les cadeaux familiaux du Têt (Kindle 5,49 €, Broché 15,99 €, Relié Collector 22,99 €)."
@@ -45,7 +45,7 @@ faqItems:
 <img src="/images/books/vietnamese-heroes-epics-fr.jpg" alt="Couverture de Héros &amp; Épopées Historiques du Vietnam (Édition Bilingue Français &amp; Vietnamien)" class="book-showcase-cover" />
 </div>
 <div>
-<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Tome 3 (Édition Française · Amazon.fr)</p>
+<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Volume 3 (Édition Française · Amazon.fr)</p>
 <div class="book-badge-row">
 <span class="book-badge book-badge-tet">🧧 Sortie Nouvel An Lunaire 2027 (Tết Nguyên Đán)</span>
 <span class="book-lang-tag">🇫🇷 Français &amp; Tiếng Việt</span>
@@ -132,13 +132,13 @@ faqItems:
 <section class="about-section">
 <h2><span aria-hidden="true">📚</span> Collection Francophone Vietnamese Waves™</h2>
 <div class="about-actions">
-<a href="/fr/books/vietnamese-folk-tales/">🌾 Tome 1 : Trésor des Contes Populaires (Noël 2026) →</a>
-<a href="/fr/books/vietnamese-myths/">🐉 Tome 2 : Mythes &amp; Légendes Sacrées (Noël 2026) →</a>
+<a href="/fr/books/vietnamese-folk-tales/">🌾 Volume 1 : Trésor des Contes Populaires (Noël 2026) →</a>
+<a href="/fr/books/vietnamese-myths/">🐉 Volume 2 : Mythes &amp; Légendes Sacrées (Noël 2026) →</a>
 <a href="/fr/books/learn-vietnamese/">🎓 Apprendre le Vietnamien par les Contes (Noël 2026) →</a>
 <a href="/fr/books/">🪷 Catalogue Français Complet</a>
 </div>
 </section>
 
 <div id="book-vol3-fr-waitlist">
-{{< newsletter uid="book-vol3-fr" tag="vietnamese-waves" variant="vw" kicker="🧧 Liste d'Attente · Nouvel An Lunaire 2027 (Tết)" title="Soyez Prévenu dès la Sortie du Tome 3 Français au Têt 2027" desc="Recevez l'alerte de parution sur Amazon.fr (avant le 6 février 2027) ainsi que nos histoires audio gratuites." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="M'avertir pour le Têt 2027" note="Sans spam · Désinscription en 1 clic." >}}
+{{< newsletter uid="book-vol3-fr" tag="vietnamese-waves" variant="vw" kicker="🧧 Liste d'Attente · Nouvel An Lunaire 2027 (Tết)" title="Soyez Prévenu dès la Sortie du Volume 3 Français au Têt 2027" desc="Recevez l'alerte de parution sur Amazon.fr (avant le 6 février 2027) ainsi que nos histoires audio gratuites." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="M'avertir pour le Têt 2027" note="Sans spam · Désinscription en 1 clic." >}}
 </div>

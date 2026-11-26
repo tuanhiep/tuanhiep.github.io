@@ -1,5 +1,5 @@
 ---
-title: "Trésor des Contes Populaires du Vietnam (Édition Française · Tome 1)"
+title: "Trésor des Contes Populaires du Vietnam (Édition Française · Volume 1)"
 url: "/fr/books/vietnamese-folk-tales/"
 aliases:
   - "/books/tresor-contes-vietnamiens/"
@@ -24,7 +24,7 @@ seoAlternates:
   fr: "/fr/books/vietnamese-folk-tales/"
   vi: "/vi/books/vietnamese-folk-tales/"
   xdefault: "/books/vietnamese-folk-tales/"
-bookSubtitle: "60 Histoires Classiques Illustrées de Sagesse & d'Humour — Édition Bilingue Français & Vietnamien (Tome 1)"
+bookSubtitle: "60 Histoires Classiques Illustrées de Sagesse & d'Humour — Édition Bilingue Français & Vietnamien (Volume 1)"
 demoPreviewUrl: "/demo/contes-vietnamiens/"
 videoEmbedId: "QpkdWH_TGgk"
 images:
@@ -49,7 +49,7 @@ faqItems:
 <img src="/images/books/vietnamese-folk-tales-treasury-fr.jpg" alt="Couverture de Trésor des Contes Populaires du Vietnam (Édition Bilingue Français &amp; Vietnamien)" class="book-showcase-cover" />
 </div>
 <div>
-<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Tome 1 (Édition Française · Amazon.fr)</p>
+<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Volume 1 (Édition Française · Amazon.fr)</p>
 <div class="book-badge-row">
 <span class="book-badge book-badge-xmas">🎄 Releasing Christmas 2026 · Sortie Noël 2026</span>
 <span class="book-lang-tag">🇫🇷 Français &amp; Tiếng Việt</span>
@@ -153,7 +153,7 @@ faqItems:
 <section class="about-section">
 <h2><span aria-hidden="true">📚</span> Poursuivre la Collection Francophone (Noël 2026)</h2>
 <div class="about-actions">
-<a href="/fr/books/vietnamese-myths/">🐉 Tome 2 : Mythes &amp; Légendes Sacrées du Vietnam →</a>
+<a href="/fr/books/vietnamese-myths/">🐉 Volume 2 : Mythes &amp; Légendes Sacrées du Vietnam →</a>
 <a href="/fr/books/learn-vietnamese/">🎓 Méthode : Apprendre le Vietnamien par les Contes →</a>
 <a href="/fr/books/">🪷 Catalogue Français Complet</a>
 <a href="/books/">🌍 Toutes les Éditions (EN / FR / VI)</a>
@@ -161,5 +161,5 @@ faqItems:
 </section>
 
 <div id="book-vtf-waitlist">
-{{< newsletter uid="book-vtf-fr" tag="vietnamese-waves" variant="vw" kicker="🎄 Sortie Noël 2026 · Amazon.fr" title="Soyez Prévenu dès la Sortie de Noël du Tome 1 Français" desc="Recevez le lien direct Amazon.fr dès l'ouverture des ventes de Noël ainsi que nos prochains contes audio gratuits." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="M'alerter à Noël 2026" note="Sans spam · Désinscription en 1 clic." >}}
+{{< newsletter uid="book-vtf-fr" tag="vietnamese-waves" variant="vw" kicker="🎄 Sortie Noël 2026 · Amazon.fr" title="Soyez Prévenu dès la Sortie de Noël du Volume 1 Français" desc="Recevez le lien direct Amazon.fr dès l'ouverture des ventes de Noël ainsi que nos prochains contes audio gratuits." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="M'alerter à Noël 2026" note="Sans spam · Désinscription en 1 clic." >}}
 </div>
