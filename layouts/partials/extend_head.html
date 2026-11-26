@@ -181,6 +181,23 @@
         border-bottom: 1px solid var(--border);
     }
 
+    .books-hero {
+        padding: 1.35rem 0 1.35rem;
+    }
+
+    .books-hero h1 {
+        font-size: clamp(1.95rem, 1.45rem + 1.6vw, 2.55rem);
+    }
+
+    .books-hero .about-lede {
+        margin-top: 0.7rem;
+        font-size: 1.06rem;
+    }
+
+    .books-hero .about-actions {
+        margin-top: 1.05rem;
+    }
+
     .about-kicker {
         display: inline-flex;
         align-items: center;
@@ -401,14 +418,201 @@
     }
 
     .book-badge-live {
+        color: #065f46;
+        border-color: rgba(16, 185, 129, 0.45);
+        background: rgba(16, 185, 129, 0.11);
+    }
+
+    :root[data-theme="dark"] .book-badge-live {
+        color: #6ee7b7;
+        border-color: rgba(52, 211, 153, 0.45);
+        background: rgba(16, 185, 129, 0.16);
+    }
+
+    .book-badge-upcoming,
+    .book-badge-xmas {
+        color: #9a3412;
+        border-color: rgba(217, 119, 6, 0.48);
+        background: rgba(217, 119, 6, 0.12);
+    }
+
+    :root[data-theme="dark"] .book-badge-upcoming,
+    :root[data-theme="dark"] .book-badge-xmas {
+        color: #fcd34d;
+        border-color: rgba(251, 191, 36, 0.45);
+        background: rgba(217, 119, 6, 0.18);
+    }
+
+    .book-badge-tet {
+        color: #9e2a2b;
+        border-color: rgba(158, 42, 43, 0.45);
+        background: rgba(158, 42, 43, 0.10);
+    }
+
+    :root[data-theme="dark"] .book-badge-tet {
+        color: #fca5a5;
+        border-color: rgba(248, 113, 113, 0.45);
+        background: rgba(185, 28, 28, 0.20);
+    }
+
+    .book-badge-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .book-badge-row .book-badge {
+        margin-bottom: 0;
+    }
+
+    .book-lang-tag {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.18rem 0.55rem;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.03em;
         color: var(--primary);
+        background: var(--theme);
+    }
+
+    .vw-visual-shelf {
+        margin: 1.35rem 0 1.15rem;
+        padding: 1.15rem 1.2rem;
+        border: 1px solid var(--border);
+        border-top: 3px solid #c6972c;
+        border-radius: 14px;
+        background: var(--entry);
+    }
+
+    .vw-shelf-header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.65rem 1rem;
+        margin-bottom: 0.95rem;
+    }
+
+    .vw-shelf-header strong {
+        font-size: 0.95rem;
+        color: var(--primary);
+    }
+
+    .vw-shelf-header span {
+        font-size: 0.82rem;
+        color: var(--secondary);
+    }
+
+    .vw-cover-ribbon {
+        display: grid;
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+        gap: 0.75rem;
+        align-items: start;
+    }
+
+    .vw-cover-tile {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        text-decoration: none;
+        color: var(--primary);
+        min-width: 0;
+        box-shadow: none !important;
+        transition: transform 0.16s ease;
+    }
+
+    .vw-cover-tile:hover {
+        transform: translateY(-3px);
+    }
+
+    .vw-cover-tile img {
+        width: 100%;
+        aspect-ratio: 2 / 3;
+        object-fit: cover;
+        border-radius: 6px;
+        border: 1px solid var(--border);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.14);
+        display: block;
+        margin: 0 !important;
+    }
+
+    .vw-cover-cap {
+        display: flex;
+        flex-direction: column;
+        gap: 0.12rem;
+        font-size: 0.72rem;
+        line-height: 1.28;
+    }
+
+    .vw-cover-cap b {
+        color: var(--primary);
+        font-weight: 700;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .vw-cover-cap em {
+        font-style: normal;
+        font-size: 0.68rem;
+        font-weight: 600;
+        color: var(--secondary);
+    }
+
+    .vw-shelf-tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 1rem 0 0.25rem;
+    }
+
+    .vw-shelf-tab {
+        appearance: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        min-height: 38px;
+        padding: 0.35rem 0.9rem;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: var(--entry);
+        color: var(--secondary);
+        font-family: inherit;
+        font-size: 0.84rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+    }
+
+    .vw-shelf-tab:hover {
+        border-color: var(--primary);
+        color: var(--primary);
+    }
+
+    .vw-shelf-tab.is-active,
+    .vw-shelf-tab[aria-pressed="true"] {
+        background: var(--primary);
+        color: var(--theme);
         border-color: var(--primary);
     }
 
-    .book-badge-upcoming {
-        color: var(--primary);
-        border-color: #d97706;
-        background: rgba(217, 119, 6, 0.08);
+    .vw-shelf-tab:focus-visible {
+        outline: 2px solid var(--primary);
+        outline-offset: 2px;
+    }
+
+    .books-section[hidden] {
+        display: none !important;
+    }
+
+    .books-tp-reserve {
+        margin-top: 2.75rem;
+        padding-top: 1.75rem;
+        border-top: 1px solid var(--border);
     }
 
     .about-grid h3,
@@ -446,6 +650,13 @@
         border-radius: 10px;
         background: var(--entry);
         align-items: start;
+        transition: border-color 0.15s ease, transform 0.14s ease, box-shadow 0.15s ease;
+    }
+
+    .book-card:hover {
+        border-color: var(--secondary);
+        transform: translateY(-2px);
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.07);
     }
 
     .book-card-wide {
@@ -1144,6 +1355,20 @@
         .books-featured-grid,
         .about-grid-2 {
             grid-template-columns: 1fr;
+        }
+
+        .vw-cover-ribbon {
+            display: grid;
+            grid-template-columns: none;
+            grid-auto-flow: column;
+            grid-auto-columns: minmax(108px, 28vw);
+            overflow-x: auto;
+            scroll-snap-type: x proximity;
+            padding-bottom: 0.45rem;
+        }
+
+        .vw-cover-tile {
+            scroll-snap-align: start;
         }
     }
 
@@ -2713,5 +2938,30 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         applyLanguage(savedLang, Boolean(urlLang));
     }
+
+    // 3. Bookshelf Category Filter (Vietnamese Waves EN / FR / Technocrat Press)
+    document.querySelectorAll("[data-shelf-scope]").forEach(function (scope) {
+        const tabs = scope.querySelectorAll(".vw-shelf-tab[data-shelf-filter]");
+        const shelves = scope.querySelectorAll("[data-shelf-group]");
+        if (!tabs.length || !shelves.length) return;
+
+        function applyShelf(filterVal) {
+            shelves.forEach(function (sec) {
+                const grp = sec.getAttribute("data-shelf-group");
+                sec.hidden = !(filterVal === "all" || grp === filterVal);
+            });
+            tabs.forEach(function (t) {
+                const active = t.getAttribute("data-shelf-filter") === filterVal;
+                t.classList.toggle("is-active", active);
+                t.setAttribute("aria-pressed", active ? "true" : "false");
+            });
+        }
+
+        tabs.forEach(function (tab) {
+            tab.addEventListener("click", function () {
+                applyShelf(tab.getAttribute("data-shelf-filter") || "all");
+            });
+        });
+    });
 });
 </script>

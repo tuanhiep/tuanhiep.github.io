@@ -91,8 +91,8 @@ faqItems:
 <figcaption><strong>Chronicle 02 · Hai Bà Trưng</strong>The Oath at Hát Môn River</figcaption>
 </figure>
 <figure class="book-gallery-card">
-<img src="/images/books/previews/vol3-heroes-03.jpg" alt="Illustration of Lady Triệu atop a white-tusked elephant" loading="lazy" />
-<figcaption><strong>Chronicle 03 · Bà Triệu</strong>Riding the Wind on Ivory</figcaption>
+<img src="/images/books/previews/vol3-heroes-07.jpg" alt="Illustration of Ngô Quyền and iron-tipped stakes at Bạch Đằng Estuary" loading="lazy" />
+<figcaption><strong>Chronicle 07 · Ngô Quyền (938 CE)</strong>Iron Stakes Beneath the Bạch Đằng Tide</figcaption>
 </figure>
 </div>
 </section>

@@ -66,6 +66,7 @@ jobs:
               "urlList": [
                 "https://tuanhiep.github.io/",
                 "https://tuanhiep.github.io/books/",
+                "https://tuanhiep.github.io/fr/books/",
                 "https://tuanhiep.github.io/books/vietnamese-folk-tales/",
                 "https://tuanhiep.github.io/books/vietnamese-myths/",
                 "https://tuanhiep.github.io/books/learn-vietnamese/",
@@ -95,6 +96,18 @@ jobs:
                 "https://tuanhiep.github.io/demo/heroes-07/",
                 "https://tuanhiep.github.io/demo/heroes-14/",
                 "https://tuanhiep.github.io/demo/heroes-26/",
+                "https://tuanhiep.github.io/demo/contes-vietnamiens/",
+                "https://tuanhiep.github.io/demo/contes-vietnamiens-30/",
+                "https://tuanhiep.github.io/demo/contes-vietnamiens-39/",
+                "https://tuanhiep.github.io/demo/contes-vietnamiens-41/",
+                "https://tuanhiep.github.io/demo/mythes-vietnamiens/",
+                "https://tuanhiep.github.io/demo/mythes-vietnamiens-02/",
+                "https://tuanhiep.github.io/demo/mythes-vietnamiens-05/",
+                "https://tuanhiep.github.io/demo/mythes-vietnamiens-25/",
+                "https://tuanhiep.github.io/demo/apprendre-le-vietnamien/",
+                "https://tuanhiep.github.io/demo/apprendre-le-vietnamien-14/",
+                "https://tuanhiep.github.io/demo/apprendre-le-vietnamien-23/",
+                "https://tuanhiep.github.io/demo/apprendre-le-vietnamien-25/",
                 "https://tuanhiep.github.io/sovera/",
                 "https://tuanhiep.github.io/about/"
               ]

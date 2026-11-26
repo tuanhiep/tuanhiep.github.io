@@ -87,8 +87,8 @@ faqItems:
 <figcaption><strong>Chương 02 · Hai Bà Trưng</strong>Lời Thề Sông Hát</figcaption>
 </figure>
 <figure class="book-gallery-card">
-<img src="/images/books/previews/vol3-heroes-03.jpg" alt="Minh họa Bà Triệu cưỡi voi trắng giữa rừng lau" loading="lazy" />
-<figcaption><strong>Chương 03 · Bà Triệu</strong>Cưỡi Gió Đầu Voi</figcaption>
+<img src="/images/books/previews/vol3-heroes-07.jpg" alt="Minh họa Ngô Quyền và trận thủy chiến Bạch Đằng năm 938" loading="lazy" />
+<figcaption><strong>Chương 07 · Ngô Quyền (938)</strong>Cọc Sắt Dậy Sóng Bạch Đằng Giang</figcaption>
 </figure>
 </div>
 </section>

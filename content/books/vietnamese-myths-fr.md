@@ -1,15 +1,18 @@
 ---
-title: "Vietnamese Myths & Sacred Legends (Édition Bilingue · Tome 2)"
+title: "Mythes & Légendes Sacrées du Vietnam (Édition Française · Tome 2)"
 url: "/fr/books/vietnamese-myths/"
-date: 2026-11-24
-summary: "Trente-six mythes fondateurs, épopées héroïques et contes sacrés du Vietnam en édition bilingue anglais-vietnamien illustrée, avec 72 pistes audio synchronisées."
-description: "Explorez 36 mythes fondateurs et légendes sacrées du Vietnam illustrés (anglais & vietnamien) avec notes culturelles et 72 pistes audio synchronisées."
+aliases:
+  - "/books/mythes-vietnamiens-fr/"
+  - "/fr/books/mythes-vietnamiens/"
+date: 2026-11-26
+summary: "Trente-six mythes fondateurs, épopées héroïques et contes sacrés du Vietnam en édition bilingue français-vietnamien illustrée (41 planches couleur), avec 72 pistes audio FR+VI. Sortie Noël 2026 sur Amazon.fr."
+description: "Explorez 36 mythes fondateurs et légendes sacrées du Vietnam illustrés (français & vietnamien) avec notes culturelles et 72 pistes audio synchronisées. Sortie Noël 2026."
 keywords:
-  - "mythologie vietnamienne livre"
-  - "légendes du Vietnam illustrées"
-  - "Lạc Long Quân Âu Cơ"
-  - "Tam Cam livre anglais vietnamien"
-  - "contes traditionnels du Têt"
+  - "mythologie vietnamienne livre français"
+  - "Mythes et Légendes Sacrées du Vietnam"
+  - "Lạc Long Quân Âu Cơ livre français"
+  - "Tam Cam livre bilingue français vietnamien"
+  - "légendes du Vietnam Noël Amazon.fr"
 layout: "about"
 hideMeta: true
 ShowToc: false
@@ -20,39 +23,41 @@ seoAlternates:
   fr: "/fr/books/vietnamese-myths/"
   vi: "/vi/books/vietnamese-myths/"
   xdefault: "/books/vietnamese-myths/"
-bookSubtitle: "36 Mythes & Légendes Sacrées Illustrés — Trésor Bilingue (Tome 2)"
-demoPreviewUrl: "/demo/myths/"
+bookSubtitle: "36 Récits Illustrés de Création, Héros & Magie — Édition Bilingue Français & Vietnamien (Tome 2)"
+demoPreviewUrl: "/demo/mythes-vietnamiens/"
 videoEmbedId: "AZU9LK8_wIM"
 images:
-  - "/images/books/vietnamese-myths-and-legends.jpg"
+  - "/images/books/vietnamese-myths-and-legends-fr.jpg"
 sameAsUrls:
-  - "https://www.amazon.com/dp/B0HSCX2G1J"
+  - "https://www.amazon.fr/s?k=Tuan-Hiep+TRAN"
   - "https://www.amazon.com/dp/B0HSGS48CS"
   - "https://www.youtube.com/playlist?list=PLJhiyS5zNcm4"
 faqItems:
+  - q: "Quand paraît l'édition française sur Amazon.fr ?"
+    a: "Parution programmée pour Noël 2026 (Releasing Christmas 2026) sur Amazon.fr en Kindle eBook (5,49 €), Broché Couleur 6 × 9 po (15,99 €) et Relié Collector (22,99 €). La version originale anglo-vietnamienne est déjà parue pour Thanksgiving 2026."
   - q: "Quels grands récits mythologiques figurent dans ce Tome 2 ?"
-    a: "Trente-six récits majeurs répartis en trois livres : cosmogonie et origines (Thần Trụ Trời, Lạc Long Quân & Âu Cơ, Sơn Tinh & Thủy Tinh, Thánh Gióng, les gâteaux de riz Bánh Chưng, la Tortue d'Or de Hoàn Kiếm), nature et karma (l'île aux pastèques, le bétel et la noix d'arec, le mât du Têt Cây Nêu), et grandes épopées (Tấm Cám, Thạch Sanh, L'oiseau phénix et le carambolier, Quan Âm Thị Kính)."
-  - q: "Cet ouvrage est-il adapté aux lecteurs européens préparant un voyage au Vietnam ?"
-    a: "Parfaitement. Chaque chapitre comporte un encadré Heritage & Mythic Soul révélant les symboles vivants derrière les lacs d'Hanoï, les temples, les pagodes et les traditions du Nouvel An lunaire."
-  - q: "Quand a lieu l'opération promotionnelle Kindle gratuite de Thanksgiving ?"
-    a: "L'édition Kindle (ASIN B0HSCX2G1J) est programmée gratuitement à 0,00 $ du 26 au 29 novembre 2026."
-  - q: "Un accompagnement audio et un guide de prononciation sont-ils inclus ?"
-    a: "Oui : guide de prononciation écrit intégré et QR code privé débloquant 72 pistes audio en anglais expressif et en vietnamien du Nord. Quatre mythes complets sont en écoute libre ici même."
+    a: "Trente-six récits majeurs répartis en trois cycles : Livre I (Thần Trụ Trời, Lạc Long Quân & Âu Cơ, Sơn Tinh & Thủy Tinh, Thánh Gióng, gâteaux de riz Bánh Chưng, Lac Hoàn Kiếm), Livre II (Pastèque rouge, Bétel et Noix d'arec, bambou du Têt Cây Nêu, Zodiaque) et Livre III (Tấm Cám, Thạch Sanh, Le Carambolier d'Or, L'Âme de Trương Ba, Quan Âm Thị Kính)."
+  - q: "L'audio et les repères de prononciation sont-ils adaptés aux francophones ?"
+    a: "Oui : glossaire du panthéon avec prononciation calibrée pour le français et QR code privé ouvrant 72 pistes audio en français littéraire et vietnamien du Nord. Quatre mythes complets sont ouverts gratuitement ici."
 ---
 
 <section class="book-showcase-hero">
 <div>
-<img src="/images/books/vietnamese-myths-and-legends.jpg" alt="Couverture de Vietnamese Myths and Sacred Legends" class="book-showcase-cover" />
+<img src="/images/books/vietnamese-myths-and-legends-fr.jpg" alt="Couverture de Mythes &amp; Légendes Sacrées du Vietnam (Édition Bilingue Français &amp; Vietnamien)" class="book-showcase-cover" />
 </div>
 <div>
-<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Tome 2 · Paru pour Thanksgiving 2026</p>
-<h1>Vietnamese Myths &amp; Sacred Legends</h1>
-<p class="about-lede">Trente-six récits illustrés de création du monde, dieux des montagnes, tortues d'or, lanternes lunaires et compassion infinie — racontés en anglais littéraire et en vietnamien lyrique avec 72 pistes audio synchronisées.</p>
-<p class="book-specs" style="margin-top: 0.75rem;">36 Mythes Bilingues · 41 Planches Couleur · Notes Culturelles &amp; Glossaire Oral · Broché 6 × 9" &amp; Kindle</p>
+<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Tome 2 (Édition Française · Amazon.fr)</p>
+<div class="book-badge-row">
+<span class="book-badge book-badge-xmas">🎄 Releasing Christmas 2026 · Sortie Noël 2026</span>
+<span class="book-lang-tag">🇫🇷 Français &amp; Tiếng Việt</span>
+</div>
+<h1>Mythes &amp; Légendes Sacrées du Vietnam</h1>
+<p class="about-lede">Éveillez le Dragon, la Fée et trois mille ans de mémoire vivante — trente-six grands mythes du Vietnam racontés en <strong>français poétique</strong> et en <strong>vietnamien authentique</strong>, avec 41 planches couleur et 72 pistes audio FR+VI synchronisées.</p>
+<p class="book-specs" style="margin-top: 0.75rem;">36 Mythes Bilingues FR+VI · 41 Planches Couleur · 72 Pistes Audio · Encadrés Patrimoine · Kindle 5,49 € · Broché 15,99 € · Relié 22,99 €</p>
 <div class="about-actions" aria-label="Liens du livre">
-<a href="/demo/myths/" class="book-cta-primary">🎧 Écouter 4 Mythes Gratuits</a>
-<a href="https://www.amazon.com/dp/B0HSGS48CS" rel="noopener noreferrer" target="_blank">📖 Broché sur Amazon</a>
-<a href="https://www.amazon.com/dp/B0HSCX2G1J" rel="noopener noreferrer" target="_blank">📱 Kindle (Gratuit 26–29 Nov)</a>
+<a href="/demo/mythes-vietnamiens/" class="book-cta-primary">🎧 Écouter 4 Mythes FR+VI Gratuits</a>
+<a href="#book-vmf-waitlist">🔔 Alerte Sortie Noël 2026</a>
+<a href="/books/vietnamese-myths/">🇬🇧 Édition Anglaise (Live Thanksgiving) →</a>
 <a href="https://www.youtube.com/playlist?list=PLJhiyS5zNcm4" rel="noopener noreferrer" target="_blank">📺 Playlist YouTube</a>
 </div>
 </div>
@@ -64,100 +69,82 @@ faqItems:
 <article class="atlas-sd" style="border-top-width: 3px;">
 <span class="book-badge">Livre I · Récits 1–12</span>
 <h3>L'Aube du Dragon &amp; Origines Sacrées</h3>
-<p>Cosmogonie et récits fondateurs : le Géant qui soutint la voûte céleste, Lạc Long Quân et Âu Cơ, la joute des monts et des flots entre Sơn Tinh et Thủy Tinh, l'épopée de Thánh Gióng, Bánh Chưng et l'épée restituée au lac Hoàn Kiếm.</p>
+<p>Cosmogonie et récits fondateurs : le Géant qui soutint la voûte céleste, Lạc Long Quân et Âu Cơ, Sơn Tinh et Thủy Tinh, Thánh Gióng, Bánh Chưng et l'épée restituée au lac Hoàn Kiếm.</p>
 </article>
 <article class="atlas-arch" style="border-top-width: 3px;">
 <span class="book-badge">Livre II · Récits 13–24</span>
 <h3>Nature Enchantée &amp; Contes du Karma</h3>
-<p>Mythes poétiques expliquant pourquoi la pastèque rougit sous le soleil tropical, pourquoi chaux, bétel et noix d'arec s'unissent d'un rouge vif, et pourquoi le grand bambou <em>Cây Nêu</em> veille sur chaque cour au seuil du Têt.</p>
+<p>Mythes poétiques expliquant pourquoi la pastèque rougit sous le soleil tropical, pourquoi chaux, bétel et noix d'arec s'unissent d'un rouge vif, et le bambou du Têt <em>Cây Nêu</em>.</p>
 </article>
 <article class="atlas-sov" style="border-top-width: 3px;">
 <span class="book-badge">Livre III · Récits 25–36</span>
 <h3>Héros, Magie &amp; Compassion</h3>
-<p>Les plus grandes fresques morales et féeriques : <em>Tấm Cám</em>, la cithare d'or de <em>Thạch Sanh</em>, le Phénix et le Carambolier, Chử Đồng Tử et Tiên Dung, le dilemme zen de l'âme de Trương Ba et la miséricorde de Quan Âm Thị Kính.</p>
+<p>Les plus grandes fresques morales : <em>Tấm Cám</em>, la cithare de <em>Thạch Sanh</em>, le Phénix et le Carambolier, L'Âme de Trương Ba et la miséricorde de Quan Âm Thị Kính.</p>
 </article>
 </div>
 </section>
 
 <section class="about-section">
-<h2><span aria-hidden="true">🏮</span> Pour les Passionnés de Mythologie &amp; Voyageurs Curieux</h2>
-<p class="about-sublede">Là où le conte farceur apprend à sourire des travers humains, le mythe éclaire la manière dont une civilisation conçoit le ciel, les montagnes, la fidélité et la mémoire. Que vous aimiez les mythologies grecque, nordique ou asiatique, ou que vous prépariez une visite à Hanoï, chaque chapitre dévoile le sens caché des sanctuaires, fêtes saisonnières et mets symboliques encore vivants.</p>
+<h2><span aria-hidden="true">🏮</span> Clés Culturelles pour Passionnés &amp; Voyageurs</h2>
+<p class="about-sublede">Chaque chapitre comporte un encadré « Patrimoine &amp; Âme Mythique » décodant les symboles encore vivants dans les lacs d'Hanoï, les temples, les fêtes du Nouvel An lunaire et les proverbes de famille — avec glossaire phonétique francophone.</p>
 </section>
 
 <section class="about-section">
-<h2><span aria-hidden="true">🎨</span> Aperçu des Planches Peintes</h2>
-<p class="books-intro">Quarante et une planches couleur éclairent tour à tour les origines cosmiques, les couronnes royales de riz gluant et les épopées populaires.</p>
+<h2><span aria-hidden="true">🎨</span> Aperçu des Planches Peintes (41 Planches)</h2>
+<p class="books-intro">Quarante et une planches couleur éclairent tour à tour la cosmogonie céleste, les couronnes royales de riz gluant et les épopées populaires.</p>
 <div class="book-gallery-grid">
 <figure class="book-gallery-card">
 <img src="/images/books/previews/vol2-myth-01.jpg" alt="Illustration du mythe Thần Trụ Trời" loading="lazy" />
-<figcaption><strong>Mythe 01 · Thần Trụ Trời</strong>Le Géant qui Éleva le Ciel</figcaption>
+<figcaption><strong>Mythe 01 · Thần Trụ Trời</strong>Le Géant qui souleva le Ciel</figcaption>
 </figure>
 <figure class="book-gallery-card">
 <img src="/images/books/previews/vol2-myth-02.jpg" alt="Illustration Lạc Long Quân et Âu Cơ" loading="lazy" />
-<figcaption><strong>Mythe 02 · Lạc Long Quân &amp; Âu Cơ</strong>Le Seigneur Dragon &amp; la Fée des Monts</figcaption>
+<figcaption><strong>Mythe 02 · Lạc Long Quân &amp; Âu Cơ</strong>Le Seigneur Dragon et la Fée</figcaption>
 </figure>
 <figure class="book-gallery-card">
 <img src="/images/books/previews/vol2-myth-05.jpg" alt="Illustration Bánh Chưng Bánh Dày" loading="lazy" />
-<figcaption><strong>Mythe 05 · Bánh Chưng Bánh Dày</strong>Les Gâteaux de la Terre et du Ciel</figcaption>
+<figcaption><strong>Mythe 05 · Bánh Chưng Bánh Dày</strong>Le Gâteau de la Terre et du Ciel</figcaption>
 </figure>
 </div>
 </section>
 
 <section class="about-section">
-<h2><span aria-hidden="true">🎧</span> Regarder &amp; Écouter 4 Mythes Gratuits</h2>
-<p class="books-intro">Visionnez le premier mythe ci-dessous puis passez au lecteur synchronisé avec répétition ciblée (<strong>🔁 Loop Line</strong>) et masquage bilingue (<strong>👁️ Hide EN / Hide VI</strong>).</p>
-<div class="book-video-wrap">
-<iframe src="https://www.youtube-nocookie.com/embed/AZU9LK8_wIM" title="Aperçu vidéo bilingue Thần Trụ Trời" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<h2><span aria-hidden="true">🎧</span> Écoutez 4 Mythes Français–Vietnamien Gratuitement</h2>
+<p class="books-intro">Testez le lecteur bilingue FR + VI synchronisé phrase par phrase avec vitesses 0,75× / 1,0× / 1,15×, boucle de répétition et masquage bilingue.</p>
 <div class="book-demo-grid">
-<a class="book-demo-card" href="/demo/myths/">
-<span class="book-demo-tag">▶ EXTRAIT INTERACTIF · MYTHE 01</span>
-<span class="book-demo-title">The Giant Who Lifted the Sky</span>
-<span class="book-demo-vi">Thần Trụ Trời · Audio Synchronisé EN + VI</span>
+<a class="book-demo-card" href="/demo/mythes-vietnamiens/">
+<span class="book-demo-tag">▶ EXTRAIT AUDIO FR+VI · MYTHE 01</span>
+<span class="book-demo-title">Le Géant qui souleva le Ciel</span>
+<span class="book-demo-vi">Thần Trụ Trời · Audio Synchronisé FR + VI</span>
 </a>
-<a class="book-demo-card" href="/demo/myths-02/">
-<span class="book-demo-tag">▶ EXTRAIT INTERACTIF · MYTHE 02</span>
-<span class="book-demo-title">The Dragon Lord and the Mountain Fairy</span>
-<span class="book-demo-vi">Lạc Long Quân và Âu Cơ · Audio Synchronisé EN + VI</span>
+<a class="book-demo-card" href="/demo/mythes-vietnamiens-02/">
+<span class="book-demo-tag">▶ EXTRAIT AUDIO FR+VI · MYTHE 02</span>
+<span class="book-demo-title">Le Seigneur Dragon et la Fée des Montagnes</span>
+<span class="book-demo-vi">Lạc Long Quân và Âu Cơ · Audio Synchronisé FR + VI</span>
 </a>
-<a class="book-demo-card" href="/demo/myths-05/">
-<span class="book-demo-tag">▶ EXTRAIT INTERACTIF · MYTHE 05</span>
-<span class="book-demo-title">The Earth Cake and the Heaven Cake</span>
-<span class="book-demo-vi">Sự Tích Bánh Chưng Bánh Dày · Audio Synchronisé EN + VI</span>
+<a class="book-demo-card" href="/demo/mythes-vietnamiens-05/">
+<span class="book-demo-tag">▶ EXTRAIT AUDIO FR+VI · MYTHE 05</span>
+<span class="book-demo-title">Le Gâteau de la Terre et le Gâteau du Ciel</span>
+<span class="book-demo-vi">Sự Tích Bánh Chưng Bánh Dày · Audio Synchronisé FR + VI</span>
 </a>
-<a class="book-demo-card" href="/demo/myths-25/">
-<span class="book-demo-tag">▶ EXTRAIT INTERACTIF · MYTHE 25</span>
-<span class="book-demo-title">The Golden Slipper and the River Goby</span>
-<span class="book-demo-vi">Truyện Tấm Cám · Audio Synchronisé EN + VI</span>
+<a class="book-demo-card" href="/demo/mythes-vietnamiens-25/">
+<span class="book-demo-tag">▶ EXTRAIT AUDIO FR+VI · MYTHE 25</span>
+<span class="book-demo-title">Le Soulier d'Or et le Goujon du Bassin</span>
+<span class="book-demo-vi">Truyện Tấm Cám · Audio Synchronisé FR + VI</span>
 </a>
 </div>
 </section>
 
 <section class="about-section">
-<h2><span aria-hidden="true">❓</span> Questions Fréquentes &amp; Détails de l'Édition</h2>
-<div class="book-faq-list">
-<details class="book-faq-item" open>
-<summary>En quoi le Tome 2 diffère-t-il du Tome 1 (Contes Populaires) ?</summary>
-<p>Le Tome 1 rassemble soixante récits courts, vifs et humoristiques de la vie paysanne. Le Tome 2 déploie trente-six grandes fresques mythologiques et sacrées plus profondes sur les origines du peuple vietnamien, les héros et la compassion.</p>
-</details>
-<details class="book-faq-item">
-<summary>Comment le lecteur non vietnamophone s'y retrouve-t-il dans les noms propres et symboles ?</summary>
-<p>Chaque mythe s'appuie sur un texte anglais autonome, un guide de prononciation phonétique et une note culturelle expliquant la portée historique ou rituelle de l'histoire.</p>
-</details>
-<details class="book-faq-item">
-<summary>Quelles sont les références Amazon exactes ?</summary>
-<p>Broché couleur 6 × 9 pouces (ASIN B0HSGS48CS) et édition Kindle (ASIN B0HSCX2G1J), offerte gratuitement à 0,00 $ lors de la fenêtre de Thanksgiving du 26 au 29 novembre 2026.</p>
-</details>
-</div>
-</section>
-
-<section class="about-section">
-<h2><span aria-hidden="true">📚</span> Poursuivre la Collection Vietnamese Waves™</h2>
+<h2><span aria-hidden="true">📚</span> Poursuivre la Collection Francophone (Noël 2026)</h2>
 <div class="about-actions">
-<a href="/fr/books/vietnamese-folk-tales/">🌾 Tome 1 : 60 Contes Populaires →</a>
-<a href="/fr/books/learn-vietnamese/">🎓 Tome 3 : Apprendre le Vietnamien par les Histoires →</a>
-<a href="/books/">🪷 Retour au Catalogue</a>
+<a href="/fr/books/vietnamese-folk-tales/">🌾 Tome 1 : Trésor des Contes Populaires →</a>
+<a href="/fr/books/learn-vietnamese/">🎓 Méthode : Apprendre le Vietnamien par les Contes →</a>
+<a href="/fr/books/">🪷 Catalogue Français Complet</a>
+<a href="/books/">🌍 Toutes les Éditions (EN / FR / VI)</a>
 </div>
 </section>
 
-{{< newsletter uid="book-vol2-fr" tag="vietnamese-waves" variant="vw" kicker="🪷 Cercle des Lecteurs Vietnamese Waves™" title="Rappel Promo Thanksgiving & Nouveaux Mythes Audio" desc="Rejoignez les lecteurs qui reçoivent gratuitement nos histoires narrées et les avis de téléchargement Kindle à 0,00 $." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="Rejoindre le Cercle" note="Sans spam · Désinscription en 1 clic." >}}
+<div id="book-vmf-waitlist">
+{{< newsletter uid="book-vmf-fr" tag="vietnamese-waves" variant="vw" kicker="🎄 Sortie Noël 2026 · Amazon.fr" title="Soyez Prévenu dès la Sortie de Noël du Tome 2 Français" desc="Recevez le lien direct Amazon.fr à l'ouverture des ventes de Noël ainsi que nos prochains mythes audio." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="M'alerter à Noël 2026" note="Sans spam · Désinscription en 1 clic." >}}
+</div>

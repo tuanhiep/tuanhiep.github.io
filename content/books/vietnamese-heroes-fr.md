@@ -88,8 +88,8 @@ faqItems:
 <figcaption><strong>Chronique 02 · Sœurs Trưng</strong>Le Serment de Hát Môn</figcaption>
 </figure>
 <figure class="book-gallery-card">
-<img src="/images/books/previews/vol3-heroes-03.jpg" alt="Dame Triệu sur son éléphant aux défenses blanches" loading="lazy" />
-<figcaption><strong>Chronique 03 · Dame Triệu</strong>Chevaucher le Vent</figcaption>
+<img src="/images/books/previews/vol3-heroes-07.jpg" alt="Ngô Quyền et les pieux ferrés de Bạch Đằng en 938" loading="lazy" />
+<figcaption><strong>Chronique 07 · Ngô Quyền (938)</strong>Les Pieux Ferrés sur le Bạch Đằng</figcaption>
 </figure>
 </div>
 </section>
