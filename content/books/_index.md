@@ -30,7 +30,7 @@ Collector-grade illustrated bilingual editions (<strong>English &amp; Vietnamese
 
 <div class="vw-visual-shelf" aria-label="Vietnamese Waves Visual Bookshelf">
 <div class="vw-shelf-header">
-<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 7 Illustrated Bilingual Editions</strong>
+<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 8 Illustrated Bilingual Editions (EN+VI &amp; FR+VI)</strong>
 <span>Click any cover to open its full intro page, artwork previews &amp; live audio demo</span>
 </div>
 <div class="vw-cover-ribbon">
@@ -62,13 +62,17 @@ Collector-grade illustrated bilingual editions (<strong>English &amp; Vietnamese
 <img src="/images/books/learn-vietnamese-stories-fr.jpg" alt="Apprendre le Vietnamien par les Contes" />
 <span class="vw-cover-cap"><b>Méthode · FR+VI</b><em>🎄 Christmas 2026</em></span>
 </a>
+<a class="vw-cover-tile" href="/fr/books/vietnamese-heroes/">
+<img src="/images/books/vietnamese-heroes-epics-fr.jpg" alt="Héros et Épopées Historiques du Vietnam" />
+<span class="vw-cover-cap"><b>Tome 3 · Héros FR</b><em>🧧 Tết 2027</em></span>
+</a>
 </div>
 </div>
 
 <div class="vw-shelf-tabs" role="group" aria-label="Filter books by imprint and language">
-<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 All Books (10)</button>
+<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 All Books (11)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Vietnamese Waves™ EN+VI (4)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Éditions Françaises · Christmas 2026 (3)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Éditions Françaises FR+VI (4)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="tp" aria-pressed="false">🏛️ Technocrat Press · 2027 (3)</button>
 </div>
 
@@ -248,6 +252,29 @@ Méthode complète pensée pour les francophones (phonétique <em>nh ≈ gn, ng 
 </div>
 </div>
 </article>
+
+<article class="book-card">
+<div class="book-cover-wrap">
+<img src="/images/books/vietnamese-heroes-epics-fr.jpg" alt="Cover of Héros & Épopées Historiques du Vietnam" class="book-cover" loading="lazy" />
+</div>
+<div class="book-details">
+<div class="book-badge-row">
+<span class="book-badge book-badge-tet">🧧 Releasing Lunar New Year 2027 (Tết) · Amazon.fr</span>
+<span class="book-lang-tag">🇫🇷 Français &amp; Tiếng Việt</span>
+</div>
+<h3>Héros &amp; Épopées Historiques du Vietnam</h3>
+<p class="book-subtitle">30 Récits Illustrés de Reines Guerrières, Stratèges &amp; Dynasties — Édition Bilingue Français &amp; Vietnamien (Tome 3)</p>
+<p class="book-specs">30 Historical Epics · Strategic Genius Notes · Dynasty Timeline · Amazon.fr Tết 2027 (Kindle €5.49 / Print €15.99)</p>
+<p class="book-desc">
+French-Vietnamese collector adaptation of Volume 3 scheduled for <strong>Lunar New Year 2027 (Tết)</strong> — from Cổ Loa and the Trưng Queens to Ngô Quyền at Bạch Đằng, Trần Hưng Đạo, and Emperor Quang Trung.
+</p>
+<div class="book-links">
+<a href="/fr/books/vietnamese-heroes/" class="book-cta-primary">📖 Page Française &amp; Programme</a>
+<a href="/demo/heroes/">🎧 4 Epics Preview (EN+VI)</a>
+<a href="#books-en-waitlist">🔔 Tết 2027 Waitlist</a>
+</div>
+</div>
+</article>
 </div>
 </section>
 
@@ -309,7 +336,7 @@ for enterprise architecture advisory, GEM DBA collaboration, or media/review inq
 
 <div class="vw-visual-shelf" aria-label="Aperçu visuel Vietnamese Waves">
 <div class="vw-shelf-header">
-<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 7 Éditions Illustrées</strong>
+<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 8 Éditions Illustrées (FR+VI &amp; EN+VI)</strong>
 <span>Cliquez sur une couverture pour accéder à sa page dédiée et à ses pistes audio</span>
 </div>
 <div class="vw-cover-ribbon">
@@ -325,6 +352,10 @@ for enterprise architecture advisory, GEM DBA collaboration, or media/review inq
 <img src="/images/books/learn-vietnamese-stories-fr.jpg" alt="Apprendre le Vietnamien par les Contes" />
 <span class="vw-cover-cap"><b>Méthode · FR+VI</b><em>🎄 Noël 2026</em></span>
 </a>
+<a class="vw-cover-tile" href="/fr/books/vietnamese-heroes/">
+<img src="/images/books/vietnamese-heroes-epics-fr.jpg" alt="Héros et Épopées Historiques du Vietnam" />
+<span class="vw-cover-cap"><b>Tome 3 · FR+VI</b><em>🧧 Tết 2027</em></span>
+</a>
 <a class="vw-cover-tile" href="/books/vietnamese-folk-tales/">
 <img src="/images/books/vietnamese-folk-tales-treasury.jpg" alt="Vietnamese Folk Tales Vol. 1" />
 <span class="vw-cover-cap"><b>Vol. 1 · EN+VI</b><em>⭐ #1 Amazon</em></span>
@@ -337,16 +368,16 @@ for enterprise architecture advisory, GEM DBA collaboration, or media/review inq
 <img src="/images/books/learn-vietnamese-stories.jpg" alt="Learn Vietnamese EN" />
 <span class="vw-cover-cap"><b>Learn VI · EN+VI</b><em>🎄 Noël 2026</em></span>
 </a>
-<a class="vw-cover-tile" href="/fr/books/vietnamese-heroes/">
+<a class="vw-cover-tile" href="/books/vietnamese-heroes/">
 <img src="/images/books/vietnamese-heroes-epics.jpg" alt="Vietnamese Heroes Vol. 3" />
-<span class="vw-cover-cap"><b>Vol. 3 · Héros</b><em>🧧 Tết 2027</em></span>
+<span class="vw-cover-cap"><b>Vol. 3 · EN+VI</b><em>🧧 Tết 2027</em></span>
 </a>
 </div>
 </div>
 
 <div class="vw-shelf-tabs" role="group" aria-label="Filtrer par collection">
-<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toute la Collection (10)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Éditions Françaises · Noël 2026 (3)</button>
+<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toute la Collection (11)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Éditions Françaises FR+VI (4)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Éditions Anglaises EN+VI (4)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="tp" aria-pressed="false">🏛️ Technocrat Press · 2027 (3)</button>
 </div>
@@ -422,6 +453,29 @@ Apprenez les 6 tons du vietnamien par l'histoire avec phonétique calibrée pour
 <a href="/fr/books/learn-vietnamese/" class="book-cta-primary">📖 Fiche &amp; Extraits</a>
 <a href="/demo/apprendre-le-vietnamien/">🎧 4 Leçons FR+VI Gratuites</a>
 <a href="#books-fr-waitlist">🔔 Alerte Noël 2026</a>
+</div>
+</div>
+</article>
+
+<article class="book-card">
+<div class="book-cover-wrap">
+<img src="/images/books/vietnamese-heroes-epics-fr.jpg" alt="Couverture de Héros & Épopées Historiques du Vietnam" class="book-cover" loading="lazy" />
+</div>
+<div class="book-details">
+<div class="book-badge-row">
+<span class="book-badge book-badge-tet">🧧 Sortie Nouvel An Lunaire 2027 (Tết)</span>
+<span class="book-lang-tag">🇫🇷 Français &amp; Tiếng Việt</span>
+</div>
+<h3>Héros &amp; Épopées Historiques du Vietnam</h3>
+<p class="book-subtitle">30 Récits Illustrés de Reines Guerrières, Stratèges &amp; Dynasties — Édition Bilingue (Tome 3)</p>
+<p class="book-specs">30 Chroniques Historiques · Notes Stratégiques · Chronologie Dynastique · Prévu Amazon.fr (5,49 € / 15,99 €)</p>
+<p class="book-desc">
+Adaptation franco-vietnamienne du Tome 3 prévue pour le <strong>Nouvel An Lunaire 2027 (Tết)</strong>, de Cổ Loa et des Sœurs Trưng à Ngô Quyền, Trần Hưng Đạo et l'empereur Quang Trung.
+</p>
+<div class="book-links">
+<a href="/fr/books/vietnamese-heroes/" class="book-cta-primary">📖 Fiche &amp; Programme</a>
+<a href="/demo/heroes/">🎧 4 Épopées (Avant-Première)</a>
+<a href="#books-fr-waitlist">🔔 Liste d'Attente Tết 2027</a>
 </div>
 </div>
 </article>
@@ -575,7 +629,7 @@ Bộ ấn phẩm di sản văn hóa Việt song ngữ minh họa màu (<strong>A
 
 <div class="vw-visual-shelf" aria-label="Bày bìa sách trực quan Vietnamese Waves">
 <div class="vw-shelf-header">
-<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 7 Đầu Sách Song Ngữ Minh Họa Màu</strong>
+<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 8 Đầu Sách Song Ngữ Minh Họa Màu (4 Anh–Việt &amp; 4 Pháp–Việt)</strong>
 <span>Bấm trực tiếp vào bất kỳ bìa sách nào để xem trang giới thiệu và nghe thử audio</span>
 </div>
 <div class="vw-cover-ribbon">
@@ -607,13 +661,17 @@ Bộ ấn phẩm di sản văn hóa Việt song ngữ minh họa màu (<strong>A
 <img src="/images/books/learn-vietnamese-stories-fr.jpg" alt="Apprendre le Vietnamien par les Contes" />
 <span class="vw-cover-cap"><b>Học TV · Pháp–Việt</b><em>🎄 Noël 2026</em></span>
 </a>
+<a class="vw-cover-tile" href="/fr/books/vietnamese-heroes/">
+<img src="/images/books/vietnamese-heroes-epics-fr.jpg" alt="Héros et Épopées Historiques du Vietnam" />
+<span class="vw-cover-cap"><b>Tập 3 · Pháp–Việt</b><em>🧧 Tết 2027</em></span>
+</a>
 </div>
 </div>
 
 <div class="vw-shelf-tabs" role="group" aria-label="Lọc theo dòng sách">
-<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toàn Bộ Tủ Sách (10)</button>
+<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toàn Bộ Tủ Sách (11)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Bộ Anh–Việt (4)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Bộ Pháp–Việt · Giáng Sinh 2026 (3)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Bộ Pháp–Việt (4)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="tp" aria-pressed="false">🏛️ Sách Kỹ Trị · 2027 (3)</button>
 </div>
 
@@ -766,6 +824,25 @@ Ba ấn phẩm chuyển ngữ văn học &amp; sư phạm tiếng Pháp bản đ
 <div class="book-links">
 <a href="/fr/books/learn-vietnamese/" class="book-cta-primary">📖 Trang Giới Thiệu (FR)</a>
 <a href="/demo/apprendre-le-vietnamien/">🎧 4 Bài Học Audio Pháp–Việt</a>
+</div>
+</div>
+</article>
+
+<article class="book-card">
+<div class="book-cover-wrap">
+<img src="/images/books/vietnamese-heroes-epics-fr.jpg" alt="Bìa Héros & Épopées Historiques du Vietnam" class="book-cover" loading="lazy" />
+</div>
+<div class="book-details">
+<div class="book-badge-row">
+<span class="book-badge book-badge-tet">🧧 Phát Hành Tết Nguyên Đán 2027 · Amazon.fr</span>
+<span class="book-lang-tag">🇫🇷 Pháp &amp; Việt</span>
+</div>
+<h3>Héros &amp; Épopées Historiques du Vietnam</h3>
+<p class="book-subtitle">30 Anh Hùng &amp; Sử Thi Lịch Sử Việt Nam — Ấn Bản Song Ngữ Pháp &amp; Việt (Tập 3)</p>
+<p class="book-specs">30 Thiên Sử Thi · Khung Chiến Lược · Niên Biểu Triều Đại · Dự kiến Amazon.fr Tết 2027</p>
+<div class="book-links">
+<a href="/fr/books/vietnamese-heroes/" class="book-cta-primary">📖 Trang Giới Thiệu (FR)</a>
+<a href="/demo/heroes/">🎧 Nghe Thử 4 Chương (EN+VI)</a>
 </div>
 </div>
 </article>

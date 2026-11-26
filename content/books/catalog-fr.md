@@ -36,7 +36,7 @@ Retrouvez nos éditions bilingues illustrées <strong>Français &amp; Vietnamien
 
 <div class="vw-visual-shelf" aria-label="Aperçu visuel de la collection">
 <div class="vw-shelf-header">
-<strong><span aria-hidden="true">📚</span> 7 Éditions Illustrées — Accès Visuel Direct</strong>
+<strong><span aria-hidden="true">📚</span> 8 Éditions Illustrées (FR+VI &amp; EN+VI) — Accès Visuel Direct</strong>
 <span>Cliquez sur une couverture pour explorer l'ouvrage &amp; écouter ses pistes audio gratuites</span>
 </div>
 <div class="vw-cover-ribbon">
@@ -52,6 +52,10 @@ Retrouvez nos éditions bilingues illustrées <strong>Français &amp; Vietnamien
 <img src="/images/books/learn-vietnamese-stories-fr.jpg" alt="Apprendre le Vietnamien par les Contes" />
 <span class="vw-cover-cap"><b>Méthode · FR+VI</b><em>🎄 Noël 2026</em></span>
 </a>
+<a class="vw-cover-tile" href="/fr/books/vietnamese-heroes/">
+<img src="/images/books/vietnamese-heroes-epics-fr.jpg" alt="Héros et Épopées Historiques du Vietnam" />
+<span class="vw-cover-cap"><b>Tome 3 · FR+VI</b><em>🧧 Tết 2027</em></span>
+</a>
 <a class="vw-cover-tile" href="/books/vietnamese-folk-tales/">
 <img src="/images/books/vietnamese-folk-tales-treasury.jpg" alt="Vietnamese Folk Tales Vol. 1 EN" />
 <span class="vw-cover-cap"><b>Vol. 1 · EN+VI</b><em>⭐ #1 Amazon</em></span>
@@ -64,16 +68,16 @@ Retrouvez nos éditions bilingues illustrées <strong>Français &amp; Vietnamien
 <img src="/images/books/learn-vietnamese-stories.jpg" alt="Learn Vietnamese Stories EN" />
 <span class="vw-cover-cap"><b>Learn VI · EN+VI</b><em>🎄 Noël 2026</em></span>
 </a>
-<a class="vw-cover-tile" href="/fr/books/vietnamese-heroes/">
-<img src="/images/books/vietnamese-heroes-epics.jpg" alt="Vietnamese Heroes Vol. 3" />
-<span class="vw-cover-cap"><b>Vol. 3 · Héros</b><em>🧧 Tết 2027</em></span>
+<a class="vw-cover-tile" href="/books/vietnamese-heroes/">
+<img src="/images/books/vietnamese-heroes-epics.jpg" alt="Vietnamese Heroes Vol. 3 EN" />
+<span class="vw-cover-cap"><b>Vol. 3 · EN+VI</b><em>🧧 Tết 2027</em></span>
 </a>
 </div>
 </div>
 
 <div class="vw-shelf-tabs" role="group" aria-label="Filtrer les collections">
-<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toute la Collection (10)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Éditions Françaises · Noël 2026 (3)</button>
+<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toute la Collection (11)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Éditions Françaises FR+VI (4)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Éditions Anglaises EN+VI (4)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="tp" aria-pressed="false">🏛️ Technocrat Press · 2027 (3)</button>
 </div>
@@ -81,7 +85,7 @@ Retrouvez nos éditions bilingues illustrées <strong>Français &amp; Vietnamien
 <section class="books-section books-heritage" data-shelf-group="vw-fr" id="editions-francaises">
 <h2><span aria-hidden="true">🇫🇷</span> Éditions Françaises Amazon.fr (Français &amp; Vietnamien)</h2>
 <p class="books-intro">
-Trois éditions conçues spécifiquement pour les lecteurs francophones — prose littéraire en français naturel, texte original vietnamien intégral, glossaires calibrés pour la phonétique française et compagnons audio FR+VI privés par QR code.
+Quatre éditions conçues spécifiquement pour les lecteurs francophones — Tomes 1, 2 &amp; Méthode prêts pour Noël 2026, couronnés par le Tome 3 historique prévu pour le Nouvel An Lunaire 2027 (Tết).
 </p>
 <div class="books-featured-grid">
 <article class="book-card">
@@ -149,6 +153,29 @@ Maîtrisez les 6 tons sans listes abstraites : chaque leçon réunit récit num�
 <a href="/fr/books/learn-vietnamese/" class="book-cta-primary">📖 Page &amp; Extraits</a>
 <a href="/demo/apprendre-le-vietnamien/">🎧 4 Leçons FR+VI Gratuites</a>
 <a href="#books-fr-catalog-waitlist">🔔 Alerte Noël 2026</a>
+</div>
+</div>
+</article>
+
+<article class="book-card">
+<div class="book-cover-wrap">
+<img src="/images/books/vietnamese-heroes-epics-fr.jpg" alt="Couverture Héros et Épopées Historiques du Vietnam" class="book-cover" loading="lazy" />
+</div>
+<div class="book-details">
+<div class="book-badge-row">
+<span class="book-badge book-badge-tet">🧧 Sortie Nouvel An Lunaire 2027 (Tết)</span>
+<span class="book-lang-tag">🇫🇷 Français &amp; Tiếng Việt</span>
+</div>
+<h3>Héros &amp; Épopées Historiques du Vietnam</h3>
+<p class="book-subtitle">30 Récits Illustrés de Reines Guerrières, Stratèges &amp; Dynasties — Édition Bilingue (Tome 3)</p>
+<p class="book-specs">30 Chroniques Historiques · Notes Stratégiques · Chronologie Dynastique · Prévu Amazon.fr (5,49 € / 15,99 € / 22,99 €)</p>
+<p class="book-desc">
+Couronne la trilogie collector franco-vietnamienne pour le <strong>Nouvel An Lunaire 2027 (Tết)</strong> : de Cổ Loa et des Sœurs Trưng à Ngô Quyền à Bạch Đằng, Trần Hưng Đạo et Quang Trung.
+</p>
+<div class="book-links">
+<a href="/fr/books/vietnamese-heroes/" class="book-cta-primary">📖 Page Française &amp; Programme</a>
+<a href="/demo/heroes/">🎧 4 Épopées (Avant-Première)</a>
+<a href="#books-fr-catalog-waitlist">🔔 Liste d'Attente Têt 2027</a>
 </div>
 </div>
 </article>
@@ -236,7 +263,7 @@ La série originale <strong>English &amp; Vietnamese</strong> — dont le Tome 1
 <p class="book-subtitle">30 Épopées Historiques Vraies &amp; Stratégie — Trésor Bilingue (Tome 3)</p>
 <p class="book-specs">30 Chroniques Historiques · Notes Stratégiques · 60 Pistes Audio EN+VI Live · Chronologie Dynastique · Format 6 × 9"</p>
 <div class="book-links">
-<a href="/fr/books/vietnamese-heroes/" class="book-cta-primary">📖 Fiche &amp; Extraits</a>
+<a href="/books/vietnamese-heroes/" class="book-cta-primary">📖 Fiche EN &amp; Extraits</a>
 <a href="/demo/heroes/">🎧 4 Épopées Gratuites</a>
 <a href="#books-fr-catalog-waitlist">🔔 Liste d'Attente Tết 2027</a>
 </div>

@@ -1,15 +1,18 @@
 ---
-title: "Vietnamese Heroes & Historical Epics (Édition Bilingue · Tome 3)"
+title: "Héros & Épopées Historiques du Vietnam (Édition Française · Tome 3)"
 url: "/fr/books/vietnamese-heroes/"
-date: 2026-11-24
-summary: "Trente épopées historiques illustrées — Reines guerrières, stratèges et dynasties millénaires du Vietnam en édition bilingue anglais-vietnamien avec 60 pistes audio synchronisées."
-description: "Découvrez 30 épopées historiques vraies du Vietnam (Sœurs Trưng, Trần Hưng Đạo, Quang Trung) illustrées en anglais & vietnamien avec 60 pistes audio."
+aliases:
+  - "/books/heros-vietnamiens-fr/"
+  - "/fr/books/heros-du-vietnam/"
+date: 2026-11-26
+summary: "Trente épopées historiques vraies du Vietnam — reines guerrières, amiraux stratèges et dynasties millénaires — en édition bilingue français et vietnamien. Sortie prévue pour le Nouvel An Lunaire 2027 (Tết) sur Amazon.fr."
+description: "Découvrez Héros & Épopées Historiques du Vietnam (Tome 3, édition française bilingue FR+VI) : Sœurs Trưng, Ngô Quyền à Bạch Đằng, Trần Hưng Đạo, Quang Trung. Sortie Têt 2027."
 keywords:
-  - "histoire du Vietnam livre bilingue"
-  - "Trưng Sisters Trần Hưng Đạo livre"
-  - "épopées historiques Vietnam"
-  - "stratégie asymétrique Vietnam"
-  - "Vietnamese Heroes Historical Epics"
+  - "histoire du Vietnam livre français"
+  - "Héros et Épopées Historiques du Vietnam"
+  - "Sœurs Trưng Trần Hưng Đạo livre français"
+  - "épopées historiques Vietnam Amazon.fr"
+  - "stratégie asymétrique histoire vietnamienne"
 layout: "about"
 hideMeta: true
 ShowToc: false
@@ -20,36 +23,41 @@ seoAlternates:
   fr: "/fr/books/vietnamese-heroes/"
   vi: "/vi/books/vietnamese-heroes/"
   xdefault: "/books/vietnamese-heroes/"
-bookSubtitle: "30 Épopées de Reines Guerrières, Stratèges & Dynasties Millénaires — Trésor Bilingue (Tome 3)"
+bookSubtitle: "30 Récits Illustrés de Reines Guerrières, Stratèges & Dynasties — Édition Bilingue Français & Vietnamien (Tome 3)"
 demoPreviewUrl: "/demo/heroes/"
 images:
-  - "/images/books/vietnamese-heroes-epics.jpg"
+  - "/images/books/vietnamese-heroes-epics-fr.jpg"
 sameAsUrls:
+  - "https://www.amazon.fr/s?k=Tuan-Hiep+TRAN"
   - "https://www.amazon.com/author/tuanhieptran"
   - "https://www.youtube.com/@VietnameseWaves"
 faqItems:
   - q: "Quels grands personnages historiques figurent dans ce Tome 3 ?"
-    a: "Trente tournants historiques couvrant plus de 2 200 ans en trois actes : Livre I (Cổ Loa, Sœurs Trưng, Dame Triệu, Khúc Hạo, Ngô Quyền à Bạch Đằng, Lý Thường Kiệt) ; Livre II (Ỷ Lan, Tô Hiến Thành, Trần Hưng Đạo à Diên Hồng, Trần Nhân Tông, Chu Văn An, Hồ Quý Ly) ; Livre III (Lê Lợi, Nguyễn Trãi, Lê Thánh Tông, Quang Trung, Bùi Thị Xuân, Phan Bội Châu & Phan Châu Trinh)."
-  - q: "Ce livre propose-t-il un compagnon audio bilingue ?"
-    a: "Oui : chaque chronique est reliée au lecteur audio interactif privé anglais-vietnamien synchronisé phrase par phrase (60 pistes), et quatre épopées majeures sont accessibles gratuitement en ligne."
-  - q: "Quand paraîtra le Tome 3 sur Amazon.fr et Amazon.com ?"
-    a: "La parution est prévue pour le Nouvel An Lunaire 2027 (Tết · 6 février 2027), avec mise en vente dès la mi-janvier pour les cadeaux familiaux du Têt. Rejoignez le Cercle ci-dessous pour être averti le jour J."
+    a: "Trente tournants historiques vérifiés couvrant plus de 2 200 ans en trois actes : Livre I (Cổ Loa, Sœurs Trưng, Dame Triệu, Khúc Hạo, Ngô Quyền à Bạch Đằng, Lý Thường Kiệt) ; Livre II (Impératrice Ỷ Lan, Tô Hiến Thành, Trần Hưng Đạo à Diên Hồng, Trần Nhân Tông, Chu Văn An, Hồ Quý Ly) ; Livre III (Lê Lợi & Lê Lai, Nguyễn Trãi, Lê Thánh Tông, Quang Trung 1789, l'amirale Bùi Thị Xuân, Phan Bội Châu & Phan Châu Trinh)."
+  - q: "Quand paraîtra l'édition française Héros & Épopées Historiques du Vietnam sur Amazon.fr ?"
+    a: "La parution des éditions anglaise et française est programmée pour le Nouvel An Lunaire 2027 (Tết Nguyên Đán · 6 février 2027), avec lancement mi-janvier pour les cadeaux familiaux du Têt (Kindle 5,49 €, Broché 15,99 €, Relié Collector 22,99 €)."
+  - q: "Un compagnon audio et des extraits sont-ils déjà disponibles ?"
+    a: "Les 60 pistes audio de l'édition originale (anglais + vietnamien du Nord) sont déjà finalisées et quatre chroniques complètes sont en écoute libre dès aujourd'hui ; l'adaptation studio en français et vietnamien accompagnera la sortie Têt 2027 sur Amazon.fr."
 ---
 
 <section class="book-showcase-hero">
 <div>
-<img src="/images/books/vietnamese-heroes-epics.jpg" alt="Couverture de Vietnamese Heroes and Historical Epics" class="book-showcase-cover" />
+<img src="/images/books/vietnamese-heroes-epics-fr.jpg" alt="Couverture de Héros &amp; Épopées Historiques du Vietnam (Édition Bilingue Français &amp; Vietnamien)" class="book-showcase-cover" />
 </div>
 <div>
-<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Tome 3 · Parution Nouvel An Lunaire 2027 (Tết)</p>
-<h1>Vietnamese Heroes &amp; Historical Epics</h1>
-<p class="about-lede">Trente chroniques humaines vibrantes de reines guerrières, d'amiraux stratèges, de maîtres intègres et de penseurs visionnaires — unissant prose anglaise littéraire, vietnamien authentique (<em>Bản Kể Song Ngữ</em>) et 60 pistes audio synchronisées.</p>
-<p class="book-specs" style="margin-top: 0.75rem;">30 Épopées Historiques · Notes Stratégiques · 60 Pistes Audio EN+VI par QR · Chronologie Dynastique · Format Collector 6 × 9"</p>
+<p class="about-kicker"><span aria-hidden="true">🪷</span> Vietnamese Waves™ · Tome 3 (Édition Française · Amazon.fr)</p>
+<div class="book-badge-row">
+<span class="book-badge book-badge-tet">🧧 Sortie Nouvel An Lunaire 2027 (Tết Nguyên Đán)</span>
+<span class="book-lang-tag">🇫🇷 Français &amp; Tiếng Việt</span>
+</div>
+<h1>Héros &amp; Épopées Historiques du Vietnam</h1>
+<p class="about-lede">Trente chroniques humaines vibrantes de reines guerrières, d'amiraux lisant les marées, de maîtres intègres et de penseurs visionnaires — adaptées en <strong>français littéraire</strong> et accompagnées du texte vietnamien original (<em>Bản Kể Song Ngữ</em>), de notes stratégiques et d'une chronologie dynastique.</p>
+<p class="book-specs" style="margin-top: 0.75rem;">30 Épopées Historiques · Notes Stratégiques · Chronologie Dynastique · Amazon.fr Têt 2027 (Kindle 5,49 € · Broché 15,99 € · Relié 22,99 €)</p>
 <div class="about-actions" aria-label="Liens du livre">
-<a href="/demo/heroes/" class="book-cta-primary">🎧 Écouter 4 Épopées Gratuites</a>
-<a href="#book-vol3-waitlist">🔔 Alerte Sortie Têt 2027</a>
-<a href="https://www.amazon.com/author/tuanhieptran" rel="noopener noreferrer" target="_blank">📖 Suivre sur Amazon</a>
-<a href="https://www.youtube.com/@VietnameseWaves" rel="noopener noreferrer" target="_blank">📺 Chaîne @VietnameseWaves</a>
+<a href="#book-vol3-fr-waitlist" class="book-cta-primary">🔔 Rejoindre la Liste d'Attente Têt 2027</a>
+<a href="/demo/heroes/">🎧 Écouter 4 Épopées (Avant-Première EN+VI)</a>
+<a href="/books/vietnamese-heroes/">🇬🇧 Édition Anglaise (EN+VI) →</a>
+<a href="https://www.youtube.com/@VietnameseWaves" rel="noopener noreferrer" target="_blank">📺 @VietnameseWaves</a>
 </div>
 </div>
 </section>
@@ -77,7 +85,7 @@ faqItems:
 
 <section class="about-section">
 <h2><span aria-hidden="true">🎨</span> Aperçu des Planches Historiques</h2>
-<p class="books-intro">Des illustrations originales à l'aquarelle et à l'encre fine donnent vie aux citadelles anciennes, aux charges d'éléphants et aux figures historiques du Vietnam.</p>
+<p class="books-intro">Des illustrations originales à l'aquarelle et à l'encre fine donnent vie aux citadelles anciennes, aux charges d'éléphants et aux batailles navales de l'histoire vietnamienne.</p>
 <div class="book-gallery-grid">
 <figure class="book-gallery-card">
 <img src="/images/books/previews/vol3-heroes-01.jpg" alt="Citadelle de Cổ Loa et arbalète en bronze" loading="lazy" />
@@ -95,26 +103,26 @@ faqItems:
 </section>
 
 <section class="about-section">
-<h2><span aria-hidden="true">🎧</span> Écoutez 4 Chroniques Historiques Gratuitement</h2>
-<p class="books-intro">Testez immédiatement le lecteur bilingue synchronisé avec réglage de vitesse (0,75×–1,15×), répétition en boucle et masquage de texte.</p>
+<h2><span aria-hidden="true">🎧</span> Avant-Première Audio (4 Chroniques Ouvertes EN+VI)</h2>
+<p class="books-intro">Découvrez dès maintenant 4 chroniques historiques complètes sur notre lecteur synchronisé (en anglais et vietnamien, avant la sortie de la piste française au Têt 2027) :</p>
 <div class="book-demo-grid">
 <a class="book-demo-card" href="/demo/heroes/">
-<span class="book-demo-tag">▶ EXTRAIT GRATUIT · RÉCIT 01</span>
+<span class="book-demo-tag">▶ AVANT-PREMIÈRE · RÉCIT 01</span>
 <span class="book-demo-title">The Spiral Citadel of Cổ Loa</span>
 <span class="book-demo-vi">Thành Cổ Loa · Audio EN + VI</span>
 </a>
 <a class="book-demo-card" href="/demo/heroes-07/">
-<span class="book-demo-tag">▶ EXTRAIT GRATUIT · RÉCIT 07</span>
+<span class="book-demo-tag">▶ AVANT-PREMIÈRE · RÉCIT 07</span>
 <span class="book-demo-title">Iron Stakes Beneath the Tide</span>
 <span class="book-demo-vi">Ngô Quyền &amp; Bạch Đằng · Audio EN + VI</span>
 </a>
 <a class="book-demo-card" href="/demo/heroes-14/">
-<span class="book-demo-tag">▶ EXTRAIT GRATUIT · RÉCIT 14</span>
+<span class="book-demo-tag">▶ AVANT-PREMIÈRE · RÉCIT 14</span>
 <span class="book-demo-title">The Sage Commander &amp; Diên Hồng</span>
 <span class="book-demo-vi">Trần Hưng Đạo · Audio EN + VI</span>
 </a>
 <a class="book-demo-card" href="/demo/heroes-26/">
-<span class="book-demo-tag">▶ EXTRAIT GRATUIT · RÉCIT 26</span>
+<span class="book-demo-tag">▶ AVANT-PREMIÈRE · RÉCIT 26</span>
 <span class="book-demo-title">Red Tunics &amp; Lightning Dawn</span>
 <span class="book-demo-vi">Quang Trung 1789 · Audio EN + VI</span>
 </a>
@@ -122,15 +130,15 @@ faqItems:
 </section>
 
 <section class="about-section">
-<h2><span aria-hidden="true">📚</span> Explorer les Tomes Déjà Disponibles</h2>
+<h2><span aria-hidden="true">📚</span> Collection Francophone Vietnamese Waves™</h2>
 <div class="about-actions">
-<a href="/fr/books/vietnamese-folk-tales/">🌾 Tome 1 : 60 Contes Populaires →</a>
-<a href="/fr/books/vietnamese-myths/">🐉 Tome 2 : 36 Mythes Sacrés →</a>
-<a href="/fr/books/learn-vietnamese/">🎓 Learn Vietnamese Through Stories →</a>
-<a href="/books/">🪷 Tous les Livres</a>
+<a href="/fr/books/vietnamese-folk-tales/">🌾 Tome 1 : Trésor des Contes Populaires (Noël 2026) →</a>
+<a href="/fr/books/vietnamese-myths/">🐉 Tome 2 : Mythes &amp; Légendes Sacrées (Noël 2026) →</a>
+<a href="/fr/books/learn-vietnamese/">🎓 Apprendre le Vietnamien par les Contes (Noël 2026) →</a>
+<a href="/fr/books/">🪷 Catalogue Français Complet</a>
 </div>
 </section>
 
-<div id="book-vol3-waitlist">
-{{< newsletter uid="book-vol3-fr" tag="vietnamese-waves" variant="vw" kicker="🪷 Liste d'Attente · Nouvel An Lunaire 2027 (Tết)" title="Soyez Informé dès l'Ouverture du Tome 3 pour le Têt" desc="Recevez l'alerte de mise en ligne (mi-janvier 2027 avant le Nouvel An Lunaire) ainsi que de nouveaux chapitres audio gratuits." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="M'avertir pour le Têt 2027" note="Sans spam · Désinscription en 1 clic." >}}
+<div id="book-vol3-fr-waitlist">
+{{< newsletter uid="book-vol3-fr" tag="vietnamese-waves" variant="vw" kicker="🧧 Liste d'Attente · Nouvel An Lunaire 2027 (Tết)" title="Soyez Prévenu dès la Sortie du Tome 3 Français au Têt 2027" desc="Recevez l'alerte de parution sur Amazon.fr (avant le 6 février 2027) ainsi que nos histoires audio gratuites." emailLabel="Votre adresse e-mail" placeholder="lecteur@exemple.com" button="M'avertir pour le Têt 2027" note="Sans spam · Désinscription en 1 clic." >}}
 </div>
