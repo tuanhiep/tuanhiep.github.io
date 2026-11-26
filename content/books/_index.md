@@ -30,7 +30,7 @@ Collector-grade illustrated bilingual editions (<strong>English &amp; Vietnamese
 
 <div class="vw-visual-shelf" aria-label="Vietnamese Waves Visual Bookshelf">
 <div class="vw-shelf-header">
-<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 10 Bilingual Collector Editions (EN+VI &amp; FR+VI)</strong>
+<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 8 Illustrated Bilingual Editions (EN+VI &amp; FR+VI)</strong>
 <span>Click any cover to open its full intro page, artwork previews &amp; live audio demo</span>
 </div>
 <div class="vw-cover-ribbon">
@@ -41,10 +41,6 @@ Collector-grade illustrated bilingual editions (<strong>English &amp; Vietnamese
 <a class="vw-cover-tile" href="/books/vietnamese-myths/">
 <img src="/images/books/vietnamese-myths-and-legends.jpg" alt="Vietnamese Myths and Sacred Legends" />
 <span class="vw-cover-cap"><b>Vol. 2 · EN+VI</b><em>✨ Released Now</em></span>
-</a>
-<a class="vw-cover-tile" href="/books/vietnamese-folklore-omnibus/">
-<img src="/images/books/vietnamese-folklore-omnibus.jpg" alt="The Complete Vietnamese Folklore and Myths Omnibus" />
-<span class="vw-cover-cap"><b>Omnibus · EN+VI</b><em>👑 Vol. 1+2 (96)</em></span>
 </a>
 <a class="vw-cover-tile" href="/books/learn-vietnamese/">
 <img src="/images/books/learn-vietnamese-stories.jpg" alt="Learn Vietnamese Through Timeless Stories" />
@@ -62,10 +58,6 @@ Collector-grade illustrated bilingual editions (<strong>English &amp; Vietnamese
 <img src="/images/books/vietnamese-myths-and-legends-fr.jpg" alt="Mythes et Légendes Sacrées du Vietnam" />
 <span class="vw-cover-cap"><b>Vol. 2 · FR+VI</b><em>🎄 Christmas 2026</em></span>
 </a>
-<a class="vw-cover-tile" href="/fr/books/vietnamese-folklore-omnibus/">
-<img src="/images/books/vietnamese-folklore-omnibus-fr.jpg" alt="L'Intégrale des Contes et Mythes Sacrés du Vietnam" />
-<span class="vw-cover-cap"><b>Intégrale · FR+VI</b><em>🎄 Noël 2026</em></span>
-</a>
 <a class="vw-cover-tile" href="/fr/books/learn-vietnamese/">
 <img src="/images/books/learn-vietnamese-stories-fr.jpg" alt="Apprendre le Vietnamien par les Contes" />
 <span class="vw-cover-cap"><b>Méthode · FR+VI</b><em>🎄 Christmas 2026</em></span>
@@ -78,9 +70,9 @@ Collector-grade illustrated bilingual editions (<strong>English &amp; Vietnamese
 </div>
 
 <div class="vw-shelf-tabs" role="group" aria-label="Filter books by imprint and language">
-<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 All Books (13)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Vietnamese Waves™ EN+VI (5)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Éditions Françaises FR+VI (5)</button>
+<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 All Books (11)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Vietnamese Waves™ EN+VI (4)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Éditions Françaises FR+VI (4)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="tp" aria-pressed="false">🏛️ Technocrat Press · 2027 (3)</button>
 </div>
 
@@ -180,29 +172,6 @@ Crowns the Collector Trilogy for <strong>Lunar New Year 2027 (Tết Đinh Mùi)<
 <a href="/books/vietnamese-heroes/" class="book-cta-primary">📖 Book Page &amp; Previews</a>
 <a href="/demo/heroes/">🎧 Try 4 Epics Free</a>
 <a href="#books-en-waitlist">🔔 Tết 2027 Waitlist</a>
-</div>
-</div>
-</article>
-
-<article class="book-card">
-<div class="book-cover-wrap">
-<img src="/images/books/vietnamese-folklore-omnibus.jpg" alt="Cover of The Complete Vietnamese Folklore and Myths Omnibus" class="book-cover" loading="lazy" />
-</div>
-<div class="book-details">
-<div class="book-badge-row">
-<span class="book-badge book-badge-live">👑 Heirloom Collector Omnibus · Ready Now</span>
-<span class="book-lang-tag">🇬🇧 English &amp; Tiếng Việt</span>
-</div>
-<h3>The Complete Vietnamese Folklore &amp; Myths Omnibus</h3>
-<p class="book-subtitle">96 Illustrated Stories Uniting Vol. 1 &amp; Vol. 2 Unabridged — Heirloom Bilingual Treasury</p>
-<p class="book-specs">96 Stories · 105 Color Plates · 192 Synced EN+VI Tracks (Dual QR) · 302 Pages · Kindle $9.99 · Paperback $24.99 · Hardcover $32.99</p>
-<p class="book-desc">
-Saves 20–30% versus separate print volumes while uniting every folktale, witty parable, creation myth, and fairy epic from Volumes 1 and 2 beneath one gift-worthy spine.
-</p>
-<div class="book-links">
-<a href="/books/vietnamese-folklore-omnibus/" class="book-cta-primary">📖 Omnibus Page</a>
-<a href="/demo/folk-tales/">🎧 Try Vol. 1 Demos</a>
-<a href="/demo/myths/">🎧 Try Vol. 2 Demos</a>
 </div>
 </div>
 </article>
@@ -306,29 +275,6 @@ French-Vietnamese collector adaptation of Volume 3 scheduled for <strong>Lunar N
 </div>
 </div>
 </article>
-
-<article class="book-card">
-<div class="book-cover-wrap">
-<img src="/images/books/vietnamese-folklore-omnibus-fr.jpg" alt="Cover of L'Intégrale des Contes et Mythes Sacrés du Vietnam" class="book-cover" loading="lazy" />
-</div>
-<div class="book-details">
-<div class="book-badge-row">
-<span class="book-badge book-badge-xmas">🎄 Releasing Christmas 2026 · Intégrale Collector</span>
-<span class="book-lang-tag">🇫🇷 Français &amp; Tiếng Việt</span>
-</div>
-<h3>L'Intégrale des Contes &amp; Mythes Sacrés du Vietnam</h3>
-<p class="book-subtitle">96 Récits Illustrés (Volumes 1 &amp; 2 Intégraux) — Édition Collector Franco-Vietnamienne</p>
-<p class="book-specs">96 Récits · 105 Planches Couleur · 192 Pistes Audio QR · 312 Pages · Kindle €9.99 · Paperback €24.99 · Hardcover €32.99</p>
-<p class="book-desc">
-Réunit intégralement les Volumes 1 et 2 sous un grand dos relié pour offrir à Noël sur Amazon.fr avec double QR audio FR+VI.
-</p>
-<div class="book-links">
-<a href="/fr/books/vietnamese-folklore-omnibus/" class="book-cta-primary">📖 Page Intégrale (FR)</a>
-<a href="/demo/contes-vietnamiens/">🎧 4 Contes FR+VI</a>
-<a href="/demo/mythes-vietnamiens/">🎧 4 Mythes FR+VI</a>
-</div>
-</div>
-</article>
 </div>
 </section>
 
@@ -390,7 +336,7 @@ for enterprise architecture advisory, GEM DBA collaboration, or media/review inq
 
 <div class="vw-visual-shelf" aria-label="Aperçu visuel Vietnamese Waves">
 <div class="vw-shelf-header">
-<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 10 Éditions Collector Bilingues (FR+VI &amp; EN+VI)</strong>
+<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 8 Éditions Illustrées (FR+VI &amp; EN+VI)</strong>
 <span>Cliquez sur une couverture pour accéder à sa page dédiée et à ses pistes audio</span>
 </div>
 <div class="vw-cover-ribbon">
@@ -401,10 +347,6 @@ for enterprise architecture advisory, GEM DBA collaboration, or media/review inq
 <a class="vw-cover-tile" href="/fr/books/vietnamese-myths/">
 <img src="/images/books/vietnamese-myths-and-legends-fr.jpg" alt="Mythes et Légendes Sacrées du Vietnam" />
 <span class="vw-cover-cap"><b>Vol. 2 · FR+VI</b><em>🎄 Noël 2026</em></span>
-</a>
-<a class="vw-cover-tile" href="/fr/books/vietnamese-folklore-omnibus/">
-<img src="/images/books/vietnamese-folklore-omnibus-fr.jpg" alt="L'Intégrale des Contes et Mythes Sacrés du Vietnam" />
-<span class="vw-cover-cap"><b>Intégrale · FR+VI</b><em>🎄 Noël 2026</em></span>
 </a>
 <a class="vw-cover-tile" href="/fr/books/learn-vietnamese/">
 <img src="/images/books/learn-vietnamese-stories-fr.jpg" alt="Apprendre le Vietnamien par les Contes" />
@@ -422,10 +364,6 @@ for enterprise architecture advisory, GEM DBA collaboration, or media/review inq
 <img src="/images/books/vietnamese-myths-and-legends.jpg" alt="Vietnamese Myths Vol. 2" />
 <span class="vw-cover-cap"><b>Vol. 2 · EN+VI</b><em>✨ Paru</em></span>
 </a>
-<a class="vw-cover-tile" href="/books/vietnamese-folklore-omnibus/">
-<img src="/images/books/vietnamese-folklore-omnibus.jpg" alt="Vietnamese Folklore Omnibus EN" />
-<span class="vw-cover-cap"><b>Omnibus · EN+VI</b><em>👑 Vol. 1+2</em></span>
-</a>
 <a class="vw-cover-tile" href="/books/learn-vietnamese/">
 <img src="/images/books/learn-vietnamese-stories.jpg" alt="Learn Vietnamese EN" />
 <span class="vw-cover-cap"><b>Learn VI · EN+VI</b><em>🎄 Noël 2026</em></span>
@@ -438,9 +376,9 @@ for enterprise architecture advisory, GEM DBA collaboration, or media/review inq
 </div>
 
 <div class="vw-shelf-tabs" role="group" aria-label="Filtrer par collection">
-<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toute la Collection (13)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Éditions Françaises FR+VI (5)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Éditions Anglaises EN+VI (5)</button>
+<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toute la Collection (11)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Éditions Françaises FR+VI (4)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Éditions Anglaises EN+VI (4)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="tp" aria-pressed="false">🏛️ Technocrat Press · 2027 (3)</button>
 </div>
 
@@ -541,25 +479,6 @@ Adaptation franco-vietnamienne du Volume 3 prévue pour le <strong>Nouvel An Lun
 </div>
 </div>
 </article>
-
-<article class="book-card">
-<div class="book-cover-wrap">
-<img src="/images/books/vietnamese-folklore-omnibus-fr.jpg" alt="Couverture de L'Intégrale des Contes et Mythes Sacrés du Vietnam" class="book-cover" loading="lazy" />
-</div>
-<div class="book-details">
-<div class="book-badge-row">
-<span class="book-badge book-badge-xmas">🎄 Sortie Noël 2026 · Intégrale Collector</span>
-<span class="book-lang-tag">🇫🇷 Français &amp; Tiếng Việt</span>
-</div>
-<h3>L'Intégrale des Contes &amp; Mythes Sacrés du Vietnam</h3>
-<p class="book-subtitle">96 Récits Illustrés (Volumes 1 &amp; 2 Intégraux) — Édition Collector Franco-Vietnamienne</p>
-<p class="book-specs">96 Récits · 105 Planches Couleur · 192 Pistes Audio QR · 312 Pages · Kindle 9,99 € · Broché 24,99 € · Relié 32,99 €</p>
-<div class="book-links">
-<a href="/fr/books/vietnamese-folklore-omnibus/" class="book-cta-primary">📖 Page Intégrale (FR)</a>
-<a href="/demo/contes-vietnamiens/">🎧 4 Contes FR+VI</a>
-</div>
-</div>
-</article>
 </div>
 </section>
 
@@ -650,25 +569,6 @@ La trilogie et méthode originale en anglais et vietnamien publiées mondialemen
 </div>
 </div>
 </article>
-
-<article class="book-card">
-<div class="book-cover-wrap">
-<img src="/images/books/vietnamese-folklore-omnibus.jpg" alt="Couverture de The Complete Vietnamese Folklore and Myths Omnibus" class="book-cover" loading="lazy" />
-</div>
-<div class="book-details">
-<div class="book-badge-row">
-<span class="book-badge book-badge-live">👑 Omnibus Collector · Paru</span>
-<span class="book-lang-tag">🇬🇧 English &amp; Tiếng Việt</span>
-</div>
-<h3>The Complete Vietnamese Folklore &amp; Myths Omnibus</h3>
-<p class="book-subtitle">96 Récits (Volumes 1 + 2 Intégraux) — Trésor Bilingue Anglais &amp; Vietnamien</p>
-<p class="book-specs">96 Histoires · 105 Planches Couleur · 192 Pistes Audio QR · 302 Pages · Format 6 × 9"</p>
-<div class="book-links">
-<a href="/books/vietnamese-folklore-omnibus/" class="book-cta-primary">📖 Page Omnibus (EN)</a>
-<a href="/demo/folk-tales/">🎧 4 Contes EN+VI</a>
-</div>
-</div>
-</article>
 </div>
 </section>
 
@@ -729,7 +629,7 @@ Bộ ấn phẩm di sản văn hóa Việt song ngữ minh họa màu (<strong>A
 
 <div class="vw-visual-shelf" aria-label="Bày bìa sách trực quan Vietnamese Waves">
 <div class="vw-shelf-header">
-<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 10 Đầu Sách Song Ngữ Collector (5 Anh–Việt &amp; 5 Pháp–Việt)</strong>
+<strong><span aria-hidden="true">🪷</span> Vietnamese Waves™ — 8 Đầu Sách Song Ngữ Minh Họa Màu (4 Anh–Việt &amp; 4 Pháp–Việt)</strong>
 <span>Bấm trực tiếp vào bất kỳ bìa sách nào để xem trang giới thiệu và nghe thử audio</span>
 </div>
 <div class="vw-cover-ribbon">
@@ -740,10 +640,6 @@ Bộ ấn phẩm di sản văn hóa Việt song ngữ minh họa màu (<strong>A
 <a class="vw-cover-tile" href="/vi/books/vietnamese-myths/">
 <img src="/images/books/vietnamese-myths-and-legends.jpg" alt="36 Thần Thoại Việt Nam (Tập 2)" />
 <span class="vw-cover-cap"><b>Tập 2 · Anh–Việt</b><em>✨ Đã Ra Mắt</em></span>
-</a>
-<a class="vw-cover-tile" href="/books/vietnamese-folklore-omnibus/">
-<img src="/images/books/vietnamese-folklore-omnibus.jpg" alt="Hợp Tuyển Toàn Bộ 96 Truyện & Thần Thoại Việt Nam" />
-<span class="vw-cover-cap"><b>Omnibus · Anh–Việt</b><em>👑 Tập 1+2 (96)</em></span>
 </a>
 <a class="vw-cover-tile" href="/vi/books/learn-vietnamese/">
 <img src="/images/books/learn-vietnamese-stories.jpg" alt="Học Tiếng Việt Qua 30 Tích Cổ" />
@@ -761,10 +657,6 @@ Bộ ấn phẩm di sản văn hóa Việt song ngữ minh họa màu (<strong>A
 <img src="/images/books/vietnamese-myths-and-legends-fr.jpg" alt="Mythes et Légendes Sacrées du Vietnam" />
 <span class="vw-cover-cap"><b>Tập 2 · Pháp–Việt</b><em>🎄 Noël 2026</em></span>
 </a>
-<a class="vw-cover-tile" href="/fr/books/vietnamese-folklore-omnibus/">
-<img src="/images/books/vietnamese-folklore-omnibus-fr.jpg" alt="L'Intégrale des Contes et Mythes Sacrés du Vietnam" />
-<span class="vw-cover-cap"><b>Intégrale · Pháp–Việt</b><em>🎄 Noël 2026</em></span>
-</a>
 <a class="vw-cover-tile" href="/fr/books/learn-vietnamese/">
 <img src="/images/books/learn-vietnamese-stories-fr.jpg" alt="Apprendre le Vietnamien par les Contes" />
 <span class="vw-cover-cap"><b>Học TV · Pháp–Việt</b><em>🎄 Noël 2026</em></span>
@@ -777,9 +669,9 @@ Bộ ấn phẩm di sản văn hóa Việt song ngữ minh họa màu (<strong>A
 </div>
 
 <div class="vw-shelf-tabs" role="group" aria-label="Lọc theo dòng sách">
-<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toàn Bộ Tủ Sách (13)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Bộ Anh–Việt (5)</button>
-<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Bộ Pháp–Việt (5)</button>
+<button type="button" class="vw-shelf-tab is-active" data-shelf-filter="all" aria-pressed="true">🪷 Toàn Bộ Tủ Sách (11)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-en" aria-pressed="false">🇬🇧 Bộ Anh–Việt (4)</button>
+<button type="button" class="vw-shelf-tab" data-shelf-filter="vw-fr" aria-pressed="false">🇫🇷 Bộ Pháp–Việt (4)</button>
 <button type="button" class="vw-shelf-tab" data-shelf-filter="tp" aria-pressed="false">🏛️ Sách Kỹ Trị · 2027 (3)</button>
 </div>
 
@@ -870,25 +762,6 @@ Dòng sách sưu tầm khổ 6 × 9 inch in màu chuẩn 300 DPI kết hợp vă
 </div>
 </div>
 </article>
-
-<article class="book-card">
-<div class="book-cover-wrap">
-<img src="/images/books/vietnamese-folklore-omnibus.jpg" alt="Bìa Omnibus 96 Truyện Dân Gian & Thần Thoại" class="book-cover" loading="lazy" />
-</div>
-<div class="book-details">
-<div class="book-badge-row">
-<span class="book-badge book-badge-live">👑 Hợp Tuyển Omnibus Collector · Đã Xong KDP</span>
-<span class="book-lang-tag">🇬🇧 Anh &amp; Việt</span>
-</div>
-<h3>The Complete Vietnamese Folklore &amp; Myths Omnibus</h3>
-<p class="book-subtitle">Hợp Tuyển Đầy Đủ 96 Truyện (Tập 1 + Tập 2) — Bản Sưu Tầm 302 Trang</p>
-<p class="book-specs">96 Truyện Song Ngữ · 105 Tranh Màu · 192 Track Audio QR Đôi · Bìa Cứng &amp; Bìa Mềm 6 × 9"</p>
-<div class="book-links">
-<a href="/books/vietnamese-folklore-omnibus/" class="book-cta-primary">📖 Xem Trang Omnibus</a>
-<a href="/demo/folk-tales/">🎧 Nghe Thử Tập 1</a>
-</div>
-</div>
-</article>
 </div>
 </section>
 
@@ -970,25 +843,6 @@ Ba ấn phẩm chuyển ngữ văn học &amp; sư phạm tiếng Pháp bản đ
 <div class="book-links">
 <a href="/fr/books/vietnamese-heroes/" class="book-cta-primary">📖 Trang Giới Thiệu (FR)</a>
 <a href="/demo/heros-vietnamiens/">🎧 4 Chương Sử Audio Pháp–Việt</a>
-</div>
-</div>
-</article>
-
-<article class="book-card">
-<div class="book-cover-wrap">
-<img src="/images/books/vietnamese-folklore-omnibus-fr.jpg" alt="Bìa L'Intégrale des Contes et Mythes Sacrés du Vietnam" class="book-cover" loading="lazy" />
-</div>
-<div class="book-details">
-<div class="book-badge-row">
-<span class="book-badge book-badge-xmas">🎄 Giáng Sinh 2026 · Hợp Tuyển Tiếng Pháp</span>
-<span class="book-lang-tag">🇫🇷 Pháp &amp; Việt</span>
-</div>
-<h3>L'Intégrale des Contes &amp; Mythes Sacrés du Vietnam</h3>
-<p class="book-subtitle">Hợp Tuyển Trọn Bộ 96 Truyện &amp; Thần Thoại Pháp–Việt (Tập 1 + 2 · 312 Trang)</p>
-<p class="book-specs">96 Tác Phẩm · 105 Tranh Màu · 192 Track Audio QR Đôi · Amazon.fr Noël 2026</p>
-<div class="book-links">
-<a href="/fr/books/vietnamese-folklore-omnibus/" class="book-cta-primary">📖 Trang Giới Thiệu (FR)</a>
-<a href="/demo/contes-vietnamiens/">🎧 4 Truyện Audio Pháp–Việt</a>
 </div>
 </div>
 </article>
